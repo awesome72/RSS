@@ -90,6 +90,10 @@
   }
 
   * { box-sizing: border-box; }
+  /* Several components (buttons, headline rows) set their own explicit `display`,
+     which — at equal specificity — beats the UA [hidden]{display:none} rule and makes
+     `el.hidden = true` a no-op. Force it so every hidden toggle in this page actually hides. */
+  [hidden] { display: none !important; }
 
   body {
     margin: 0;
@@ -903,7 +907,7 @@ async function load() {
         });
       }
 
-      renderChips(collectCategories(sorted));
+      renderChips(sortByCategoryOrder(collectCategories(sorted)));
     }
 
     const { html: feedsHtml, totals } = renderFeedGroups(health, feedMeta);
