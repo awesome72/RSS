@@ -23,7 +23,7 @@ jobs:
 
       - name: Run collector
         env:
-          DISCORD_WEBHOOK_LOG: ${{ secrets.DISCORD_WEBHOOK_LOG }}
+          DISCORD_WEBHOOK_LOG: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python -m src.main collect
 
       - name: Commit updated state

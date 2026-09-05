@@ -11,8 +11,8 @@
 - [x] GitHub 저장소 연결 (`awesome72/RSS`)
 - [x] GitHub Actions 워크플로 추가 (`collect.yml`, `digest.yml`)
 - [x] Vercel 대시보드 배포 및 GitHub 연동
-- [ ] Discord 웹훅 2개 생성 ([Discord 웹훅 만들기](#discord-웹훅-만들기))
-- [ ] Repository Secrets 3개 등록 ([GitHub Repository Secrets 설정](#github-repository-secrets-설정))
+- [x] Discord 웹훅 생성 및 `DISCORD_WEBHOOK_URL` 등록
+- [ ] `ANTHROPIC_API_KEY` 등록 (없으면 다이제스트가 AI 요약 없이 헤드라인만 폴백으로 보냄)
 - [ ] `collect` 워크플로 최초 1회 수동 실행으로 `seen.json` 초기화 ([첫 실행 안내](#첫-실행-안내))
 
 ## 동작 방식
@@ -30,8 +30,11 @@
 ## Discord 웹훅 만들기
 
 1. Discord 서버 설정 → 연동 → 웹훅 → 새 웹훅 만들기
-2. 다이제스트를 받을 채널, 실행 로그를 받을 채널에 각각 하나씩 (총 2개) 생성
-3. 각 웹훅의 URL을 복사
+2. 웹훅의 URL을 복사
+
+현재는 다이제스트와 실행 로그를 **웹훅 1개, 같은 채널**로 함께 받도록 설정되어 있습니다
+(채널을 분리하고 싶다면 웹훅을 하나 더 만들고 아래 워크플로 env에서
+`DISCORD_WEBHOOK_LOG`를 별도 Secret으로 나누면 됩니다).
 
 ## GitHub Repository Secrets 설정
 
@@ -39,8 +42,7 @@
 
 | Secret 이름 | 용도 |
 |---|---|
-| `DISCORD_WEBHOOK_DIGEST` | 다이제스트 채널 웹훅 URL |
-| `DISCORD_WEBHOOK_LOG` | 실행 로그 채널 웹훅 URL |
+| `DISCORD_WEBHOOK_URL` | 다이제스트 + 실행 로그를 받을 채널의 웹훅 URL |
 | `ANTHROPIC_API_KEY` | Claude API 키 (다이제스트 요약용) |
 
 로컬 개발 시에는 `.env.example`을 복사해 `.env`로 만들고 값을 채우세요 (`.env`는 git에 커밋되지 않습니다).
