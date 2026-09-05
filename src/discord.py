@@ -18,10 +18,50 @@ DEFAULT_CATEGORY_COLOR = 0x615D59
 MAX_EMBEDS_PER_MESSAGE = 10
 MAX_DESCRIPTION_LEN = 4096
 MAX_CONTENT_LEN = 2000
+# Discord caps the *sum* of all embed text in one message at 6000 chars.
+# Google News bypass links alone run 300+ chars, so leave real headroom.
+MAX_TOTAL_EMBED_LEN = 5500
 
 
-def _chunk(items: list, size: int) -> list[list]:
-    return [items[i : i + size] for i in range(0, len(items), size)]
+def _build_category_embed(category: str, articles: list[dict]) -> dict:
+    lines = [f"• [{a['title']}]({a['link']}) — {a.get('outlet', '')}" for a in articles]
+
+    description = "\n".join(lines)
+    if len(description) > MAX_DESCRIPTION_LEN:
+        kept, total = [], 0
+        for i, line in enumerate(lines):
+            note = f"…외 {len(lines) - i}건 생략"
+            if total + len(line) + 1 + len(note) + 1 > MAX_DESCRIPTION_LEN:
+                kept.append(note)
+                break
+            kept.append(line)
+            total += len(line) + 1
+        description = "\n".join(kept)
+
+    return {
+        "title": category[:256],
+        "description": description,
+        "color": CATEGORY_COLOR.get(category, DEFAULT_CATEGORY_COLOR),
+    }
+
+
+def _pack_messages(embeds: list[dict]) -> list[list[dict]]:
+    """embeds-per-message(10)와 총 글자수(6000) 제한을 모두 지키며 묶는다."""
+    chunks: list[list[dict]] = []
+    current: list[dict] = []
+    current_len = 0
+
+    for embed in embeds:
+        embed_len = len(embed["title"]) + len(embed["description"])
+        if current and (len(current) >= MAX_EMBEDS_PER_MESSAGE or current_len + embed_len > MAX_TOTAL_EMBED_LEN):
+            chunks.append(current)
+            current, current_len = [], 0
+        current.append(embed)
+        current_len += embed_len
+
+    if current:
+        chunks.append(current)
+    return chunks
 
 
 def build_digest_messages(groups: dict[str, list[dict]], collected: int) -> list[dict]:
@@ -32,18 +72,10 @@ def build_digest_messages(groups: dict[str, list[dict]], collected: int) -> list
         f"헤드라인 {headline_count}건 · {len(groups)}개 카테고리"
     )[:MAX_CONTENT_LEN]
 
-    embeds = []
-    for category, articles in groups.items():
-        lines = [f"• [{a['title']}]({a['link']}) — {a.get('outlet', '')}" for a in articles]
-        embed = {
-            "title": category[:256],
-            "description": "\n".join(lines)[:MAX_DESCRIPTION_LEN],
-            "color": CATEGORY_COLOR.get(category, DEFAULT_CATEGORY_COLOR),
-        }
-        embeds.append(embed)
+    embeds = [_build_category_embed(category, articles) for category, articles in groups.items()]
 
     messages = []
-    for i, chunk in enumerate(_chunk(embeds, MAX_EMBEDS_PER_MESSAGE)):
+    for i, chunk in enumerate(_pack_messages(embeds)):
         msg = {"embeds": chunk}
         if i == 0:
             msg["content"] = header
