@@ -1,42 +1,42 @@
 {
   "https://www.hankyung.com/feed/finance": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.hankyung.com/feed/economy": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.hankyung.com/feed/international": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.sedaily.com/rss/market": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.sedaily.com/rss/economy": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.sedaily.com/rss/finance": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.sedaily.com/rss/business": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
@@ -54,97 +54,97 @@
     "disabled": true
   },
   "https://www.cnbc.com/id/10000664/device/rss/rss.html": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.cnbc.com/id/20910258/device/rss/rss.html": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.cnbc.com/id/15839135/device/rss/rss.html": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.cnbc.com/id/20409666/device/rss/rss.html": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.cnbc.com/id/20398120/device/rss/rss.html": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.cnbc.com/id/19836768/device/rss/rss.html": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.cnbc.com/id/10000108/device/rss/rss.html": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.investing.com/rss/news_25.rss": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://finance.yahoo.com/news/rssindex": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://seekingalpha.com/api/sa/combined/NVDA.xml": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.federalreserve.gov/feeds/press_all.xml": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.federalreserve.gov/feeds/press_monetary.xml": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://www.federalreserve.gov/feeds/press_bcreg.xml": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://news.google.com/rss/search?q=site:reuters.com+semiconductor&hl=ko&gl=KR&ceid=KR:ko": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://news.google.com/rss/search?q=site:bloomberg.com+Federal+Reserve&hl=ko&gl=KR&ceid=KR:ko": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
   },
   "https://news.google.com/rss/search?q=%EC%BD%94%EC%8A%A4%ED%94%BC&hl=ko&gl=KR&ceid=KR:ko": {
-    "success": 3,
+    "success": 4,
     "fail": 0,
     "consecutive_fail": 0,
     "disabled": false
