@@ -74,8 +74,11 @@ def save_health(health: dict) -> None:
     _save(HEALTH_PATH, health)
 
 
-def record_result(health: dict, feed_url: str, success: bool, needs_confirm: bool) -> bool:
-    """피드 성공/실패를 기록. (확인 필요) 피드가 3회 연속 실패로 새로 비활성화되면 True 반환."""
+CONSECUTIVE_FAIL_LIMIT = 3
+
+
+def record_result(health: dict, feed_url: str, success: bool) -> bool:
+    """피드 성공/실패를 기록. 3회 연속 실패로 새로 비활성화되면 True 반환 (모든 피드 대상)."""
     entry = health.setdefault(
         feed_url,
         {"success": 0, "fail": 0, "consecutive_fail": 0, "disabled": False},
@@ -87,7 +90,7 @@ def record_result(health: dict, feed_url: str, success: bool, needs_confirm: boo
     else:
         entry["fail"] += 1
         entry["consecutive_fail"] += 1
-        if needs_confirm and entry["consecutive_fail"] >= 3 and not entry["disabled"]:
+        if entry["consecutive_fail"] >= CONSECUTIVE_FAIL_LIMIT and not entry["disabled"]:
             entry["disabled"] = True
             newly_disabled = True
     return newly_disabled

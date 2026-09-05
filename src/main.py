@@ -23,7 +23,7 @@ if sys.platform == "win32":
 
 from . import discord as dc
 from . import state as st
-from .collector import collect_all, dedupe_and_filter
+from .collector import collect_all, dedupe_and_filter, select_digest_groups
 from .opml import parse_opml
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -92,17 +92,7 @@ def cmd_digest(dry_run: bool) -> None:
     max_per_category = digest_cfg.get("max_per_category", 15)
     boost_keywords = config.get("keywords_boost", [])
 
-    def boost_score(article: dict) -> int:
-        text = article["title"] + article.get("description", "")
-        return -sum(1 for kw in boost_keywords if kw in text)
-
-    pending_sorted = sorted(pending, key=boost_score)[:max_headlines]
-
-    groups: dict[str, list[dict]] = {}
-    for article in pending_sorted:
-        groups.setdefault(article.get("category", "기타"), []).append(article)
-    for articles in groups.values():
-        del articles[max_per_category:]
+    groups = select_digest_groups(pending, boost_keywords, max_headlines, max_per_category)
 
     messages = dc.build_digest_messages(groups, len(pending))
     dc.send_all(_env("DISCORD_WEBHOOK_DIGEST"), messages, dry_run)
@@ -143,6 +133,26 @@ def cmd_health(dry_run: bool) -> None:
     print(f"총 {stats['total_feeds']}개 피드 중 {stats['success']}개 성공, {len(stats['failed'])}개 실패")
 
 
+def _notify_failure(command: str, dry_run: bool) -> None:
+    """예외로 죽기 직전, 로그 채널에 실패를 알린다 (Actions 탭을 안 봐도 알 수 있도록)."""
+    import traceback
+
+    tb = traceback.format_exc()
+    embed = {
+        "embeds": [
+            {
+                "title": f"🚨 {command} 실행 실패",
+                "description": f"```\n{tb[-3800:]}\n```",
+                "color": 0xE74C3C,
+            }
+        ]
+    }
+    try:
+        dc.send(_env("DISCORD_WEBHOOK_LOG"), embed, dry_run)
+    except Exception:
+        pass  # 알림 전송 실패는 무시 — 원래 예외를 그대로 올려야 한다
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(prog="python -m src.main")
     parser.add_argument("--dry-run", action="store_true", default=False)
@@ -155,12 +165,16 @@ def main() -> None:
     args = parser.parse_args()
     dry_run = args.dry_run
 
-    if args.command == "collect":
-        cmd_collect(dry_run)
-    elif args.command == "digest":
-        cmd_digest(dry_run)
-    elif args.command == "health":
-        cmd_health(dry_run)
+    try:
+        if args.command == "collect":
+            cmd_collect(dry_run)
+        elif args.command == "digest":
+            cmd_digest(dry_run)
+        elif args.command == "health":
+            cmd_health(dry_run)
+    except Exception:
+        _notify_failure(args.command, dry_run)
+        raise
 
 
 if __name__ == "__main__":

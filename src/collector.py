@@ -82,7 +82,7 @@ async def collect_all(
 
     for feed, entries, error in results:
         success = error is None
-        newly_disabled = st.record_result(health, feed.url, success, feed.needs_confirm)
+        newly_disabled = st.record_result(health, feed.url, success)
         if newly_disabled:
             stats["newly_disabled"].append(feed.title)
         if not success:
@@ -129,3 +129,43 @@ def dedupe_and_filter(articles: list[Article], seen: dict, config: dict) -> list
             continue
         fresh.append(article)
     return fresh
+
+
+def select_digest_groups(
+    pending: list[dict],
+    boost_keywords: list[str],
+    max_headlines: int,
+    max_per_category: int,
+) -> dict[str, list[dict]]:
+    """다이제스트에 포함할 기사를 카테고리별로 고른다.
+
+    boost 점수로 전체를 정렬한 뒤 앞에서부터 max_headlines개를 자르면 기사量이 많은
+    카테고리가 슬롯을 독점해 다른 카테고리가 통째로 빠질 수 있다 (실제로 발생했던 버그).
+    대신 카테고리별로 라운드로빈으로 한 건씩 배분해 모든 카테고리가 최소한의 지분을
+    갖도록 보장한다.
+    """
+
+    def boost_score(article: dict) -> int:
+        text = article["title"] + article.get("description", "")
+        return -sum(1 for kw in boost_keywords if kw in text)
+
+    by_category: dict[str, list[dict]] = {}
+    for article in sorted(pending, key=boost_score):
+        by_category.setdefault(article.get("category", "기타"), []).append(article)
+    for articles in by_category.values():
+        del articles[max_per_category:]
+
+    groups: dict[str, list[dict]] = {cat: [] for cat in by_category}
+    total = 0
+    progressed = True
+    while total < max_headlines and progressed:
+        progressed = False
+        for cat, queue in by_category.items():
+            if total >= max_headlines:
+                break
+            if queue:
+                groups[cat].append(queue.pop(0))
+                total += 1
+                progressed = True
+
+    return {cat: articles for cat, articles in groups.items() if articles}

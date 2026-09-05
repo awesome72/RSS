@@ -9,14 +9,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <style>
   :root {
-    color-scheme: light;
+    color-scheme: light dark;
 
     /* brand & accent */
     --primary: #0075de;
     --primary-active: #005bab;
     --primary-tint: #eaf3fd;
     --on-primary: #ffffff;
-    --secondary: #213183; /* deep indigo hero */
+    --secondary: #213183; /* deep indigo hero — stays dark in both themes by design */
 
     /* decorative sticker palette (category dots only) */
     --accent-sky: #62aef0;
@@ -56,6 +56,37 @@
       rgba(0,0,0,0.02) 0 0.8px 2.925px,
       rgba(0,0,0,0.027) 0 2.025px 7.847px,
       rgba(0,0,0,0.04) 0 4px 18px;
+  }
+
+  /* dark palette — applied automatically via system preference, or forced
+     via [data-theme="dark"] from the manual toggle below */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --primary: #4ea1f5;
+      --primary-active: #7dbcf8;
+      --primary-tint: #16283a;
+      --surface: #1f2024;
+      --canvas-soft: #17181a;
+      --hairline: #2c2d31;
+      --ink: #f2f1ef;
+      --ink-secondary: #cfcdc9;
+      --ink-muted: #9c988f;
+      --ink-faint: #6f6a64;
+      --shadow-1: rgba(0,0,0,0.35) 0 4px 18px;
+    }
+  }
+  :root[data-theme="dark"] {
+    --primary: #4ea1f5;
+    --primary-active: #7dbcf8;
+    --primary-tint: #16283a;
+    --surface: #1f2024;
+    --canvas-soft: #17181a;
+    --hairline: #2c2d31;
+    --ink: #f2f1ef;
+    --ink-secondary: #cfcdc9;
+    --ink-muted: #9c988f;
+    --ink-faint: #6f6a64;
+    --shadow-1: rgba(0,0,0,0.35) 0 4px 18px;
   }
 
   * { box-sizing: border-box; }
@@ -163,6 +194,16 @@
     cursor: pointer;
   }
   .button-utility:hover { text-decoration: none; border-color: #c9c9c9; color: var(--ink); }
+
+  .button-utility-inverse {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.35);
+    color: rgba(255,255,255,0.85);
+    border-radius: var(--r-full);
+    padding: 9px 18px;
+    font-size: 14px;
+  }
+  .button-utility-inverse:hover { border-color: rgba(255,255,255,0.65); color: #ffffff; }
 
   /* ---- layout ---- */
   main {
@@ -415,6 +456,7 @@
         <span>새로고침</span>
       </button>
       <a class="button-secondary" href="https://github.com/awesome72/RSS" target="_blank" rel="noopener">GitHub 저장소</a>
+      <button class="button-utility button-utility-inverse" id="theme-toggle-btn">다크 모드</button>
     </div>
   </div>
 </div>
@@ -462,6 +504,45 @@
 
 <script>
 const REPO_RAW = "https://raw.githubusercontent.com/awesome72/RSS/main/state/";
+
+const THEME_KEY = "rss-dashboard-theme";
+
+function systemPrefersDark() {
+  return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+}
+
+function applyTheme(theme) {
+  // theme: "light" | "dark" | null (= follow system)
+  if (theme) {
+    document.documentElement.dataset.theme = theme;
+  } else {
+    delete document.documentElement.dataset.theme;
+  }
+  const isDark = theme ? theme === "dark" : systemPrefersDark();
+  const btn = document.getElementById("theme-toggle-btn");
+  if (btn) btn.textContent = isDark ? "라이트 모드" : "다크 모드";
+}
+
+function initTheme() {
+  let saved = null;
+  try {
+    saved = localStorage.getItem(THEME_KEY);
+  } catch {
+    /* localStorage unavailable (private mode, blocked storage) — fall back to system */
+  }
+  applyTheme(saved);
+}
+
+function toggleTheme() {
+  const current = document.documentElement.dataset.theme || (systemPrefersDark() ? "dark" : "light");
+  const next = current === "dark" ? "light" : "dark";
+  applyTheme(next);
+  try {
+    localStorage.setItem(THEME_KEY, next);
+  } catch {
+    /* per-viewer convenience only — safe to skip persistence if storage is blocked */
+  }
+}
 
 const CATEGORY_DOT = {
   "국내 증시": "var(--accent-teal)",
@@ -682,7 +763,9 @@ document.getElementById("toggle-history-btn").addEventListener("click", (e) => {
   entries.forEach((d) => { d.open = shouldOpen; });
   e.target.textContent = shouldOpen ? "모두 접기" : "모두 펼치기";
 });
+document.getElementById("theme-toggle-btn").addEventListener("click", toggleTheme);
 
+initTheme();
 load();
 </script>
 </body>
