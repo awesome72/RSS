@@ -1,0 +1,31 @@
+keywords_boost:      # 포함되면 다이제스트에서 우선순위 상승
+  - 반도체
+  - HBM
+  - 삼성전자
+  - SK하이닉스
+  - 연준
+  - FOMC
+  - 금리
+  - 실적
+  - semiconductor
+  - earnings
+
+keywords_mute:       # 포함되면 수집 단계에서 완전히 제외
+  - 부고
+  - 인사
+  - 신간
+  - 포토
+
+min_title_length: 10
+
+feed:
+  timeout_seconds: 10
+  max_concurrency: 8
+  user_agent: "Mozilla/5.0 (compatible; rss-discord-newsletter/1.0; +https://github.com/)"
+
+seen_retention_days: 30
+
+digest:
+  max_articles_to_ai: 100
+  min_topics: 5
+  max_topics: 7

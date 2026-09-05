@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>국내·미국 주식 RSS</title>
+  </head>
+  <body>
+    <outline text="국내 증시" title="국내 증시">
+      <outline type="rss" text="한국경제 · 증권" title="한국경제 · 증권" xmlUrl="https://www.hankyung.com/feed/finance" htmlUrl="https://www.hankyung.com/financial-market"/>
+      <outline type="rss" text="한국경제 · 경제" title="한국경제 · 경제" xmlUrl="https://www.hankyung.com/feed/economy" htmlUrl="https://www.hankyung.com/economy"/>
+      <outline type="rss" text="한국경제 · 국제" title="한국경제 · 국제" xmlUrl="https://www.hankyung.com/feed/international" htmlUrl="https://www.hankyung.com/international"/>
+      <outline type="rss" text="서울경제 · 마켓시그널" title="서울경제 · 마켓시그널" xmlUrl="https://www.sedaily.com/rss/market" htmlUrl="https://www.sedaily.com/market"/>
+      <outline type="rss" text="서울경제 · 경제" title="서울경제 · 경제" xmlUrl="https://www.sedaily.com/rss/economy" htmlUrl="https://www.sedaily.com/economy"/>
+      <outline type="rss" text="서울경제 · 금융" title="서울경제 · 금융" xmlUrl="https://www.sedaily.com/rss/finance" htmlUrl="https://www.sedaily.com/finance"/>
+      <outline type="rss" text="서울경제 · 기업" title="서울경제 · 기업" xmlUrl="https://www.sedaily.com/rss/business" htmlUrl="https://www.sedaily.com/business"/>
+      <outline type="rss" text="전자신문 · 금융증권 (확인 필요)" title="전자신문 · 금융증권 (확인 필요)" xmlUrl="http://rss.etnews.co.kr/Section022.xml" htmlUrl="https://www.etnews.com"/>
+      <outline type="rss" text="전자신문 · 경제 (확인 필요)" title="전자신문 · 경제 (확인 필요)" xmlUrl="http://rss.etnews.co.kr/Section024.xml" htmlUrl="https://www.etnews.com"/>
+    </outline>
+
+    <outline text="미국 증시" title="미국 증시">
+      <outline type="rss" text="CNBC · Finance" title="CNBC · Finance" xmlUrl="https://www.cnbc.com/id/10000664/device/rss/rss.html" htmlUrl="https://www.cnbc.com/finance/"/>
+      <outline type="rss" text="CNBC · Economy" title="CNBC · Economy" xmlUrl="https://www.cnbc.com/id/20910258/device/rss/rss.html" htmlUrl="https://www.cnbc.com/economy/"/>
+      <outline type="rss" text="CNBC · Earnings" title="CNBC · Earnings" xmlUrl="https://www.cnbc.com/id/15839135/device/rss/rss.html" htmlUrl="https://www.cnbc.com/earnings/"/>
+      <outline type="rss" text="CNBC · Market Insider" title="CNBC · Market Insider" xmlUrl="https://www.cnbc.com/id/20409666/device/rss/rss.html" htmlUrl="https://www.cnbc.com/market-insider/"/>
+      <outline type="rss" text="CNBC · Trader Talk" title="CNBC · Trader Talk" xmlUrl="https://www.cnbc.com/id/20398120/device/rss/rss.html" htmlUrl="https://www.cnbc.com/trader-talk/"/>
+      <outline type="rss" text="CNBC · Energy" title="CNBC · Energy" xmlUrl="https://www.cnbc.com/id/19836768/device/rss/rss.html" htmlUrl="https://www.cnbc.com/energy/"/>
+      <outline type="rss" text="CNBC · Health Care" title="CNBC · Health Care" xmlUrl="https://www.cnbc.com/id/10000108/device/rss/rss.html" htmlUrl="https://www.cnbc.com/health-care/"/>
+      <outline type="rss" text="Investing.com · US Stock Market" title="Investing.com · US Stock Market" xmlUrl="https://www.investing.com/rss/news_25.rss" htmlUrl="https://www.investing.com/news/stock-market-news"/>
+      <outline type="rss" text="Yahoo Finance (확인 필요)" title="Yahoo Finance (확인 필요)" xmlUrl="https://finance.yahoo.com/news/rssindex" htmlUrl="https://finance.yahoo.com/news/"/>
+      <outline type="rss" text="Seeking Alpha · NVDA 예시 (확인 필요)" title="Seeking Alpha · NVDA 예시 (확인 필요)" xmlUrl="https://seekingalpha.com/api/sa/combined/NVDA.xml" htmlUrl="https://seekingalpha.com/symbol/NVDA"/>
+    </outline>
+
+    <outline text="매크로·공시" title="매크로·공시">
+      <outline type="rss" text="Fed · 전체 보도자료" title="Fed · 전체 보도자료" xmlUrl="https://www.federalreserve.gov/feeds/press_all.xml" htmlUrl="https://www.federalreserve.gov/newsevents/pressreleases.htm"/>
+      <outline type="rss" text="Fed · 통화정책 (확인 필요)" title="Fed · 통화정책 (확인 필요)" xmlUrl="https://www.federalreserve.gov/feeds/press_monetary.xml" htmlUrl="https://www.federalreserve.gov/newsevents/pressreleases/monetary.htm"/>
+      <outline type="rss" text="Fed · 은행/소비자 규제정책" title="Fed · 은행/소비자 규제정책" xmlUrl="https://www.federalreserve.gov/feeds/press_bcreg.xml" htmlUrl="https://www.federalreserve.gov/newsevents/pressreleases/bcreg.htm"/>
+    </outline>
+
+    <outline text="Google News 우회 (로이터·블룸버그·MarketWatch용)" title="Google News 우회 (로이터·블룸버그·MarketWatch용)">
+      <outline type="rss" text="Reuters · 반도체 키워드 예시" title="Reuters · 반도체 키워드 예시" xmlUrl="https://news.google.com/rss/search?q=site:reuters.com+semiconductor&amp;hl=ko&amp;gl=KR&amp;ceid=KR:ko" htmlUrl="https://news.google.com"/>
+      <outline type="rss" text="Bloomberg · 연준 키워드 예시" title="Bloomberg · 연준 키워드 예시" xmlUrl="https://news.google.com/rss/search?q=site:bloomberg.com+Federal+Reserve&amp;hl=ko&amp;gl=KR&amp;ceid=KR:ko" htmlUrl="https://news.google.com"/>
+      <outline type="rss" text="코스피 종합 키워드 예시" title="코스피 종합 키워드 예시" xmlUrl="https://news.google.com/rss/search?q=%EC%BD%94%EC%8A%A4%ED%94%BC&amp;hl=ko&amp;gl=KR&amp;ceid=KR:ko" htmlUrl="https://news.google.com"/>
+    </outline>
+  </body>
+</opml>

@@ -1,0 +1,33 @@
+name: Collect RSS
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'   # 2시간마다 (UTC 기준)
+  workflow_dispatch: {}
+
+concurrency:
+  group: rss-state
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install -r requirements.txt
+
+      - name: Run collector
+        env:
+          DISCORD_WEBHOOK_LOG: ${{ secrets.DISCORD_WEBHOOK_LOG }}
+        run: python -m src.main collect
+
+      - name: Commit updated state
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update collector state [skip ci]'
+          file_pattern: 'state/*.json'
