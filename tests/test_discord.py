@@ -38,6 +38,26 @@ def test_build_digest_messages_empty_groups_still_sends_header():
     assert "content" in messages[0]
 
 
+def test_build_digest_messages_highlights_boosted_headlines_verbatim():
+    groups = {
+        "국내 증시": [
+            {"title": "삼성전자 3분기 실적 발표", "link": "https://x/1", "outlet": "테스트"},
+            {"title": "오늘의 날씨 소식", "link": "https://x/2", "outlet": "테스트"},
+        ],
+    }
+    messages = dc.build_digest_messages(groups, collected=2, boost_keywords=["삼성전자"])
+    content = messages[0]["content"]
+    assert "오늘의 주요 헤드라인" in content
+    assert "삼성전자 3분기 실적 발표" in content
+    assert "오늘의 날씨 소식" not in content  # boost 매치 안 된 헤드라인은 발췌에서 제외
+
+
+def test_build_digest_messages_no_highlights_without_boost_matches():
+    groups = {"국내 증시": [{"title": "평범한 기사", "link": "https://x/1", "outlet": "테스트"}]}
+    messages = dc.build_digest_messages(groups, collected=1, boost_keywords=["없는키워드"])
+    assert "오늘의 주요 헤드라인" not in messages[0]["content"]
+
+
 def test_build_log_message_shape():
     stats = {"total_feeds": 5, "success": 4, "new_articles": 10, "run_title": "테스트 로그"}
     msg = dc.build_log_message(stats)

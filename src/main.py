@@ -94,7 +94,7 @@ def cmd_digest(dry_run: bool) -> None:
 
     groups = select_digest_groups(pending, boost_keywords, max_headlines, max_per_category)
 
-    messages = dc.build_digest_messages(groups, len(pending))
+    messages = dc.build_digest_messages(groups, len(pending), boost_keywords)
     dc.send_all(_env("DISCORD_WEBHOOK_DIGEST"), messages, dry_run)
 
     log_stats = {

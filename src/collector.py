@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import asyncio
+import calendar
+import datetime
 from dataclasses import dataclass, asdict
 
 import feedparser
@@ -31,6 +33,21 @@ def _entry_field(entry, *names: str, default: str = "") -> str:
         if value:
             return value
     return default
+
+
+def _normalized_published(entry) -> str:
+    """가능하면 feedparser가 파싱한 struct_time을 ISO 8601(UTC)로 정규화한다.
+
+    피드마다 날짜 포맷이 제각각(RFC822, ISO 등)이라 원문 문자열만으로는 클라이언트에서
+    안정적으로 파싱할 수 없다 — 대시보드의 "N시간 전" 표시가 이 정규화에 의존한다.
+    파싱 실패 시에만 원문 문자열로 폴백한다.
+    """
+    for key in ("published_parsed", "updated_parsed"):
+        struct = entry.get(key)
+        if struct:
+            ts = calendar.timegm(struct)
+            return datetime.datetime.fromtimestamp(ts, tz=datetime.timezone.utc).isoformat().replace("+00:00", "Z")
+    return _entry_field(entry, "published", "updated")
 
 
 async def _fetch_one(
@@ -97,7 +114,7 @@ async def collect_all(
                 continue
             title = _entry_field(entry, "title")
             description = _entry_field(entry, "summary", "description")
-            published = _entry_field(entry, "published", "updated")
+            published = _normalized_published(entry)
             articles.append(
                 Article(
                     title=title,

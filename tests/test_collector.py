@@ -1,5 +1,7 @@
+import time
+
 from src import state as st
-from src.collector import Article, dedupe_and_filter, select_digest_groups
+from src.collector import Article, _normalized_published, dedupe_and_filter, select_digest_groups
 
 
 def _article(title, link, category="국내 증시", description=""):
@@ -53,3 +55,14 @@ def test_select_digest_groups_boosts_keyword_matches_first():
     ]
     groups = select_digest_groups(pending, boost_keywords=["반도체"], max_headlines=1, max_per_category=5)
     assert groups["국내 증시"][0]["title"] == "반도체 훈풍 기사"
+
+
+def test_normalized_published_converts_struct_time_to_iso_utc():
+    struct = time.strptime("Fri, 04 Sep 2026 02:46:01 GMT", "%a, %d %b %Y %H:%M:%S %Z")
+    entry = {"published_parsed": struct}
+    assert _normalized_published(entry) == "2026-09-04T02:46:01Z"
+
+
+def test_normalized_published_falls_back_to_raw_string_when_unparseable():
+    entry = {"published": "이상한 날짜 형식"}
+    assert _normalized_published(entry) == "이상한 날짜 형식"

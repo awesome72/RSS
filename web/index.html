@@ -349,9 +349,10 @@
   .headline-row a:hover { color: var(--primary); }
   .headline-outlet { color: var(--ink-muted); font-size: 13px; white-space: nowrap; flex: none; margin-left: auto; padding-left: 10px; }
 
-  /* ---- history / feed-group (shared collapsible-card look) ---- */
+  /* ---- history / feed-group / feed-master (shared collapsible-card look) ---- */
   details.history-entry,
-  details.feed-group {
+  details.feed-group,
+  details.feed-master {
     background: var(--surface);
     border: 1px solid var(--hairline);
     border-radius: var(--r-lg);
@@ -359,33 +360,32 @@
     padding: 16px 20px;
   }
   details.history-entry summary,
-  details.feed-group summary {
+  details.feed-group summary,
+  details.feed-master summary {
     cursor: pointer;
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 12px;
-    font-size: 15px;
-    font-weight: 600;
   }
   details.history-entry summary::-webkit-details-marker,
-  details.feed-group summary::-webkit-details-marker { display: none; }
-  details.history-entry summary .meta,
-  details.feed-group summary .meta {
-    color: var(--ink-muted);
-    font-weight: 400;
-    font-size: 13px;
-  }
+  details.feed-group summary::-webkit-details-marker,
+  details.feed-master summary::-webkit-details-marker { display: none; }
+  .meta { color: var(--ink-muted); font-weight: 400; font-size: 13px; }
   details.history-entry .feature-card {
     margin-top: 14px;
     box-shadow: none;
   }
   details.history-entry[open] summary,
-  details.feed-group[open] summary { margin-bottom: 12px; }
-  details.feed-group .summary-left { display: flex; align-items: center; gap: 8px; min-width: 0; }
-  details.feed-group .summary-left .category-name { font-size: 15px; }
+  details.feed-group[open] summary,
+  details.feed-master[open] summary { margin-bottom: 12px; }
+  details.feed-group .summary-left,
+  details.feed-master .summary-left { display: flex; align-items: center; gap: 8px; min-width: 0; }
+  details.feed-group .summary-left .category-name { font-size: 15px; font-weight: 600; }
   details.feed-group .table-wrap { margin: 0 -4px; }
+  details.feed-master > summary > .section-title { margin: 0; }
+  details.feed-master .feed-master-body { margin-top: 14px; }
 
   /* ---- data table ---- */
   .table-wrap { overflow-x: auto; }
@@ -475,6 +475,7 @@
       <input id="search-input" type="text" placeholder="헤드라인 · 출처 검색…" autocomplete="off" />
     </div>
     <div class="category-chips" id="category-chips"></div>
+    <button class="button-utility" id="clear-filters-btn" hidden>필터 초기화</button>
   </div>
 
   <section>
@@ -496,14 +497,22 @@
   </section>
 
   <section>
-    <div class="section-head">
-      <div class="section-title-row">
-        <h2 class="section-title">피드 상태</h2>
-        <span class="badge-pill" id="feeds-badge">불러오는 중…</span>
+    <details class="feed-master" id="feeds-master">
+      <summary>
+        <span class="section-title-row">
+          <span class="section-title" style="font-size:22px;">피드 상태</span>
+          <span class="badge-pill" id="feeds-badge">불러오는 중…</span>
+        </span>
+        <span class="meta feed-master-hint">펼치기</span>
+      </summary>
+      <div class="feed-master-body">
+        <div class="section-head" style="margin-bottom:12px;">
+          <span></span>
+          <button class="button-utility" id="toggle-feeds-btn">모두 펼치기</button>
+        </div>
+        <div id="feeds"></div>
       </div>
-      <button class="button-utility" id="toggle-feeds-btn">모두 펼치기</button>
-    </div>
-    <div id="feeds"></div>
+    </details>
   </section>
 </main>
 
@@ -623,13 +632,18 @@ function renderGroups(groups) {
         <span class="category-count">${articles.length}건</span>
       </div>
       <ul class="headline-list">
-        ${articles.map((a) => `
+        ${articles.map((a) => {
+          const metaParts = [];
+          if (a.outlet) metaParts.push(a.outlet);
+          const rel = timeAgo(a.published);
+          if (rel) metaParts.push(rel);
+          return `
           <li class="headline-row" data-search="${escapeHtml((a.title + " " + (a.outlet || "")).toLowerCase())}">
             <span class="dot-sep">·</span>
             <a href="${escapeHtml(a.link)}" target="_blank" rel="noopener">${escapeHtml(a.title)}</a>
-            <span class="headline-outlet">${escapeHtml(a.outlet || "")}</span>
-          </li>
-        `).join("")}
+            <span class="headline-outlet" title="${escapeHtml(formatDateTime(a.published))}">${escapeHtml(metaParts.join(" · "))}</span>
+          </li>`;
+        }).join("")}
       </ul>
     </div>
   `).join("");
@@ -656,20 +670,21 @@ function renderFeedGroups(health, feedMeta) {
   let totalOk = 0, totalFail = 0, totalDisabled = 0, totalFeeds = 0;
 
   const html = sortByCategoryOrder([...byCategory.keys()]).map((category) => {
-    const feeds = byCategory.get(category).sort((a, b) => (b.fail || 0) - (a.fail || 0));
-    const ok = feeds.filter((f) => !f.disabled && !f.fail).length;
-    const fail = feeds.filter((f) => !f.disabled && f.fail > 0).length;
+    const feeds = byCategory.get(category).sort((a, b) => (b.consecutive_fail || 0) - (a.consecutive_fail || 0));
+    const ok = feeds.filter((f) => !f.disabled && !f.consecutive_fail).length;
+    const fail = feeds.filter((f) => !f.disabled && f.consecutive_fail > 0).length;
     const disabled = feeds.filter((f) => f.disabled).length;
     totalOk += ok; totalFail += fail; totalDisabled += disabled; totalFeeds += feeds.length;
 
     const rows = feeds.map((f) => {
-      const dotClass = f.disabled ? "dot-disabled" : (f.fail > 0 ? "dot-fail" : "dot-ok");
-      const label = f.disabled ? "비활성화" : (f.fail > 0 ? "실패 있음" : "정상");
+      const streak = f.consecutive_fail || 0;
+      const dotClass = f.disabled ? "dot-disabled" : (streak > 0 ? "dot-fail" : "dot-ok");
+      const label = f.disabled ? "비활성화" : (streak > 0 ? `연속 실패 ${streak}회` : "정상");
       return `
         <tr>
           <td class="feed-name"><a href="${escapeHtml(f.htmlUrl)}" target="_blank" rel="noopener">${escapeHtml(f.title || f.url)}</a></td>
           <td>${f.success || 0}</td>
-          <td>${f.fail || 0}</td>
+          <td>${streak}</td>
           <td><span class="status-cell"><span class="dot ${dotClass}"></span>${label}</span></td>
         </tr>`;
     }).join("");
@@ -687,7 +702,7 @@ function renderFeedGroups(health, feedMeta) {
         </summary>
         <div class="table-wrap">
           <table>
-            <thead><tr><th>피드</th><th>성공</th><th>실패</th><th>상태</th></tr></thead>
+            <thead><tr><th>피드</th><th>누적 성공</th><th>연속 실패</th><th>상태</th></tr></thead>
             <tbody>${rows}</tbody>
           </table>
         </div>
@@ -700,10 +715,15 @@ function renderFeedGroups(health, feedMeta) {
 function collectCategories(history) {
   const set = new Set();
   history.forEach((entry) => Object.keys(entry.groups || {}).forEach((c) => set.add(c)));
-  return [...set];
+  // 카테고리 개편 이전의 낡은 이력에 남은 이름은 칩 목록에서 조용히 제외한다
+  // (해당 이력 자체는 여전히 렌더링되며, "전체"나 검색으로는 찾을 수 있다).
+  return [...set].filter((c) => CATEGORY_ORDER.includes(c));
 }
 
+let lastCategories = [];
+
 function renderChips(categories) {
+  lastCategories = categories;
   const chipsEl = document.getElementById("category-chips");
   const allChip = `<button class="chip ${categoryFilter === null ? "active" : ""}" data-chip="__all__">전체</button>`;
   const catChips = categories.map((c) => `
@@ -723,8 +743,25 @@ function renderChips(categories) {
   });
 }
 
+function clearFilters() {
+  document.getElementById("search-input").value = "";
+  categoryFilter = null;
+  renderChips(lastCategories);
+  applyFilters();
+}
+
 function applyFilters() {
   const query = document.getElementById("search-input").value.trim().toLowerCase();
+
+  const clearBtn = document.getElementById("clear-filters-btn");
+  if (clearBtn) clearBtn.hidden = !(query || categoryFilter);
+
+  const historyMore = document.getElementById("history-more");
+  const historyMoreBtn = document.getElementById("history-more-btn");
+  if (query && historyMore && historyMore.hidden) {
+    historyMore.hidden = false;
+    if (historyMoreBtn) historyMoreBtn.textContent = "접기";
+  }
 
   document.querySelectorAll(".feature-card[data-category]").forEach((card) => {
     const cat = card.dataset.category;
@@ -788,6 +825,23 @@ function formatDateTime(iso) {
   }
 }
 
+/** ISO 타임스탬프를 "3시간 전" 같은 상대 시간으로. 파싱 불가한 레거시 문자열은 그대로 반환. */
+function timeAgo(iso) {
+  if (!iso) return "";
+  const date = new Date(iso);
+  if (isNaN(date.getTime())) return iso;
+
+  const diffMin = Math.round((Date.now() - date.getTime()) / 60000);
+  if (diffMin < 1) return "방금 전";
+  if (diffMin < 60) return `${diffMin}분 전`;
+  const diffHour = Math.round(diffMin / 60);
+  if (diffHour < 24) return `${diffHour}시간 전`;
+  const diffDay = Math.round(diffHour / 24);
+  if (diffDay === 1) return "어제";
+  if (diffDay < 7) return `${diffDay}일 전`;
+  return date.toLocaleDateString("ko-KR", { month: "numeric", day: "numeric" });
+}
+
 async function load() {
   const statusEl = document.getElementById("status-line");
   const latestBadge = document.getElementById("latest-badge");
@@ -818,17 +872,36 @@ async function load() {
       latestBadge.textContent = `${latest.date} · ${latest.collected}건 수집 · 헤드라인 ${headlineCount}건`;
       latestEl.innerHTML = renderGroups(latest.groups);
 
+      const historyEntryHtml = (entry) => `
+        <details class="history-entry">
+          <summary>
+            <span>${escapeHtml(entry.date)} · 헤드라인 ${countHeadlines(entry.groups)}건</span>
+            <span class="meta" title="${escapeHtml(formatDateTime(entry.sent_at))}">${escapeHtml(timeAgo(entry.sent_at))}</span>
+          </summary>
+          ${renderGroups(entry.groups)}
+        </details>`;
+
+      const HISTORY_PAGE_SIZE = 5;
+      const visibleOlder = older.slice(0, HISTORY_PAGE_SIZE);
+      const restOlder = older.slice(HISTORY_PAGE_SIZE);
+
       historyEl.innerHTML = older.length
-        ? older.map((entry) => `
-          <details class="history-entry">
-            <summary>
-              <span>${escapeHtml(entry.date)} · 헤드라인 ${countHeadlines(entry.groups)}건</span>
-              <span class="meta">${escapeHtml(formatDateTime(entry.sent_at))}</span>
-            </summary>
-            ${renderGroups(entry.groups)}
-          </details>
-        `).join("")
+        ? visibleOlder.map(historyEntryHtml).join("")
+          + (restOlder.length
+              ? `<div id="history-more" hidden>${restOlder.map(historyEntryHtml).join("")}</div>
+                 <button class="button-utility" id="history-more-btn" data-count="더 보기 (${restOlder.length}건)">더 보기 (${restOlder.length}건)</button>`
+              : "")
         : renderEmpty("이전 이력 없음");
+
+      const moreBtn = document.getElementById("history-more-btn");
+      if (moreBtn) {
+        moreBtn.addEventListener("click", () => {
+          const moreDiv = document.getElementById("history-more");
+          const willShow = moreDiv.hidden;
+          moreDiv.hidden = !willShow;
+          moreBtn.textContent = willShow ? "접기" : `더 보기 (${restOlder.length}건)`;
+        });
+      }
 
       renderChips(collectCategories(sorted));
     }
@@ -848,10 +921,18 @@ async function load() {
 
 document.getElementById("refresh-btn").addEventListener("click", load);
 document.getElementById("search-input").addEventListener("input", applyFilters);
+document.getElementById("clear-filters-btn").addEventListener("click", clearFilters);
 document.getElementById("toggle-history-btn").addEventListener("click", (e) => {
   const entries = document.querySelectorAll("#history details.history-entry");
   const shouldOpen = e.target.textContent.includes("펼치기");
   entries.forEach((d) => { d.open = shouldOpen; });
+
+  const moreDiv = document.getElementById("history-more");
+  const moreBtn = document.getElementById("history-more-btn");
+  if (moreDiv) {
+    moreDiv.hidden = !shouldOpen;
+    if (moreBtn) moreBtn.textContent = shouldOpen ? "접기" : moreBtn.dataset.count;
+  }
   e.target.textContent = shouldOpen ? "모두 접기" : "모두 펼치기";
 });
 document.getElementById("toggle-feeds-btn").addEventListener("click", (e) => {
@@ -861,6 +942,10 @@ document.getElementById("toggle-feeds-btn").addEventListener("click", (e) => {
   e.target.textContent = shouldOpen ? "모두 접기" : "모두 펼치기";
 });
 document.getElementById("theme-toggle-btn").addEventListener("click", toggleTheme);
+document.getElementById("feeds-master").addEventListener("toggle", (e) => {
+  const hint = e.target.querySelector(".feed-master-hint");
+  if (hint) hint.textContent = e.target.open ? "접기" : "펼치기";
+});
 
 initTheme();
 load();

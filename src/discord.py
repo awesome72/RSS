@@ -64,13 +64,40 @@ def _pack_messages(embeds: list[dict]) -> list[list[dict]]:
     return chunks
 
 
-def build_digest_messages(groups: dict[str, list[dict]], collected: int) -> list[dict]:
-    """카테고리별 헤드라인 다이제스트 메시지들(헤더 + embed 청크)을 만든다. AI 요약 없음 — 제목/출처/링크만."""
+MAX_HIGHLIGHTS = 5
+
+
+def _is_boosted(article: dict, boost_keywords: list[str]) -> bool:
+    text = article["title"] + article.get("description", "")
+    return any(kw in text for kw in boost_keywords)
+
+
+def build_digest_messages(
+    groups: dict[str, list[dict]],
+    collected: int,
+    boost_keywords: list[str] | None = None,
+) -> list[dict]:
+    """카테고리별 헤드라인 다이제스트 메시지들(헤더 + embed 청크)을 만든다. AI 요약 없음 — 제목/출처/링크만.
+
+    헤더에는 boost_keywords에 매치된 헤드라인 중 최대 MAX_HIGHLIGHTS개를 그대로 인용해
+    "오늘의 주요 헤드라인"으로 붙인다 — 재구성/요약이 아니라 이미 선택된 원문 제목의 발췌이므로
+    저작권 정책(자체 요약 없이 제목만 그대로 전달)을 벗어나지 않는다.
+    """
     headline_count = sum(len(articles) for articles in groups.values())
-    header = (
+    header_lines = [
         f"📬 **일일 다이제스트** — 수집 {collected}건 · "
         f"헤드라인 {headline_count}건 · {len(groups)}개 카테고리"
-    )[:MAX_CONTENT_LEN]
+    ]
+
+    if boost_keywords:
+        all_articles = [a for articles in groups.values() for a in articles]
+        highlights = [a for a in all_articles if _is_boosted(a, boost_keywords)][:MAX_HIGHLIGHTS]
+        if highlights:
+            header_lines.append("")
+            header_lines.append("**오늘의 주요 헤드라인**")
+            header_lines.extend(f"• {a['title']}" for a in highlights)
+
+    header = "\n".join(header_lines)[:MAX_CONTENT_LEN]
 
     embeds = [_build_category_embed(category, articles) for category, articles in groups.items()]
 
