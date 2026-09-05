@@ -6,11 +6,13 @@ import time
 
 import httpx
 
-IMPACT_COLOR = {
-    "높음": 0xE74C3C,
-    "중간": 0xF1C40F,
-    "낮음": 0x95A5A6,
+CATEGORY_COLOR = {
+    "국내 증시": 0x2A9D99,
+    "미국 증시": 0x62AEF0,
+    "매크로·공시": 0x391C57,
+    "Google News 우회 (로이터·블룸버그·MarketWatch용)": 0xDD5B00,
 }
+DEFAULT_CATEGORY_COLOR = 0x523410
 
 MAX_EMBEDS_PER_MESSAGE = 10
 MAX_DESCRIPTION_LEN = 4096
@@ -21,35 +23,22 @@ def _chunk(items: list, size: int) -> list[list]:
     return [items[i : i + size] for i in range(0, len(items), size)]
 
 
-def build_digest_messages(topics: list[dict], stats: dict, ai_ok: bool) -> list[dict]:
-    """다이제스트 메시지들(헤더 + embed 청크)을 만든다."""
+def build_digest_messages(groups: dict[str, list[dict]], collected: int) -> list[dict]:
+    """카테고리별 헤드라인 다이제스트 메시지들(헤더 + embed 청크)을 만든다. AI 요약 없음 — 제목/출처/링크만."""
+    headline_count = sum(len(articles) for articles in groups.values())
     header = (
-        f"📬 **일일 다이제스트** — 수집 {stats.get('collected', 0)}건 · "
-        f"토픽 {len(topics)}개"
-        + ("" if ai_ok else " · ⚠️ AI 요약 실패, 헤드라인으로 대체")
-    )
-    header = header[:MAX_CONTENT_LEN]
+        f"📬 **일일 다이제스트** — 수집 {collected}건 · "
+        f"헤드라인 {headline_count}건 · {len(groups)}개 카테고리"
+    )[:MAX_CONTENT_LEN]
 
     embeds = []
-    for topic in topics:
-        sources = topic.get("sources", [])
-        footer_text = " · ".join(s.get("outlet", "") for s in sources if s.get("outlet"))
-        description = topic.get("summary", "")[:MAX_DESCRIPTION_LEN]
+    for category, articles in groups.items():
+        lines = [f"• [{a['title']}]({a['link']}) — {a.get('outlet', '')}" for a in articles]
         embed = {
-            "title": topic.get("title", "")[:256],
-            "description": description,
-            "color": IMPACT_COLOR.get(topic.get("impact", "중간"), IMPACT_COLOR["중간"]),
-            "fields": [
-                {"name": "분류", "value": topic.get("category", "기타"), "inline": True},
-                {"name": "영향도", "value": topic.get("impact", "중간"), "inline": True},
-            ],
+            "title": category[:256],
+            "description": "\n".join(lines)[:MAX_DESCRIPTION_LEN],
+            "color": CATEGORY_COLOR.get(category, DEFAULT_CATEGORY_COLOR),
         }
-        if sources:
-            link = sources[0].get("url", "")
-            if link:
-                embed["url"] = link
-        if footer_text:
-            embed["footer"] = {"text": footer_text[:2048]}
         embeds.append(embed)
 
     messages = []

@@ -1,8 +1,8 @@
 # RSS → Discord 뉴스레터
 
 `feeds/stocks-kr-us-feeds.opml`에 정의된 국내·미국 증시 RSS 피드를 GitHub Actions로
-주기적으로 수집하고, 하루 한 번 AI가 요약한 다이제스트를 Discord로 보냅니다.
-서버 호스팅 없이 GitHub Actions cron만으로 동작합니다.
+주기적으로 수집하고, 하루 한 번 카테고리별로 묶은 헤드라인 다이제스트를 Discord로 보냅니다.
+AI API를 호출하지 않으며, 서버 호스팅 없이 GitHub Actions cron만으로 동작합니다.
 
 **대시보드**: https://web-nine-ruddy-66.vercel.app (다이제스트 이력 · 피드 상태, [웹 대시보드](#웹-대시보드-vercel) 참고)
 
@@ -12,7 +12,6 @@
 - [x] GitHub Actions 워크플로 추가 (`collect.yml`, `digest.yml`)
 - [x] Vercel 대시보드 배포 및 GitHub 연동
 - [x] Discord 웹훅 생성 및 `DISCORD_WEBHOOK_URL` 등록
-- [ ] `ANTHROPIC_API_KEY` 등록 (없으면 다이제스트가 AI 요약 없이 헤드라인만 폴백으로 보냄)
 - [ ] `collect` 워크플로 최초 1회 수동 실행으로 `seen.json` 초기화 ([첫 실행 안내](#첫-실행-안내))
 
 ## 동작 방식
@@ -20,10 +19,12 @@
 | 워크플로 | 주기 | 하는 일 |
 |---|---|---|
 | `collect.yml` | 2시간마다 | 전체 피드 수집 → 중복 제거 → 신규 기사를 `state/pending.json`에 적재. 실행 결과를 `#로그` 채널에 전송 |
-| `digest.yml` | 매일 KST 08:00 (UTC 23:00) | `pending.json`에 쌓인 기사를 Claude가 클러스터링·요약 → `#다이제스트` 채널에 전송 후 대기열 비움 |
+| `digest.yml` | 매일 KST 08:00 (UTC 23:00) | `pending.json`에 쌓인 기사를 카테고리별로 묶어 헤드라인 목록으로 `#다이제스트` 채널에 전송 후 대기열 비움 |
 
 - 다이제스트는 미국 증시 마감 이후 시각(KST 08:00)에 맞춰 하루 1회만 발송됩니다.
-- AI 호출은 다이제스트당 1회로 제한됩니다 (기사 최대 100건을 한 번에 처리).
+- **AI 요약을 사용하지 않습니다.** 수집된 기사의 원문 제목·출처·링크만 카테고리(국내 증시 /
+  미국 증시 / 매크로·공시 / Google News 우회)별로 묶어서 그대로 보여줍니다.
+  `keywords_boost`에 매치되는 기사가 카테고리 내 상단에 오도록 정렬합니다.
 - 개별 피드가 실패해도 전체 실행은 멈추지 않고 실패 내역만 로그로 남습니다.
 - 제목에 `(확인 필요)`가 붙은 피드는 3회 연속 실패 시 자동 비활성화되고 로그로 알림됩니다.
 
@@ -43,7 +44,6 @@
 | Secret 이름 | 용도 |
 |---|---|
 | `DISCORD_WEBHOOK_URL` | 다이제스트 + 실행 로그를 받을 채널의 웹훅 URL |
-| `ANTHROPIC_API_KEY` | Claude API 키 (다이제스트 요약용) |
 
 로컬 개발 시에는 `.env.example`을 복사해 `.env`로 만들고 값을 채우세요 (`.env`는 git에 커밋되지 않습니다).
 
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 python -m src.main health --dry-run   # 피드 생존 확인만, 전송 없음
 python -m src.main collect --dry-run  # 수집 + 대기열 적재, 로그는 stdout 출력
-python -m src.main digest --dry-run   # AI 요약 후 다이제스트를 stdout에 출력 (실제 전송/대기열 초기화 없음)
+python -m src.main digest --dry-run   # 카테고리별 헤드라인 다이제스트를 stdout에 출력 (실제 전송/대기열 초기화 없음)
 ```
 
 `--dry-run`을 주면 Discord로 전송하는 대신 전송될 JSON을 그대로 stdout에 출력합니다.
@@ -78,7 +78,7 @@ GitHub Actions 탭에서 `Collect RSS` 또는 `Daily Digest` 워크플로를 `wo
 `raw.githubusercontent.com`의 `state/digest_history.json` · `state/feeds_health.json`을
 읽어와 최신 다이제스트·이전 이력·피드 상태를 보여주는 순수 정적 페이지입니다.
 
-- Vercel 프로젝트 루트: `web/` (Vercel 대시보드에서 Root Directory를 `web`으로 지정)
+- Vercel 프로젝트 루트: `web/` (Vercel 프로젝트 설정에서 Root Directory를 `web`으로 지정)
 - GitHub 저장소와 연결되어 있어 `main` 브랜치에 푸시하면 자동 재배포됩니다
 - 페이지 자체는 정적이라 재배포 없이도 새로고침할 때마다 최신 데이터를 가져옵니다
   (다이제스트가 발송되어 `digest_history.json`이 갱신되면 바로 반영)
@@ -86,9 +86,10 @@ GitHub Actions 탭에서 `Collect RSS` 또는 `Daily Digest` 워크플로를 `wo
 
 ## 저작권 준수 (필수)
 
-- 원문 본문을 그대로 싣지 않습니다. 항상 AI가 재구성한 자체 요약과 원문 링크만 제공합니다.
-- RSS `description` 필드를 Discord에 그대로 복사하지 않습니다.
-- 인용이 불가피한 경우 15단어 미만, 출처당 1회로 제한합니다.
+- 원문 본문을 절대 싣지 않습니다. Discord에는 기사 **제목 + 출처 + 링크**만 표시하고,
+  본문을 대신하는 요약문도 만들지 않습니다 (AI를 사용하지 않으므로 재구성 자체가 없습니다).
+- RSS `description` 필드는 수집 단계의 키워드 필터링에만 쓰이고, Discord로는 절대 전달되지
+  않습니다.
 - 서울경제·아시아경제 등 일부 피드는 **개인 비상업적 사용**만 허용하며 AI 학습 데이터 축적을
   금지합니다. 이 시스템은 **개인 Discord 서버 전용**이며, 공개 서버 배포·재배포·모델 학습
   데이터 축적을 금지합니다.
@@ -104,7 +105,6 @@ feeds/
 src/
   opml.py             # OPML 파싱 → Feed 객체 리스트
   collector.py         # 피드 수집, 중복 제거, 정규화
-  summarizer.py        # Anthropic API 호출
   discord.py           # Embed 빌드 + 전송
   state.py             # state/*.json 읽기/쓰기
   main.py              # CLI 엔트리포인트
@@ -115,6 +115,6 @@ state/
   digest_history.json  # 대시보드용 다이제스트 이력 (최근 60건)
 web/
   index.html           # Vercel에 배포되는 정적 대시보드
-config.yaml            # 부스트/뮤트 키워드, 수집 설정
+config.yaml            # 부스트/뮤트 키워드, 수집·다이제스트 설정
 requirements.txt
 ```

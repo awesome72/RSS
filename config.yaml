@@ -26,6 +26,5 @@ feed:
 seen_retention_days: 30
 
 digest:
-  max_articles_to_ai: 100
-  min_topics: 5
-  max_topics: 7
+  max_headlines: 60      # 다이제스트에 포함할 전체 헤드라인 상한
+  max_per_category: 15   # 카테고리(embed)당 헤드라인 상한
