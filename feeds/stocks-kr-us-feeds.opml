@@ -12,8 +12,8 @@
       <outline type="rss" text="서울경제 · 경제" title="서울경제 · 경제" xmlUrl="https://www.sedaily.com/rss/economy" htmlUrl="https://www.sedaily.com/economy"/>
       <outline type="rss" text="서울경제 · 금융" title="서울경제 · 금융" xmlUrl="https://www.sedaily.com/rss/finance" htmlUrl="https://www.sedaily.com/finance"/>
       <outline type="rss" text="서울경제 · 기업" title="서울경제 · 기업" xmlUrl="https://www.sedaily.com/rss/business" htmlUrl="https://www.sedaily.com/business"/>
-      <outline type="rss" text="전자신문 · 금융증권 (확인 필요)" title="전자신문 · 금융증권 (확인 필요)" xmlUrl="http://rss.etnews.co.kr/Section022.xml" htmlUrl="https://www.etnews.com"/>
-      <outline type="rss" text="전자신문 · 경제 (확인 필요)" title="전자신문 · 경제 (확인 필요)" xmlUrl="http://rss.etnews.co.kr/Section024.xml" htmlUrl="https://www.etnews.com"/>
+      <outline type="rss" text="연합뉴스 · 경제" title="연합뉴스 · 경제" xmlUrl="https://www.yna.co.kr/rss/economy.xml" htmlUrl="https://www.yna.co.kr/economy/all"/>
+      <outline type="rss" text="코스피 종합 키워드 예시" title="코스피 종합 키워드 예시" xmlUrl="https://news.google.com/rss/search?q=%EC%BD%94%EC%8A%A4%ED%94%BC&amp;hl=ko&amp;gl=KR&amp;ceid=KR:ko" htmlUrl="https://news.google.com"/>
     </outline>
 
     <outline text="미국 증시" title="미국 증시">
@@ -25,20 +25,30 @@
       <outline type="rss" text="CNBC · Energy" title="CNBC · Energy" xmlUrl="https://www.cnbc.com/id/19836768/device/rss/rss.html" htmlUrl="https://www.cnbc.com/energy/"/>
       <outline type="rss" text="CNBC · Health Care" title="CNBC · Health Care" xmlUrl="https://www.cnbc.com/id/10000108/device/rss/rss.html" htmlUrl="https://www.cnbc.com/health-care/"/>
       <outline type="rss" text="Investing.com · US Stock Market" title="Investing.com · US Stock Market" xmlUrl="https://www.investing.com/rss/news_25.rss" htmlUrl="https://www.investing.com/news/stock-market-news"/>
-      <outline type="rss" text="Yahoo Finance (확인 필요)" title="Yahoo Finance (확인 필요)" xmlUrl="https://finance.yahoo.com/news/rssindex" htmlUrl="https://finance.yahoo.com/news/"/>
-      <outline type="rss" text="Seeking Alpha · NVDA 예시 (확인 필요)" title="Seeking Alpha · NVDA 예시 (확인 필요)" xmlUrl="https://seekingalpha.com/api/sa/combined/NVDA.xml" htmlUrl="https://seekingalpha.com/symbol/NVDA"/>
+      <outline type="rss" text="Yahoo Finance" title="Yahoo Finance" xmlUrl="https://finance.yahoo.com/news/rssindex" htmlUrl="https://finance.yahoo.com/news/"/>
+      <outline type="rss" text="Seeking Alpha · NVDA 예시" title="Seeking Alpha · NVDA 예시" xmlUrl="https://seekingalpha.com/api/sa/combined/NVDA.xml" htmlUrl="https://seekingalpha.com/symbol/NVDA"/>
+      <outline type="rss" text="WSJ · Markets" title="WSJ · Markets" xmlUrl="https://feeds.a.dj.com/rss/RSSMarketsMain.xml" htmlUrl="https://www.wsj.com/news/markets"/>
     </outline>
 
     <outline text="매크로·공시" title="매크로·공시">
       <outline type="rss" text="Fed · 전체 보도자료" title="Fed · 전체 보도자료" xmlUrl="https://www.federalreserve.gov/feeds/press_all.xml" htmlUrl="https://www.federalreserve.gov/newsevents/pressreleases.htm"/>
-      <outline type="rss" text="Fed · 통화정책 (확인 필요)" title="Fed · 통화정책 (확인 필요)" xmlUrl="https://www.federalreserve.gov/feeds/press_monetary.xml" htmlUrl="https://www.federalreserve.gov/newsevents/pressreleases/monetary.htm"/>
+      <outline type="rss" text="Fed · 통화정책" title="Fed · 통화정책" xmlUrl="https://www.federalreserve.gov/feeds/press_monetary.xml" htmlUrl="https://www.federalreserve.gov/newsevents/pressreleases/monetary.htm"/>
       <outline type="rss" text="Fed · 은행/소비자 규제정책" title="Fed · 은행/소비자 규제정책" xmlUrl="https://www.federalreserve.gov/feeds/press_bcreg.xml" htmlUrl="https://www.federalreserve.gov/newsevents/pressreleases/bcreg.htm"/>
+      <outline type="rss" text="Bloomberg · 연준 키워드 예시" title="Bloomberg · 연준 키워드 예시" xmlUrl="https://news.google.com/rss/search?q=site:bloomberg.com+Federal+Reserve&amp;hl=ko&amp;gl=KR&amp;ceid=KR:ko" htmlUrl="https://news.google.com"/>
+      <outline type="rss" text="국채금리 키워드 예시" title="국채금리 키워드 예시" xmlUrl="https://news.google.com/rss/search?q=%EA%B5%AD%EC%B1%84%EA%B8%88%EB%A6%AC&amp;hl=ko&amp;gl=KR&amp;ceid=KR:ko" htmlUrl="https://news.google.com"/>
+      <outline type="rss" text="Treasury Yields 키워드 예시" title="Treasury Yields 키워드 예시" xmlUrl="https://news.google.com/rss/search?q=%22treasury+yields%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en" htmlUrl="https://news.google.com"/>
     </outline>
 
-    <outline text="Google News 우회 (로이터·블룸버그·MarketWatch용)" title="Google News 우회 (로이터·블룸버그·MarketWatch용)">
+    <outline text="반도체·기술" title="반도체·기술">
+      <outline type="rss" text="한국경제 · IT·과학" title="한국경제 · IT·과학" xmlUrl="https://www.hankyung.com/feed/it" htmlUrl="https://www.hankyung.com/all-news-it"/>
       <outline type="rss" text="Reuters · 반도체 키워드 예시" title="Reuters · 반도체 키워드 예시" xmlUrl="https://news.google.com/rss/search?q=site:reuters.com+semiconductor&amp;hl=ko&amp;gl=KR&amp;ceid=KR:ko" htmlUrl="https://news.google.com"/>
-      <outline type="rss" text="Bloomberg · 연준 키워드 예시" title="Bloomberg · 연준 키워드 예시" xmlUrl="https://news.google.com/rss/search?q=site:bloomberg.com+Federal+Reserve&amp;hl=ko&amp;gl=KR&amp;ceid=KR:ko" htmlUrl="https://news.google.com"/>
-      <outline type="rss" text="코스피 종합 키워드 예시" title="코스피 종합 키워드 예시" xmlUrl="https://news.google.com/rss/search?q=%EC%BD%94%EC%8A%A4%ED%94%BC&amp;hl=ko&amp;gl=KR&amp;ceid=KR:ko" htmlUrl="https://news.google.com"/>
+      <outline type="rss" text="반도체 키워드 예시" title="반도체 키워드 예시" xmlUrl="https://news.google.com/rss/search?q=%EB%B0%98%EB%8F%84%EC%B2%B4&amp;hl=ko&amp;gl=KR&amp;ceid=KR:ko" htmlUrl="https://news.google.com"/>
+    </outline>
+
+    <outline text="전쟁·지정학" title="전쟁·지정학">
+      <outline type="rss" text="BBC · World News" title="BBC · World News" xmlUrl="http://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.com/news/world"/>
+      <outline type="rss" text="WSJ · World News" title="WSJ · World News" xmlUrl="https://feeds.a.dj.com/rss/RSSWorldNews.xml" htmlUrl="https://www.wsj.com/news/world"/>
+      <outline type="rss" text="연합뉴스 · 국제" title="연합뉴스 · 국제" xmlUrl="https://www.yna.co.kr/rss/international.xml" htmlUrl="https://www.yna.co.kr/international/all"/>
     </outline>
   </body>
 </opml>

@@ -10,9 +10,10 @@ CATEGORY_COLOR = {
     "국내 증시": 0x2A9D99,
     "미국 증시": 0x62AEF0,
     "매크로·공시": 0x391C57,
-    "Google News 우회 (로이터·블룸버그·MarketWatch용)": 0xDD5B00,
+    "반도체·기술": 0x1AAE39,
+    "전쟁·지정학": 0x523410,
 }
-DEFAULT_CATEGORY_COLOR = 0x523410
+DEFAULT_CATEGORY_COLOR = 0x615D59
 
 MAX_EMBEDS_PER_MESSAGE = 10
 MAX_DESCRIPTION_LEN = 4096

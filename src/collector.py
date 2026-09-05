@@ -109,6 +109,8 @@ async def collect_all(
                 )
             )
 
+    current_urls = {f.url for f in feeds}
+    health = {url: v for url, v in health.items() if url in current_urls}
     st.save_health(health)
     return articles, stats
 

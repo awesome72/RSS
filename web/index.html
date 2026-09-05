@@ -14,6 +14,7 @@
     /* brand & accent */
     --primary: #0075de;
     --primary-active: #005bab;
+    --primary-tint: #eaf3fd;
     --on-primary: #ffffff;
     --secondary: #213183; /* deep indigo hero */
 
@@ -34,7 +35,8 @@
     --canvas-soft: #f6f5f4;
     --hairline: #e6e6e6;
 
-    /* text */
+    /* text — ink-muted/ink-secondary used for anything a user actually reads;
+       ink-faint reserved for pure decoration (bullets, disabled dots) */
     --ink: #000000;
     --ink-secondary: #31302e;
     --ink-muted: #615d59;
@@ -68,6 +70,7 @@
 
   a { color: var(--primary); text-decoration: none; }
   a:hover { text-decoration: underline; }
+  :focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
 
   /* ---- hero-band ---- */
   .hero-band {
@@ -107,7 +110,7 @@
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.125px;
-    color: rgba(255,255,255,0.75);
+    color: rgba(255,255,255,0.8);
     text-transform: uppercase;
     margin: 0 0 14px;
   }
@@ -122,9 +125,9 @@
   .hero-subtitle {
     font-size: 16px;
     line-height: 1.5;
-    color: rgba(255,255,255,0.72);
+    color: rgba(255,255,255,0.82);
     margin: 0 0 28px;
-    max-width: 560px;
+    max-width: 580px;
   }
   .hero-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 
@@ -151,15 +154,15 @@
     align-items: center;
     gap: 6px;
     background: var(--surface);
-    color: var(--ink);
-    font-size: 14px;
+    color: var(--ink-secondary);
+    font-size: 13px;
     font-weight: 500;
     border: 1px solid var(--hairline);
     border-radius: var(--r-md);
     padding: 6px 14px;
     cursor: pointer;
   }
-  .button-utility:hover { text-decoration: none; border-color: #c9c9c9; }
+  .button-utility:hover { text-decoration: none; border-color: #c9c9c9; color: var(--ink); }
 
   /* ---- layout ---- */
   main {
@@ -186,6 +189,7 @@
     letter-spacing: -0.625px;
     margin: 0;
   }
+  .section-title-row { display: flex; align-items: center; gap: 10px; }
 
   /* ---- badge-pill ---- */
   .badge-pill {
@@ -200,6 +204,58 @@
     border-radius: var(--r-full);
     padding: 5px 12px;
     white-space: nowrap;
+  }
+
+  /* ---- controls: search + category chips ---- */
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    background: var(--surface);
+    border: 1px solid var(--hairline);
+    border-radius: var(--r-lg);
+    padding: 14px 16px;
+    margin-bottom: 28px;
+    box-shadow: var(--shadow-1);
+  }
+  .search-box {
+    flex: 1 1 220px;
+    min-width: 180px;
+  }
+  .search-box input {
+    width: 100%;
+    font: inherit;
+    font-size: 14px;
+    color: var(--ink);
+    background: var(--canvas-soft);
+    border: 1px solid var(--hairline);
+    border-radius: var(--r-full);
+    padding: 9px 16px;
+  }
+  .search-box input::placeholder { color: var(--ink-faint); }
+  .search-box input:focus { border-color: var(--primary); background: var(--surface); }
+  .category-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink-secondary);
+    background: var(--canvas-soft);
+    border: 1px solid var(--hairline);
+    border-radius: var(--r-full);
+    padding: 6px 13px;
+    cursor: pointer;
+  }
+  .chip:hover { border-color: #c9c9c9; }
+  .chip .chip-dot { width: 7px; height: 7px; border-radius: var(--r-full); flex: none; }
+  .chip.active {
+    background: var(--primary-tint);
+    border-color: var(--primary);
+    color: var(--primary);
+    font-weight: 600;
   }
 
   /* ---- feature-card ---- */
@@ -230,23 +286,27 @@
   }
   .category-count {
     font-size: 14px;
-    color: var(--ink-faint);
+    color: var(--ink-muted);
     font-weight: 400;
   }
   .headline-list { list-style: none; margin: 0; padding: 0; }
   .headline-row {
     display: flex;
+    align-items: baseline;
     gap: 10px;
-    padding: 9px 0;
+    padding: 10px 8px;
+    margin: 0 -8px;
     border-top: 1px solid var(--hairline);
     font-size: 15px;
-    line-height: 1.4;
+    line-height: 1.5;
+    border-radius: var(--r-sm);
   }
   .headline-row:first-child { border-top: none; }
+  .headline-row:hover { background: var(--canvas-soft); }
   .headline-row .dot-sep { color: var(--ink-faint); flex: none; }
   .headline-row a { color: var(--ink); font-weight: 500; }
   .headline-row a:hover { color: var(--primary); }
-  .headline-outlet { color: var(--ink-faint); font-size: 13px; white-space: nowrap; flex: none; }
+  .headline-outlet { color: var(--ink-muted); font-size: 13px; white-space: nowrap; flex: none; margin-left: auto; padding-left: 10px; }
 
   /* ---- history ---- */
   details.history-entry {
@@ -268,7 +328,7 @@
   }
   details.history-entry summary::-webkit-details-marker { display: none; }
   details.history-entry summary .meta {
-    color: var(--ink-faint);
+    color: var(--ink-muted);
     font-weight: 400;
     font-size: 13px;
   }
@@ -291,7 +351,7 @@
     font-weight: 600;
     letter-spacing: 0.125px;
     text-transform: uppercase;
-    color: var(--ink-faint);
+    color: var(--ink-muted);
     padding: 0 10px 10px;
     border-bottom: 1px solid var(--hairline);
   }
@@ -300,17 +360,18 @@
     border-bottom: 1px solid var(--hairline);
     color: var(--ink-secondary);
   }
+  tbody tr:hover td { background: var(--canvas-soft); }
   tbody tr:last-child td { border-bottom: none; }
   td.feed-name a { color: var(--ink-secondary); }
   td.feed-name a:hover { color: var(--primary); }
-  .status-cell { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+  .status-cell { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; font-weight: 500; }
   .dot { width: 7px; height: 7px; border-radius: var(--r-full); flex: none; }
   .dot-ok { background: var(--accent-green); }
   .dot-fail { background: var(--accent-orange); }
   .dot-disabled { background: var(--ink-faint); }
 
   .empty {
-    color: var(--ink-faint);
+    color: var(--ink-muted);
     font-size: 15px;
     padding: 18px 0;
   }
@@ -331,13 +392,14 @@
     color: var(--ink-secondary);
     font-size: 14px;
   }
-  #status-line { color: var(--ink-faint); font-size: 13px; }
+  #status-line { color: var(--ink-muted); font-size: 13px; }
 
   @media (max-width: 640px) {
     .hero-title { font-size: 32px; letter-spacing: -0.5px; }
     main { margin-top: -20px; }
     .section-title { font-size: 22px; }
-    .headline-row { flex-direction: column; gap: 2px; }
+    .headline-row { flex-wrap: wrap; }
+    .headline-outlet { margin-left: 0; padding-left: 0; }
   }
 </style>
 </head>
@@ -347,7 +409,7 @@
   <div class="hero-inner">
     <p class="eyebrow-inverse">RSS → Discord</p>
     <h1 class="hero-title">일일 증시 다이제스트</h1>
-    <p class="hero-subtitle">2시간마다 국내·미국 증시 RSS를 수집하고, 하루 한 번 카테고리별 헤드라인으로 정리해 Discord로 보냅니다. AI 요약 없이 원문 제목과 출처만 그대로 전달합니다.</p>
+    <p class="hero-subtitle">2시간마다 국내·미국 증시, 국채금리, 반도체, 지정학 리스크 RSS를 수집하고, 하루 한 번 카테고리별 헤드라인으로 정리해 Discord로 보냅니다. AI 요약 없이 원문 제목과 출처만 그대로 전달합니다.</p>
     <div class="hero-actions">
       <button class="button-secondary" id="refresh-btn">
         <span>새로고침</span>
@@ -358,6 +420,13 @@
 </div>
 
 <main>
+  <div class="controls">
+    <div class="search-box">
+      <input id="search-input" type="text" placeholder="헤드라인 · 출처 검색…" autocomplete="off" />
+    </div>
+    <div class="category-chips" id="category-chips"></div>
+  </div>
+
   <section>
     <div class="section-head">
       <h2 class="section-title">최신 다이제스트</h2>
@@ -368,7 +437,10 @@
 
   <section>
     <div class="section-head">
-      <h2 class="section-title">이전 다이제스트</h2>
+      <div class="section-title-row">
+        <h2 class="section-title">이전 다이제스트</h2>
+      </div>
+      <button class="button-utility" id="toggle-history-btn">모두 펼치기</button>
     </div>
     <div id="history"></div>
   </section>
@@ -395,17 +467,15 @@ const CATEGORY_DOT = {
   "국내 증시": "var(--accent-teal)",
   "미국 증시": "var(--accent-sky)",
   "매크로·공시": "var(--accent-purple-deep)",
-  "Google News 우회 (로이터·블룸버그·MarketWatch용)": "var(--accent-orange)",
+  "반도체·기술": "var(--accent-green)",
+  "전쟁·지정학": "var(--accent-brown)",
 };
-const DEFAULT_DOT = "var(--accent-brown)";
+const DEFAULT_DOT = "var(--ink-faint)";
+
+let categoryFilter = null; // null = 전체
 
 function categoryDot(name) {
   return CATEGORY_DOT[name] || DEFAULT_DOT;
-}
-
-function categoryLabel(name) {
-  if (name && name.startsWith("Google News 우회")) return "Google News 우회";
-  return name || "기타";
 }
 
 function escapeHtml(str) {
@@ -419,15 +489,15 @@ function renderGroups(groups) {
   if (!entries.length) return renderEmpty("헤드라인 없음");
 
   return entries.map(([category, articles]) => `
-    <div class="feature-card">
+    <div class="feature-card" data-category="${escapeHtml(category)}">
       <div class="category-head">
         <span class="category-dot" style="background:${categoryDot(category)}"></span>
-        <span class="category-name">${escapeHtml(categoryLabel(category))}</span>
+        <span class="category-name">${escapeHtml(category)}</span>
         <span class="category-count">${articles.length}건</span>
       </div>
       <ul class="headline-list">
         ${articles.map((a) => `
-          <li class="headline-row">
+          <li class="headline-row" data-search="${escapeHtml((a.title + " " + (a.outlet || "")).toLowerCase())}">
             <span class="dot-sep">·</span>
             <a href="${escapeHtml(a.link)}" target="_blank" rel="noopener">${escapeHtml(a.title)}</a>
             <span class="headline-outlet">${escapeHtml(a.outlet || "")}</span>
@@ -444,6 +514,76 @@ function renderEmpty(msg) {
 
 function countHeadlines(groups) {
   return Object.values(groups || {}).reduce((sum, a) => sum + a.length, 0);
+}
+
+function collectCategories(history) {
+  const set = new Set();
+  history.forEach((entry) => Object.keys(entry.groups || {}).forEach((c) => set.add(c)));
+  return [...set];
+}
+
+function renderChips(categories) {
+  const chipsEl = document.getElementById("category-chips");
+  const allChip = `<button class="chip ${categoryFilter === null ? "active" : ""}" data-chip="__all__">전체</button>`;
+  const catChips = categories.map((c) => `
+    <button class="chip ${categoryFilter === c ? "active" : ""}" data-chip="${escapeHtml(c)}">
+      <span class="chip-dot" style="background:${categoryDot(c)}"></span>${escapeHtml(c)}
+    </button>
+  `).join("");
+  chipsEl.innerHTML = allChip + catChips;
+
+  chipsEl.querySelectorAll(".chip").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const val = btn.dataset.chip;
+      categoryFilter = val === "__all__" ? null : val;
+      renderChips(categories);
+      applyFilters();
+    });
+  });
+}
+
+function applyFilters() {
+  const query = document.getElementById("search-input").value.trim().toLowerCase();
+
+  document.querySelectorAll(".feature-card[data-category]").forEach((card) => {
+    const cat = card.dataset.category;
+    const catMatch = !categoryFilter || cat === categoryFilter;
+    let visibleRows = 0;
+
+    card.querySelectorAll(".headline-row").forEach((row) => {
+      const show = catMatch && (!query || row.dataset.search.includes(query));
+      row.hidden = !show;
+      if (show) visibleRows++;
+    });
+
+    card.hidden = visibleRows === 0;
+    if (query && visibleRows > 0) {
+      const details = card.closest("details.history-entry");
+      if (details) details.open = true;
+    }
+  });
+
+  document.querySelectorAll("details.history-entry").forEach((details) => {
+    const anyVisible = [...details.querySelectorAll(".feature-card[data-category]")].some((c) => !c.hidden);
+    details.hidden = !anyVisible;
+  });
+
+  ["latest", "history"].forEach((id) => {
+    const container = document.getElementById(id);
+    const hasVisible = container.querySelector(".feature-card[data-category]:not([hidden])")
+      || container.querySelector("details.history-entry:not([hidden])");
+    let notice = container.querySelector(".filter-empty");
+    if (!hasVisible && container.querySelector(".feature-card[data-category], details.history-entry")) {
+      if (!notice) {
+        notice = document.createElement("div");
+        notice.className = "empty filter-empty";
+        notice.textContent = "조건에 맞는 결과가 없습니다.";
+        container.appendChild(notice);
+      }
+    } else if (notice) {
+      notice.remove();
+    }
+  });
 }
 
 async function fetchJson(name) {
@@ -480,6 +620,7 @@ async function load() {
       latestBadge.textContent = "발송 이력 없음";
       latestEl.innerHTML = renderEmpty("아직 발송된 다이제스트가 없습니다. 첫 실행을 기다려 주세요.");
       historyEl.innerHTML = renderEmpty("이력 없음");
+      renderChips([]);
     } else {
       const sorted = [...history].sort((a, b) => (b.sent_at || "").localeCompare(a.sent_at || ""));
       const latest = sorted[0];
@@ -500,6 +641,8 @@ async function load() {
           </details>
         `).join("")
         : renderEmpty("이전 이력 없음");
+
+      renderChips(collectCategories(sorted));
     }
 
     const feedRows = Object.entries(health || {})
@@ -524,6 +667,7 @@ async function load() {
         </table>`
       : renderEmpty("피드 상태 정보 없음");
 
+    applyFilters();
     statusEl.textContent = "마지막 갱신: " + new Date().toLocaleTimeString("ko-KR", { hour12: false });
   } catch (err) {
     statusEl.textContent = "불러오기 실패: " + err.message;
@@ -531,6 +675,14 @@ async function load() {
 }
 
 document.getElementById("refresh-btn").addEventListener("click", load);
+document.getElementById("search-input").addEventListener("input", applyFilters);
+document.getElementById("toggle-history-btn").addEventListener("click", (e) => {
+  const entries = document.querySelectorAll("#history details.history-entry");
+  const shouldOpen = e.target.textContent.includes("펼치기");
+  entries.forEach((d) => { d.open = shouldOpen; });
+  e.target.textContent = shouldOpen ? "모두 접기" : "모두 펼치기";
+});
+
 load();
 </script>
 </body>
