@@ -59,6 +59,18 @@ python -m src.main digest --dry-run   # AI 요약 후 다이제스트를 stdout�
 GitHub Actions 탭에서 `Collect RSS` 또는 `Daily Digest` 워크플로를 `workflow_dispatch`로
 수동 실행할 수 있습니다.
 
+## 웹 대시보드 (Vercel)
+
+`web/index.html`은 빌드 과정이나 서버 없이, 브라우저에서 직접
+`raw.githubusercontent.com`의 `state/digest_history.json` · `state/feeds_health.json`을
+읽어와 최신 다이제스트·이전 이력·피드 상태를 보여주는 순수 정적 페이지입니다.
+
+- Vercel 프로젝트 루트: `web/` (Vercel 대시보드에서 Root Directory를 `web`으로 지정)
+- GitHub 저장소와 연결되어 있어 `main` 브랜치에 푸시하면 자동 재배포됩니다
+- 페이지 자체는 정적이라 재배포 없이도 새로고침할 때마다 최신 데이터를 가져옵니다
+  (다이제스트가 발송되어 `digest_history.json`이 갱신되면 바로 반영)
+- 저장소가 공개 저장소여야 raw 파일에 인증 없이 접근할 수 있습니다
+
 ## 저작권 준수 (필수)
 
 - 원문 본문을 그대로 싣지 않습니다. 항상 AI가 재구성한 자체 요약과 원문 링크만 제공합니다.
@@ -87,6 +99,9 @@ state/
   seen.json            # 이미 보낸 기사 URL 해시 (30일 지나면 자동 삭제)
   feeds_health.json    # 피드별 성공/실패 카운트
   pending.json         # 다음 다이제스트에서 처리할 신규 기사 대기열
+  digest_history.json  # 대시보드용 다이제스트 이력 (최근 60건)
+web/
+  index.html           # Vercel에 배포되는 정적 대시보드
 config.yaml            # 부스트/뮤트 키워드, 수집 설정
 requirements.txt
 ```
