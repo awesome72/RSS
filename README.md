@@ -4,6 +4,17 @@
 주기적으로 수집하고, 하루 한 번 AI가 요약한 다이제스트를 Discord로 보냅니다.
 서버 호스팅 없이 GitHub Actions cron만으로 동작합니다.
 
+**대시보드**: https://web-nine-ruddy-66.vercel.app (다이제스트 이력 · 피드 상태, [웹 대시보드](#웹-대시보드-vercel) 참고)
+
+## 설정 체크리스트
+
+- [x] GitHub 저장소 연결 (`awesome72/RSS`)
+- [x] GitHub Actions 워크플로 추가 (`collect.yml`, `digest.yml`)
+- [x] Vercel 대시보드 배포 및 GitHub 연동
+- [ ] Discord 웹훅 2개 생성 ([Discord 웹훅 만들기](#discord-웹훅-만들기))
+- [ ] Repository Secrets 3개 등록 ([GitHub Repository Secrets 설정](#github-repository-secrets-설정))
+- [ ] `collect` 워크플로 최초 1회 수동 실행으로 `seen.json` 초기화 ([첫 실행 안내](#첫-실행-안내))
+
 ## 동작 방식
 
 | 워크플로 | 주기 | 하는 일 |
