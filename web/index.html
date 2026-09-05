@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>RSS 다이제스트 대시보드</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --border: #e3e6ea;
+    --text: #1a1d23;
+    --muted: #6b7280;
+    --accent: #3b6fd1;
+    --high: #e74c3c;
+    --mid: #d69e00;
+    --low: #8a94a3;
+    --ok: #2ecc71;
+    --fail: #e74c3c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --card: #1c1f26;
+      --border: #2b2f38;
+      --text: #e8eaed;
+      --muted: #9aa3af;
+      --accent: #6d9aef;
+      --high: #ff6b5e;
+      --mid: #f0b429;
+      --low: #8a94a3;
+      --ok: #3ddc84;
+      --fail: #ff6b5e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", sans-serif;
+    line-height: 1.5;
+  }
+  header {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 32px 20px 12px;
+  }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  .subtitle { color: var(--muted); font-size: 0.9rem; }
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 12px 20px 60px;
+  }
+  section { margin-top: 32px; }
+  h2 {
+    font-size: 1.05rem;
+    margin: 0 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+  }
+  .topic-card { border-left: 4px solid var(--low); }
+  .topic-card.high { border-left-color: var(--high); }
+  .topic-card.mid { border-left-color: var(--mid); }
+  .topic-card.low { border-left-color: var(--low); }
+  .topic-title { font-weight: 600; margin: 0 0 6px; }
+  .badges { display: flex; gap: 6px; margin-bottom: 8px; flex-wrap: wrap; }
+  .badge {
+    font-size: 0.72rem;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--muted);
+  }
+  .badge.impact-high { color: var(--high); border-color: var(--high); }
+  .badge.impact-mid { color: var(--mid); border-color: var(--mid); }
+  .badge.impact-low { color: var(--low); }
+  .summary { font-size: 0.92rem; margin: 0 0 8px; }
+  .sources { font-size: 0.8rem; color: var(--muted); }
+  .sources a { color: var(--accent); text-decoration: none; }
+  .sources a:hover { text-decoration: underline; }
+  details.history-entry {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 12px 16px;
+  }
+  details.history-entry summary {
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  details.history-entry summary .meta { color: var(--muted); font-weight: 400; font-size: 0.85rem; }
+  details.history-entry .topic-card { margin-top: 10px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.86rem; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 500; }
+  .pill { padding: 2px 8px; border-radius: 999px; font-size: 0.72rem; }
+  .pill.ok { background: color-mix(in srgb, var(--ok) 18%, transparent); color: var(--ok); }
+  .pill.fail { background: color-mix(in srgb, var(--fail) 18%, transparent); color: var(--fail); }
+  .pill.disabled { background: color-mix(in srgb, var(--muted) 18%, transparent); color: var(--muted); }
+  .empty { color: var(--muted); font-size: 0.9rem; padding: 8px 0; }
+  .refresh-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  button#refresh-btn {
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  button#refresh-btn:hover { border-color: var(--accent); }
+  #status-line { color: var(--muted); font-size: 0.8rem; }
+  a.repo-link { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header>
+  <h1>📬 RSS 다이제스트 대시보드</h1>
+  <div class="subtitle">
+    <a class="repo-link" href="https://github.com/awesome72/RSS" target="_blank" rel="noopener">awesome72/RSS</a>
+    · 하루 1회 발송되는 증시 다이제스트와 피드 상태를 확인합니다
+  </div>
+</header>
+<main>
+  <div class="refresh-row">
+    <button id="refresh-btn">새로고침</button>
+    <span id="status-line">불러오는 중…</span>
+  </div>
+
+  <section>
+    <h2>최신 다이제스트</h2>
+    <div id="latest"></div>
+  </section>
+
+  <section>
+    <h2>이전 다이제스트</h2>
+    <div id="history"></div>
+  </section>
+
+  <section>
+    <h2>피드 상태</h2>
+    <div id="feeds"></div>
+  </section>
+</main>
+
+<script>
+const REPO_RAW = "https://raw.githubusercontent.com/awesome72/RSS/main/state/";
+
+const impactClass = (impact) => {
+  if (impact === "높음") return "high";
+  if (impact === "중간") return "mid";
+  return "low";
+};
+
+function escapeHtml(str) {
+  return String(str ?? "").replace(/[&<>"']/g, (c) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+  }[c]));
+}
+
+function renderTopicCard(topic) {
+  const cls = impactClass(topic.impact);
+  const sources = (topic.sources || [])
+    .map((s) => `<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.outlet || s.url)}</a>`)
+    .join(" · ");
+  return `
+    <div class="card topic-card ${cls}">
+      <div class="badges">
+        <span class="badge">${escapeHtml(topic.category || "기타")}</span>
+        <span class="badge impact-${cls}">영향도 ${escapeHtml(topic.impact || "중간")}</span>
+      </div>
+      <p class="topic-title">${escapeHtml(topic.title || "")}</p>
+      <p class="summary">${escapeHtml(topic.summary || "")}</p>
+      ${sources ? `<div class="sources">출처: ${sources}</div>` : ""}
+    </div>`;
+}
+
+function renderEmpty(msg) {
+  return `<div class="empty">${escapeHtml(msg)}</div>`;
+}
+
+async function fetchJson(name) {
+  const res = await fetch(REPO_RAW + name + "?t=" + Date.now(), { cache: "no-store" });
+  if (!res.ok) throw new Error(`${name} 로드 실패 (${res.status})`);
+  return res.json();
+}
+
+function formatDateTime(iso) {
+  if (!iso) return "";
+  try {
+    return new Date(iso).toLocaleString("ko-KR", { hour12: false });
+  } catch {
+    return iso;
+  }
+}
+
+async function load() {
+  const statusEl = document.getElementById("status-line");
+  statusEl.textContent = "불러오는 중…";
+
+  try {
+    const [history, health] = await Promise.all([
+      fetchJson("digest_history.json"),
+      fetchJson("feeds_health.json"),
+    ]);
+
+    const latestEl = document.getElementById("latest");
+    const historyEl = document.getElementById("history");
+    const feedsEl = document.getElementById("feeds");
+
+    if (!history.length) {
+      latestEl.innerHTML = renderEmpty("아직 발송된 다이제스트가 없습니다. 첫 실행을 기다려 주세요.");
+      historyEl.innerHTML = renderEmpty("이력 없음");
+    } else {
+      const sorted = [...history].sort((a, b) => (b.sent_at || "").localeCompare(a.sent_at || ""));
+      const latest = sorted[0];
+      const older = sorted.slice(1);
+
+      latestEl.innerHTML = `
+        <div class="card">
+          <div class="badges">
+            <span class="badge">${escapeHtml(latest.date)}</span>
+            <span class="badge">수집 ${latest.collected}건</span>
+            <span class="badge">토픽 ${latest.topics.length}개</span>
+            ${latest.ai_ok ? "" : `<span class="badge impact-high">AI 요약 실패 (폴백)</span>`}
+          </div>
+        </div>
+        ${latest.topics.map(renderTopicCard).join("")}
+      `;
+
+      historyEl.innerHTML = older.length
+        ? older.map((entry) => `
+          <details class="history-entry">
+            <summary>
+              <span>${escapeHtml(entry.date)} · 토픽 ${entry.topics.length}개${entry.ai_ok ? "" : " · AI 실패"}</span>
+              <span class="meta">${escapeHtml(formatDateTime(entry.sent_at))}</span>
+            </summary>
+            ${entry.topics.map(renderTopicCard).join("")}
+          </details>
+        `).join("")
+        : renderEmpty("이전 이력 없음");
+    }
+
+    const feedRows = Object.entries(health || {})
+      .sort((a, b) => (b[1].fail || 0) - (a[1].fail || 0))
+      .map(([url, h]) => {
+        const status = h.disabled ? "disabled" : (h.fail > 0 ? "fail" : "ok");
+        const label = h.disabled ? "비활성화" : (h.fail > 0 ? "실패 있음" : "정상");
+        return `
+          <tr>
+            <td><a class="repo-link" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(url)}</a></td>
+            <td>${h.success || 0}</td>
+            <td>${h.fail || 0}</td>
+            <td><span class="pill ${status}">${label}</span></td>
+          </tr>`;
+      })
+      .join("");
+
+    feedsEl.innerHTML = feedRows
+      ? `<table>
+          <thead><tr><th>피드</th><th>성공</th><th>실패</th><th>상태</th></tr></thead>
+          <tbody>${feedRows}</tbody>
+        </table>`
+      : renderEmpty("피드 상태 정보 없음");
+
+    statusEl.textContent = "마지막 갱신: " + new Date().toLocaleTimeString("ko-KR", { hour12: false });
+  } catch (err) {
+    statusEl.textContent = "불러오기 실패: " + err.message;
+  }
+}
+
+document.getElementById("refresh-btn").addEventListener("click", load);
+load();
+</script>
+</body>
+</html>

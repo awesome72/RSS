@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import datetime
 import os
 import sys
 from pathlib import Path
@@ -111,6 +112,15 @@ def cmd_digest(dry_run: bool) -> None:
     dc.send(_env("DISCORD_WEBHOOK_LOG"), dc.build_log_message(log_stats), dry_run)
 
     if not dry_run:
+        st.append_history(
+            {
+                "date": datetime.date.today().isoformat(),
+                "sent_at": datetime.datetime.utcnow().isoformat() + "Z",
+                "collected": len(pending),
+                "ai_ok": ai_ok,
+                "topics": topics,
+            }
+        )
         st.clear_pending()
 
 

@@ -12,6 +12,7 @@ STATE_DIR = Path(__file__).resolve().parent.parent / "state"
 SEEN_PATH = STATE_DIR / "seen.json"
 HEALTH_PATH = STATE_DIR / "feeds_health.json"
 PENDING_PATH = STATE_DIR / "pending.json"
+HISTORY_PATH = STATE_DIR / "digest_history.json"
 
 
 def _load(path: Path, default):
@@ -108,3 +109,19 @@ def save_pending(pending: list) -> None:
 
 def clear_pending() -> None:
     save_pending([])
+
+
+# ---- digest_history.json (대시보드용 다이제스트 이력) ----
+
+def load_history() -> list:
+    return _load(HISTORY_PATH, [])
+
+
+def save_history(history: list) -> None:
+    _save(HISTORY_PATH, history)
+
+
+def append_history(entry: dict, retention: int = 60) -> None:
+    history = load_history()
+    history.append(entry)
+    save_history(history[-retention:])
