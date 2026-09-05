@@ -349,26 +349,30 @@
   .headline-row a:hover { color: var(--primary); }
   .headline-outlet { color: var(--ink-muted); font-size: 13px; white-space: nowrap; flex: none; margin-left: auto; padding-left: 10px; }
 
-  /* ---- history ---- */
-  details.history-entry {
+  /* ---- history / feed-group (shared collapsible-card look) ---- */
+  details.history-entry,
+  details.feed-group {
     background: var(--surface);
     border: 1px solid var(--hairline);
     border-radius: var(--r-lg);
     margin-bottom: 10px;
     padding: 16px 20px;
   }
-  details.history-entry summary {
+  details.history-entry summary,
+  details.feed-group summary {
     cursor: pointer;
     list-style: none;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     gap: 12px;
     font-size: 15px;
     font-weight: 600;
   }
-  details.history-entry summary::-webkit-details-marker { display: none; }
-  details.history-entry summary .meta {
+  details.history-entry summary::-webkit-details-marker,
+  details.feed-group summary::-webkit-details-marker { display: none; }
+  details.history-entry summary .meta,
+  details.feed-group summary .meta {
     color: var(--ink-muted);
     font-weight: 400;
     font-size: 13px;
@@ -377,7 +381,11 @@
     margin-top: 14px;
     box-shadow: none;
   }
-  details.history-entry[open] summary { margin-bottom: 4px; }
+  details.history-entry[open] summary,
+  details.feed-group[open] summary { margin-bottom: 12px; }
+  details.feed-group .summary-left { display: flex; align-items: center; gap: 8px; min-width: 0; }
+  details.feed-group .summary-left .category-name { font-size: 15px; }
+  details.feed-group .table-wrap { margin: 0 -4px; }
 
   /* ---- data table ---- */
   .table-wrap { overflow-x: auto; }
@@ -489,11 +497,13 @@
 
   <section>
     <div class="section-head">
-      <h2 class="section-title">피드 상태</h2>
+      <div class="section-title-row">
+        <h2 class="section-title">피드 상태</h2>
+        <span class="badge-pill" id="feeds-badge">불러오는 중…</span>
+      </div>
+      <button class="button-utility" id="toggle-feeds-btn">모두 펼치기</button>
     </div>
-    <div class="feature-card" style="padding:8px 22px;">
-      <div class="table-wrap" id="feeds"></div>
-    </div>
+    <div id="feeds"></div>
   </section>
 </main>
 
@@ -504,6 +514,8 @@
 
 <script>
 const REPO_RAW = "https://raw.githubusercontent.com/awesome72/RSS/main/state/";
+const FEEDS_OPML_URL = "https://raw.githubusercontent.com/awesome72/RSS/main/feeds/stocks-kr-us-feeds.opml";
+const CATEGORY_ORDER = ["국내 증시", "미국 증시", "매크로·공시", "반도체·기술", "전쟁·지정학"];
 
 const THEME_KEY = "rss-dashboard-theme";
 
@@ -559,6 +571,40 @@ function categoryDot(name) {
   return CATEGORY_DOT[name] || DEFAULT_DOT;
 }
 
+function sortByCategoryOrder(categories) {
+  return [...categories].sort((a, b) => {
+    const ia = CATEGORY_ORDER.indexOf(a);
+    const ib = CATEGORY_ORDER.indexOf(b);
+    if (ia === -1 && ib === -1) return a.localeCompare(b);
+    if (ia === -1) return 1;
+    if (ib === -1) return -1;
+    return ia - ib;
+  });
+}
+
+/** feeds/*.opml → Map(xmlUrl -> {title, category, htmlUrl}). 브라우저 DOMParser로 직접 파싱한다. */
+function parseFeedMeta(xmlText) {
+  const doc = new DOMParser().parseFromString(xmlText, "text/xml");
+  const meta = new Map();
+
+  function walk(node, category) {
+    for (const outline of Array.from(node.children || [])) {
+      if (outline.tagName !== "outline") continue;
+      const xmlUrl = outline.getAttribute("xmlUrl");
+      const title = outline.getAttribute("title") || outline.getAttribute("text") || "";
+      if (xmlUrl) {
+        meta.set(xmlUrl, { title, category, htmlUrl: outline.getAttribute("htmlUrl") || xmlUrl });
+      } else {
+        walk(outline, title || category);
+      }
+    }
+  }
+
+  const body = doc.getElementsByTagName("body")[0];
+  if (body) walk(body, "기타");
+  return meta;
+}
+
 function escapeHtml(str) {
   return String(str ?? "").replace(/[&<>"']/g, (c) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
@@ -595,6 +641,60 @@ function renderEmpty(msg) {
 
 function countHeadlines(groups) {
   return Object.values(groups || {}).reduce((sum, a) => sum + a.length, 0);
+}
+
+function renderFeedGroups(health, feedMeta) {
+  const byCategory = new Map();
+  for (const [url, h] of Object.entries(health || {})) {
+    const meta = feedMeta.get(url) || { title: url, category: "기타", htmlUrl: url };
+    if (!byCategory.has(meta.category)) byCategory.set(meta.category, []);
+    byCategory.get(meta.category).push({ url, ...meta, ...h });
+  }
+
+  if (!byCategory.size) return { html: renderEmpty("피드 상태 정보 없음"), totals: null };
+
+  let totalOk = 0, totalFail = 0, totalDisabled = 0, totalFeeds = 0;
+
+  const html = sortByCategoryOrder([...byCategory.keys()]).map((category) => {
+    const feeds = byCategory.get(category).sort((a, b) => (b.fail || 0) - (a.fail || 0));
+    const ok = feeds.filter((f) => !f.disabled && !f.fail).length;
+    const fail = feeds.filter((f) => !f.disabled && f.fail > 0).length;
+    const disabled = feeds.filter((f) => f.disabled).length;
+    totalOk += ok; totalFail += fail; totalDisabled += disabled; totalFeeds += feeds.length;
+
+    const rows = feeds.map((f) => {
+      const dotClass = f.disabled ? "dot-disabled" : (f.fail > 0 ? "dot-fail" : "dot-ok");
+      const label = f.disabled ? "비활성화" : (f.fail > 0 ? "실패 있음" : "정상");
+      return `
+        <tr>
+          <td class="feed-name"><a href="${escapeHtml(f.htmlUrl)}" target="_blank" rel="noopener">${escapeHtml(f.title || f.url)}</a></td>
+          <td>${f.success || 0}</td>
+          <td>${f.fail || 0}</td>
+          <td><span class="status-cell"><span class="dot ${dotClass}"></span>${label}</span></td>
+        </tr>`;
+    }).join("");
+
+    const needsAttention = fail > 0 || disabled > 0;
+
+    return `
+      <details class="feed-group"${needsAttention ? " open" : ""}>
+        <summary>
+          <span class="summary-left">
+            <span class="category-dot" style="background:${categoryDot(category)}"></span>
+            <span class="category-name">${escapeHtml(category)}</span>
+          </span>
+          <span class="meta">${feeds.length}개 피드${needsAttention ? ` · 실패 ${fail} · 비활성 ${disabled}` : " · 정상"}</span>
+        </summary>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>피드</th><th>성공</th><th>실패</th><th>상태</th></tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+      </details>`;
+  }).join("");
+
+  return { html, totals: { totalFeeds, totalOk, totalFail, totalDisabled } };
 }
 
 function collectCategories(history) {
@@ -673,6 +773,12 @@ async function fetchJson(name) {
   return res.json();
 }
 
+async function fetchFeedMeta() {
+  const res = await fetch(FEEDS_OPML_URL + "?t=" + Date.now(), { cache: "no-store" });
+  if (!res.ok) throw new Error(`feeds opml 로드 실패 (${res.status})`);
+  return parseFeedMeta(await res.text());
+}
+
 function formatDateTime(iso) {
   if (!iso) return "";
   try {
@@ -688,9 +794,10 @@ async function load() {
   statusEl.textContent = "불러오는 중…";
 
   try {
-    const [history, health] = await Promise.all([
+    const [history, health, feedMeta] = await Promise.all([
       fetchJson("digest_history.json"),
       fetchJson("feeds_health.json"),
+      fetchFeedMeta(),
     ]);
 
     const latestEl = document.getElementById("latest");
@@ -726,27 +833,11 @@ async function load() {
       renderChips(collectCategories(sorted));
     }
 
-    const feedRows = Object.entries(health || {})
-      .sort((a, b) => (b[1].fail || 0) - (a[1].fail || 0))
-      .map(([url, h]) => {
-        const dotClass = h.disabled ? "dot-disabled" : (h.fail > 0 ? "dot-fail" : "dot-ok");
-        const label = h.disabled ? "비활성화" : (h.fail > 0 ? "실패 있음" : "정상");
-        return `
-          <tr>
-            <td class="feed-name"><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(url)}</a></td>
-            <td>${h.success || 0}</td>
-            <td>${h.fail || 0}</td>
-            <td><span class="status-cell"><span class="dot ${dotClass}"></span>${label}</span></td>
-          </tr>`;
-      })
-      .join("");
-
-    feedsEl.innerHTML = feedRows
-      ? `<table>
-          <thead><tr><th>피드</th><th>성공</th><th>실패</th><th>상태</th></tr></thead>
-          <tbody>${feedRows}</tbody>
-        </table>`
-      : renderEmpty("피드 상태 정보 없음");
+    const { html: feedsHtml, totals } = renderFeedGroups(health, feedMeta);
+    feedsEl.innerHTML = feedsHtml;
+    document.getElementById("feeds-badge").textContent = totals
+      ? `${totals.totalFeeds}개 피드 · 정상 ${totals.totalOk} · 실패 ${totals.totalFail} · 비활성 ${totals.totalDisabled}`
+      : "정보 없음";
 
     applyFilters();
     statusEl.textContent = "마지막 갱신: " + new Date().toLocaleTimeString("ko-KR", { hour12: false });
@@ -759,6 +850,12 @@ document.getElementById("refresh-btn").addEventListener("click", load);
 document.getElementById("search-input").addEventListener("input", applyFilters);
 document.getElementById("toggle-history-btn").addEventListener("click", (e) => {
   const entries = document.querySelectorAll("#history details.history-entry");
+  const shouldOpen = e.target.textContent.includes("펼치기");
+  entries.forEach((d) => { d.open = shouldOpen; });
+  e.target.textContent = shouldOpen ? "모두 접기" : "모두 펼치기";
+});
+document.getElementById("toggle-feeds-btn").addEventListener("click", (e) => {
+  const entries = document.querySelectorAll("#feeds details.feed-group");
   const shouldOpen = e.target.textContent.includes("펼치기");
   entries.forEach((d) => { d.open = shouldOpen; });
   e.target.textContent = shouldOpen ? "모두 접기" : "모두 펼치기";
