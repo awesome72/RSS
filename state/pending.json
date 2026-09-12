@@ -1,1 +1,866 @@
-[]
+[
+  {
+    "title": "'열흘 만에 -20%' 개미들 비명…\"줍줍 기회\" 증권가 콕 집었다 [종목+]",
+    "link": "https://www.hankyung.com/article/2026091194266",
+    "outlet": "한국경제 · 증권",
+    "category": "국내 증시",
+    "published": "2026-09-12T00:57:16Z",
+    "description": ""
+  },
+  {
+    "title": "LG·LX의 희비…무엇이 두 형제회사 주가 갈랐나",
+    "link": "https://www.hankyung.com/article/202609120109i",
+    "outlet": "한국경제 · 증권",
+    "category": "국내 증시",
+    "published": "2026-09-11T23:56:38Z",
+    "description": ""
+  },
+  {
+    "title": "높은 CPI, 확정된 인상…뉴욕 증시 뛴 이유는 \"비둘기파적 인상(한두 번)\" [김현석의 월스트리트나우]",
+    "link": "https://www.hankyung.com/article/202609129994i",
+    "outlet": "한국경제 · 증권",
+    "category": "국내 증시",
+    "published": "2026-09-11T23:15:16Z",
+    "description": ""
+  },
+  {
+    "title": "벌금 260억원에도 또 적발…中 대리모 시장 '지하 시장' [차이나 워치]",
+    "link": "https://www.hankyung.com/article/202609107630i",
+    "outlet": "한국경제 · 경제",
+    "category": "국내 증시",
+    "published": "2026-09-12T02:30:02Z",
+    "description": ""
+  },
+  {
+    "title": "기본소득당 대변인부터 하이닉스 파혼녀까지…한국인 '믿거문' [신현보의 딥데이터]",
+    "link": "https://www.hankyung.com/article/202609118895H",
+    "outlet": "한국경제 · 경제",
+    "category": "국내 증시",
+    "published": "2026-09-12T02:13:23Z",
+    "description": ""
+  },
+  {
+    "title": "서울대 교수·삼성 연구원 뭉친 스누아이랩, AI 머신비전 플랫폼 선보여",
+    "link": "https://www.hankyung.com/article/202609120151i",
+    "outlet": "한국경제 · 경제",
+    "category": "국내 증시",
+    "published": "2026-09-12T01:01:18Z",
+    "description": ""
+  },
+  {
+    "title": "英 핵잠수함 운영사 밥콕 “K조선과 손잡고 세계시장 공략”",
+    "link": "https://www.hankyung.com/article/202609120147i",
+    "outlet": "한국경제 · 경제",
+    "category": "국내 증시",
+    "published": "2026-09-12T00:54:55Z",
+    "description": ""
+  },
+  {
+    "title": "'웃돈 5배 줘도 못 구한다'…삼전닉스에 목줄 잡힌 中 [강경주의 테크X]",
+    "link": "https://www.hankyung.com/article/2026091194276",
+    "outlet": "한국경제 · 경제",
+    "category": "국내 증시",
+    "published": "2026-09-12T00:30:01Z",
+    "description": ""
+  },
+  {
+    "title": "\"사장님, AI가 일 다 하는데요?\"…삼전닉스 '행복한 비명' [홍민성의 테토남]",
+    "link": "https://www.hankyung.com/article/202609118801g",
+    "outlet": "한국경제 · 경제",
+    "category": "국내 증시",
+    "published": "2026-09-12T00:00:08Z",
+    "description": ""
+  },
+  {
+    "title": "\"더이상 못 버텨\"…中 1위 배달앱, 하늘로 눈 돌렸다",
+    "link": "https://www.hankyung.com/article/202608277911i",
+    "outlet": "한국경제 · 경제",
+    "category": "국내 증시",
+    "published": "2026-09-12T00:00:03Z",
+    "description": ""
+  },
+  {
+    "title": "中 CXMT, 2분기 영업이익률 하이닉스보다 높았다…왜?",
+    "link": "https://www.hankyung.com/article/202609119755i",
+    "outlet": "한국경제 · 경제",
+    "category": "국내 증시",
+    "published": "2026-09-11T23:00:16Z",
+    "description": ""
+  },
+  {
+    "title": "글로벌 톱100 진입한 기업 어디…美·유럽·동남아 뚫는 K-방산",
+    "link": "https://www.hankyung.com/article/202609119743i",
+    "outlet": "한국경제 · 경제",
+    "category": "국내 증시",
+    "published": "2026-09-11T23:00:11Z",
+    "description": ""
+  },
+  {
+    "title": "'매장서 씻고 경복궁 달린다'…북촌 점령한 러닝 브랜드 [강윤지의 유통체크인]",
+    "link": "https://www.hankyung.com/article/202609119344i",
+    "outlet": "한국경제 · 경제",
+    "category": "국내 증시",
+    "published": "2026-09-11T23:00:05Z",
+    "description": ""
+  },
+  {
+    "title": "\"20년 후배 '~~군' 불렀다가\"…50대 직장인 하소연에 '발칵' [도쿄나우]",
+    "link": "https://www.hankyung.com/article/202609119109i",
+    "outlet": "한국경제 · 국제",
+    "category": "국내 증시",
+    "published": "2026-09-11T23:57:01Z",
+    "description": ""
+  },
+  {
+    "title": "6.7조 쏟아붓고 스타 싹쓸이…\"돈 떨어지니 남남\" 허무한 몰락 [조수영의 구설(球說)]",
+    "link": "https://www.hankyung.com/article/202609106999i",
+    "outlet": "한국경제 · 국제",
+    "category": "국내 증시",
+    "published": "2026-09-11T23:37:01Z",
+    "description": ""
+  },
+  {
+    "title": "[연합뉴스 이 시각 헤드라인] - 10:30",
+    "link": "https://www.yna.co.kr/view/AKR20260912021000011",
+    "outlet": "연합뉴스 · 경제",
+    "category": "국내 증시",
+    "published": "2026-09-12T01:30:00Z",
+    "description": "[연합뉴스 이 시각 헤드라인] - 10:30"
+  },
+  {
+    "title": "한국기술교육대 \"수시 경쟁률 비수도권 국·사립대 중 1위\"",
+    "link": "https://www.yna.co.kr/view/AKR20260912017400063",
+    "outlet": "연합뉴스 · 경제",
+    "category": "국내 증시",
+    "published": "2026-09-11T23:53:44Z",
+    "description": "(천안=연합뉴스) 유의주 기자 = 고용노동부가 설립한 국책대학인 충남 천안 한국기술교육대(KOREATECH)는 2027학년도 수시모집 경쟁률에서..."
+  },
+  {
+    "title": "[ETF워치]코스피 반등에 매수세 회복...개인은 하락 베팅 - v.daum.net",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5FOUZ6TjFIUkpXY1lxZ3NWd2dNZGppMlVzTUdsb1dJS1RGWU03aUlVWTBnLS1jOGcxX2hsSUhyenBNZDhyUTlGeUZOQTFlUjA?oc=5",
+    "outlet": "코스피 종합 키워드 예시",
+    "category": "국내 증시",
+    "published": "2026-09-12T00:01:09Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE5FOUZ6TjFIUkpXY1lxZ3NWd2dNZGppMlVzTUdsb1dJS1RGWU03aUlVWTBnLS1jOGcxX2hsSUhyenBNZDhyUTlGeUZOQTFlUjA?oc=5\" target=\"_blank\">[ETF워치]코스피 반등에 매수세 회복...개인은 하락 베팅</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">v.daum.net</font>"
+  },
+  {
+    "title": "고유가·고금리에 7000선 내준 코스피…자사주 매입에 낙폭 축소[시황종합] - news1.kr",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQY2FXYzNJcnRRZk1IaVZlZXQ0cUdITmdWY3l3ejJnRXdWWW1OME9YcFRaeVR2dzE4TmxYS3pJUWh1eWw1a21KdEhWSUo1MUJxNjdqTEF3RnVVbTjSAWBBVV95cUxNc3pPcmhtUm9YTTR2dkRvWGNkMUxuRnRnei14LUg1X0FHNVZyYUNpVVdZeHNXOW9ybkZFU2tuajlKeEpDOE5rTkNUWHAtaVJjeW1FNmpiNnFNdlAwQkRacjI?oc=5",
+    "outlet": "코스피 종합 키워드 예시",
+    "category": "국내 증시",
+    "published": "2026-09-11T07:23:28Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQY2FXYzNJcnRRZk1IaVZlZXQ0cUdITmdWY3l3ejJnRXdWWW1OME9YcFRaeVR2dzE4TmxYS3pJUWh1eWw1a21KdEhWSUo1MUJxNjdqTEF3RnVVbTjSAWBBVV95cUxNc3pPcmhtUm9YTTR2dkRvWGNkMUxuRnRnei14LUg1X0FHNVZyYUNpVVdZeHNXOW9ybkZFU2tuajlKeEpDOE5rTkNUWHAtaVJjeW1FNmpiNnFNdlAwQkRacjI?oc=5\" target=\"_blank\">고유가·고금리에 7000선 내준 코스피…자사주 매입에 낙폭 축소[시황종합]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news1.kr</font>"
+  },
+  {
+    "title": "‘10월이면 돈줄 마른다’ 자사주 매입에 버티는 코스피…벌써 ‘25조’나 썼다 [투자360] - 헤럴드경제",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaR0dKMFhvMXM5R1p6SmYzZWlHUDNIQlo5U3hjVzJMZ2hlcGlhdGZDeXg3eGRvLVRzZ1JZZjN6b2t0TlRiQXJEdk5kM1h1dmdud3d1ckR3?oc=5",
+    "outlet": "코스피 종합 키워드 예시",
+    "category": "국내 증시",
+    "published": "2026-09-11T12:40:00Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaR0dKMFhvMXM5R1p6SmYzZWlHUDNIQlo5U3hjVzJMZ2hlcGlhdGZDeXg3eGRvLVRzZ1JZZjN6b2t0TlRiQXJEdk5kM1h1dmdud3d1ckR3?oc=5\" target=\"_blank\">‘10월이면 돈줄 마른다’ 자사주 매입에 버티는 코스피…벌써 ‘25조’나 썼다 [투자360]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">헤럴드경제</font>"
+  },
+  {
+    "title": "코스피, 중동 악재에도 '7천피' 사수…'자사주 매입' 하단 지지(종합) - 매일경제 마켓",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzNTdqNGpCZ1F2WU5PaE1Dd1dpcFp5UHZ2azEwMlc4eGZSOHZZQl9yOVdNNy1tRUhLMVlGODl0TjdyQVZ2UzRQUUJIYVh1VXdxMUE?oc=5",
+    "outlet": "코스피 종합 키워드 예시",
+    "category": "국내 증시",
+    "published": "2026-09-10T07:15:21Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzNTdqNGpCZ1F2WU5PaE1Dd1dpcFp5UHZ2azEwMlc4eGZSOHZZQl9yOVdNNy1tRUhLMVlGODl0TjdyQVZ2UzRQUUJIYVh1VXdxMUE?oc=5\" target=\"_blank\">코스피, 중동 악재에도 '7천피' 사수…'자사주 매입' 하단 지지(종합)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">매일경제 마켓</font>"
+  },
+  {
+    "title": "[속보] 코스피 124.01p(1.76%) 내린 6909.91(마감) - 이투데이",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14WFhfRWlXTndRS3FwNzJqOUxuSnhpLU5OTmdfTEZoSS1tMDMwcVZIdkR0MkpCcllSYTdnODlXRk5abmQ1b0xLWXpCUlFSWnBMUGd2cw?oc=5",
+    "outlet": "코스피 종합 키워드 예시",
+    "category": "국내 증시",
+    "published": "2026-09-11T06:34:00Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE14WFhfRWlXTndRS3FwNzJqOUxuSnhpLU5OTmdfTEZoSS1tMDMwcVZIdkR0MkpCcllSYTdnODlXRk5abmQ1b0xLWXpCUlFSWnBMUGd2cw?oc=5\" target=\"_blank\">[속보] 코스피 124.01p(1.76%) 내린 6909.91(마감)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">이투데이</font>"
+  },
+  {
+    "title": "불붙은 중동에 긴축 가속 … 6500~7000 '박스피' 갇힌 코스피 - 매일경제 마켓",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBGQ3JmcUY1N0VrRTZ5UjY5dmpTWGVpUEFZaldqcTFMSHpBd1BkY3hKZEhobU05RUptMDlWRlQ5WXhGUnJCNEp1NUJvcGFvSWd2UWc?oc=5",
+    "outlet": "코스피 종합 키워드 예시",
+    "category": "국내 증시",
+    "published": "2026-09-11T08:38:01Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFBGQ3JmcUY1N0VrRTZ5UjY5dmpTWGVpUEFZaldqcTFMSHpBd1BkY3hKZEhobU05RUptMDlWRlQ5WXhGUnJCNEp1NUJvcGFvSWd2UWc?oc=5\" target=\"_blank\">불붙은 중동에 긴축 가속 … 6500~7000 '박스피' 갇힌 코스피</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">매일경제 마켓</font>"
+  },
+  {
+    "title": "코스피, 고유가·고금리에 하락…6900선 턱걸이 - 스트레이트뉴스",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA3bUlRcnN3TVFnZy1ZQXEycE5nUTdxMzBQYWRVVngtTDFJbW5EQzNHV05jX2FON25lSDhRVE1WckdjeWtYaWczOHRwYjhVcmtZWkplQndlLUI4QkdPMkhidGhpbVlKMGpUZ01rMXZnUEt4aHPSAXdBVV95cUxQZ1FnMFVsS000SHYwY09lRnFhUW9RZFMyWHlCMmJKNWhTYzZpV05TWDNnNDFRYjBQUkRUY2pMOUdDajdMQ3Z1MEFJZEdnT3RKb3laVlkzNXBWSmZxT3lnZDVtX0FoV01jNy0zNzVZUzBMS1NJdXM1SQ?oc=5",
+    "outlet": "코스피 종합 키워드 예시",
+    "category": "국내 증시",
+    "published": "2026-09-11T06:58:55Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTFA3bUlRcnN3TVFnZy1ZQXEycE5nUTdxMzBQYWRVVngtTDFJbW5EQzNHV05jX2FON25lSDhRVE1WckdjeWtYaWczOHRwYjhVcmtZWkplQndlLUI4QkdPMkhidGhpbVlKMGpUZ01rMXZnUEt4aHPSAXdBVV95cUxQZ1FnMFVsS000SHYwY09lRnFhUW9RZFMyWHlCMmJKNWhTYzZpV05TWDNnNDFRYjBQUkRUY2pMOUdDajdMQ3Z1MEFJZEdnT3RKb3laVlkzNXBWSmZxT3lnZDVtX0FoV01jNy0zNzVZUzBMS1NJdXM1SQ?oc=5\" target=\"_blank\">코스피, 고유가·고금리에 하락…6900선 턱걸이</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">스트레이트뉴스</font>"
+  },
+  {
+    "title": "Fed·BOJ '긴축 주간'…코스피 7000 재탈환 시험대 - 블루밍비트",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jeG0wTWlueTctRlVsOGtxV2dRZkR2ZG5mWlJFa3RPRF94bmhUQWkxZGJxUVpFa2Z6S242SGxQbnpvQUc3SkhuYmcwWFQ1VDRf?oc=5",
+    "outlet": "코스피 종합 키워드 예시",
+    "category": "국내 증시",
+    "published": "2026-09-12T02:22:28Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jeG0wTWlueTctRlVsOGtxV2dRZkR2ZG5mWlJFa3RPRF94bmhUQWkxZGJxUVpFa2Z6S242SGxQbnpvQUc3SkhuYmcwWFQ1VDRf?oc=5\" target=\"_blank\">Fed·BOJ '긴축 주간'…코스피 7000 재탈환 시험대</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">블루밍비트</font>"
+  },
+  {
+    "title": "코스피, 美 CPI 발표 앞두고 1%대 하락…6900선은 지켜 - 뉴시스",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vU3EyTDEtZFlwcXNkUzlIcmt0d3U1U3VTZlRaYlM3d1Joa0I5MHAycXVHcGNNVy00QWtpOUdjNjRnWXFNenlnUXJfNk1EVC1reDB2bXRvWUJKMnhPRjlvRNIBeEFVX3lxTE8yNXdYREFIZWZjWG5qTk5iVW9sNVRNNHFIem03Z0VINU1sbE5ua3VJM3dqSWpmR2V4ZDJMNlhqWVo5VVNtbXMyWUhfYl9rVTdQTmstVG85VDRzS1JVaHJQeGNNNHJFUEI3dF9sa2JxMV9JVkVoWm4zZQ?oc=5",
+    "outlet": "코스피 종합 키워드 예시",
+    "category": "국내 증시",
+    "published": "2026-09-11T07:21:47Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vU3EyTDEtZFlwcXNkUzlIcmt0d3U1U3VTZlRaYlM3d1Joa0I5MHAycXVHcGNNVy00QWtpOUdjNjRnWXFNenlnUXJfNk1EVC1reDB2bXRvWUJKMnhPRjlvRNIBeEFVX3lxTE8yNXdYREFIZWZjWG5qTk5iVW9sNVRNNHFIem03Z0VINU1sbE5ua3VJM3dqSWpmR2V4ZDJMNlhqWVo5VVNtbXMyWUhfYl9rVTdQTmstVG85VDRzS1JVaHJQeGNNNHJFUEI3dF9sa2JxMV9JVkVoWm4zZQ?oc=5\" target=\"_blank\">코스피, 美 CPI 발표 앞두고 1%대 하락…6900선은 지켜</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">뉴시스</font>"
+  },
+  {
+    "title": "박스권 증시에 '파킹형' ETF로 일주일간 1.5조 유입 - 매일경제 마켓",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9iXzRiZlFBNVlMR2ZsbGVaRHdVWlo2Vzh0aVo3enlfc3dvYWhSdDNrR0xNSXh5RmI0WVZaZGdqZVpIaUJpQjVCSUdyNjFWMi0zeWc?oc=5",
+    "outlet": "코스피 종합 키워드 예시",
+    "category": "국내 증시",
+    "published": "2026-09-11T23:00:05Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE9iXzRiZlFBNVlMR2ZsbGVaRHdVWlo2Vzh0aVo3enlfc3dvYWhSdDNrR0xNSXh5RmI0WVZaZGdqZVpIaUJpQjVCSUdyNjFWMi0zeWc?oc=5\" target=\"_blank\">박스권 증시에 '파킹형' ETF로 일주일간 1.5조 유입</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">매일경제 마켓</font>"
+  },
+  {
+    "title": "외인·개미 다 팔았는데 기타법인이…코스피 방파제 된 '주주환원' - 뉴시스",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rUzFmSlRrNGdhcnFZUWxKUnVadUVfbG1QdEJRd3QzR2NmcHMxZXJCZWtUdTY2ekMzWG9vb1diMjRmNWRBaENOTmFreXlQYmdCeEkyMHE4akx6WEh1TVhyNNIBeEFVX3lxTE5abXlzRXNDWHJqWkJrNWwzRWJoZHNiTkRTZXR5bmV2SE1CMlNORE9razh5T1ViWWxzMG96Tkh2TDBpVnNrN044VjlPR3VGZ0NNVWI4NWZUV3BWZTZCMnRKZkpCM0VRbjBTQkdZSmRRbmowbmc4U2RnSw?oc=5",
+    "outlet": "코스피 종합 키워드 예시",
+    "category": "국내 증시",
+    "published": "2026-09-01T07:00:00Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rUzFmSlRrNGdhcnFZUWxKUnVadUVfbG1QdEJRd3QzR2NmcHMxZXJCZWtUdTY2ekMzWG9vb1diMjRmNWRBaENOTmFreXlQYmdCeEkyMHE4akx6WEh1TVhyNNIBeEFVX3lxTE5abXlzRXNDWHJqWkJrNWwzRWJoZHNiTkRTZXR5bmV2SE1CMlNORE9razh5T1ViWWxzMG96Tkh2TDBpVnNrN044VjlPR3VGZ0NNVWI4NWZUV3BWZTZCMnRKZkpCM0VRbjBTQkdZSmRRbmowbmc4U2RnSw?oc=5\" target=\"_blank\">외인·개미 다 팔았는데 기타법인이…코스피 방파제 된 '주주환원'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">뉴시스</font>"
+  },
+  {
+    "title": "코스피 7000선 안착 실패…기타법인 8조원대 '사자' - 블로터",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXTnhhbm1CSHVzSjFfUVJtZkxCWDU4dTFFb1RjRjFhVzhKdTVQQjlhQmJjQlFVNlBxSkhZU3h2OEZlTGNPYndaWktOZEtTOEczaTZvN0RLbV9CVjh6V3JLdi1GWEhpaGNY0gFsQVVfeXFMTzlrRUdDVGc5QVdHaHM4ajc2QzZhUWNDNl9rajA5SFIteEd6SkplaUFCbXVMbjhuNHo3ZDcxWURBVk94eW9EbzFmV295bGt3VWY4dmJka2kyN253NDNSWDZBRU0zR1Fva2k4S3dG?oc=5",
+    "outlet": "코스피 종합 키워드 예시",
+    "category": "국내 증시",
+    "published": "2026-09-12T00:00:00Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXTnhhbm1CSHVzSjFfUVJtZkxCWDU4dTFFb1RjRjFhVzhKdTVQQjlhQmJjQlFVNlBxSkhZU3h2OEZlTGNPYndaWktOZEtTOEczaTZvN0RLbV9CVjh6V3JLdi1GWEhpaGNY0gFsQVVfeXFMTzlrRUdDVGc5QVdHaHM4ajc2QzZhUWNDNl9rajA5SFIteEd6SkplaUFCbXVMbjhuNHo3ZDcxWURBVk94eW9EbzFmV295bGt3VWY4dmJka2kyN253NDNSWDZBRU0zR1Fva2k4S3dG?oc=5\" target=\"_blank\">코스피 7000선 안착 실패…기타법인 8조원대 '사자'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">블로터</font>"
+  },
+  {
+    "title": "Boeing and engineers’ union reach tentative contract agreement",
+    "link": "https://www.investing.com/news/stock-market-news/boeing-and-engineers-union-reach-tentative-contract-agreement-4898569",
+    "outlet": "Investing.com · US Stock Market",
+    "category": "미국 증시",
+    "published": "2026-09-12T00:54:54Z",
+    "description": ""
+  },
+  {
+    "title": "Stocks Settle Lower as Surging Crude Prices Boost Fed Rate Hike Chances",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-settle-lower-surging-crude-203432721.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:34:32Z",
+    "description": ""
+  },
+  {
+    "title": "Pampa Energía (PAM) Weighs a 500-MW Data Center. Can It Justify Nearly $900M in Power Infrastructure?",
+    "link": "https://finance.yahoo.com/energy/articles/pampa-energ-pam-weighs-500-203623855.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:36:23Z",
+    "description": ""
+  },
+  {
+    "title": "PayPal keeping options open amid buyout rumors, CEO says",
+    "link": "https://finance.yahoo.com/markets/stocks/article/paypal-keeping-options-open-amid-buyout-rumors-ceo-says-203725063.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:37:25Z",
+    "description": ""
+  },
+  {
+    "title": "ExxonMobil Holdings Corporation (XOM): Can a $14B Budget Unlock Papua LNG?",
+    "link": "https://finance.yahoo.com/energy/articles/exxonmobil-holdings-corporation-xom-14b-203914029.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:39:14Z",
+    "description": ""
+  },
+  {
+    "title": "Drone Maker AeroVironment Soars With Analyst Targets After Earnings Beat",
+    "link": "https://www.investors.com/news/aerovironment-earnings-q1-2027-analyst-targets-drone-demand-avav-stock/?src=A00220&yptr=yahoo",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:41:58Z",
+    "description": ""
+  },
+  {
+    "title": "Deutsche Bank Settles €152M Ex-Banker Claim. Is its Wider Compensation Exposure Contained?",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-settles-152m-ex-204648404.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:46:48Z",
+    "description": ""
+  },
+  {
+    "title": "This Analyst Just Downgraded Uber Stock. Here's Why.",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/analyst-just-downgraded-uber-stock-204841975.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:48:41Z",
+    "description": ""
+  },
+  {
+    "title": "Steven Scheck, franchisee behind pioneering legal case, dies",
+    "link": "https://finance.yahoo.com/small-business/articles/steven-scheck-franchisee-behind-pioneering-203655148.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:36:55Z",
+    "description": ""
+  },
+  {
+    "title": "Trump administration proposes axing grace period for H-1B visa holders after job loss",
+    "link": "https://finance.yahoo.com/news/trump-administration-proposes-waiving-grace-152322715.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:50:17Z",
+    "description": ""
+  },
+  {
+    "title": "Conagra (CAG) Faces ISS Pay Opposition. Can Turnaround Incentives Preserve Accountability?",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/conagra-cag-faces-iss-pay-205055593.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:50:55Z",
+    "description": ""
+  },
+  {
+    "title": "Tsakos Energy Navigation Limited Q2 2026 Earnings Call Summary",
+    "link": "https://finance.yahoo.com/energy/articles/tsakos-energy-navigation-limited-q2-205611004.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:56:11Z",
+    "description": ""
+  },
+  {
+    "title": "NVDA Stock Alert: What to Know as Nvidia Faces DOJ Probe",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-alert-know-nvidia-202422218.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:24:22Z",
+    "description": ""
+  },
+  {
+    "title": "Plunging Retail and Travel Stocks Could Signal Trouble Ahead for the Economy",
+    "link": "https://www.barrons.com/articles/retail-consumer-stocks-tjx-carnival-economy-bedeaa95?siteid=yhoof2&yptr=yahoo",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:34:00Z",
+    "description": ""
+  },
+  {
+    "title": "Digital Realty Opens 6.4-MW Nairobi Data Center. Can Network Density Deliver Attractive Returns?",
+    "link": "https://finance.yahoo.com/technology/articles/digital-realty-opens-6-4-205810055.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:58:10Z",
+    "description": ""
+  },
+  {
+    "title": "Ahead of Kroger Earnings, Here's What Barchart Data Says Comes Next for KR Stock",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/ahead-kroger-earnings-heres-barchart-210028328.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T21:00:28Z",
+    "description": ""
+  },
+  {
+    "title": "ETF League Tables: $43M Exits Simplify ETFs",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/etf-league-tables-43m-exits-210004678.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T21:00:04Z",
+    "description": ""
+  },
+  {
+    "title": "Daily ETF Flows: GDX Registers Outflows",
+    "link": "https://finance.yahoo.com/markets/commodities/articles/daily-etf-flows-gdx-registers-210004511.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T21:00:04Z",
+    "description": ""
+  },
+  {
+    "title": "Wealthfront Stock Surges on Earnings Beat, $100 Billion-Asset Milestone",
+    "link": "https://www.barrons.com/advisor/articles/wealthfront-earnings-stock-price-15c1e1e8?siteid=yhoof2&yptr=yahoo",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:34:00Z",
+    "description": ""
+  },
+  {
+    "title": "Tamboran (TBN) Sells First Beetaloo Gas. Can Take-or-Pay Demand Support Scale?",
+    "link": "https://finance.yahoo.com/energy/articles/tamboran-tbn-sells-first-beetaloo-201936612.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:19:36Z",
+    "description": ""
+  },
+  {
+    "title": "The Surprising Pockmarks On Cooper's Earnings That Caused Its Stock To Dive",
+    "link": "https://www.investors.com/news/technology/cooper-companies-stock-fiscal-q3-2026-earnings/?src=A00220&yptr=yahoo",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:18:00Z",
+    "description": ""
+  },
+  {
+    "title": "Biohaven Plummets, A Boon For Rival Xenon, On A Surprise Seizure Setback",
+    "link": "https://www.investors.com/news/technology/biohaven-stock-focal-onset-seizures-rodent-roxicity/?src=A00220&yptr=yahoo",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:17:30Z",
+    "description": ""
+  },
+  {
+    "title": "People Inc. CEO on AI-hungry Google: 'They don't share anything with us'",
+    "link": "https://finance.yahoo.com/markets/article/people-inc-ceo-on-ai-hungry-google-they-dont-share-anything-with-us-210526796.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T21:05:26Z",
+    "description": ""
+  },
+  {
+    "title": "Not Amazon, Not Shopify. No Other Company Has Done What MercadoLibre Just Did",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/not-amazon-not-shopify-no-203501463.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:35:01Z",
+    "description": ""
+  },
+  {
+    "title": "Zhihu (ZH) Signed a Conditional RMB1.5 Billion AI Fund Deal. Can It Justify the Risk?",
+    "link": "https://finance.yahoo.com/technology/ai/articles/zhihu-zh-signed-conditional-rmb1-201309649.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:13:09Z",
+    "description": ""
+  },
+  {
+    "title": "What to Know as Wells Fargo Upgrades Synopsys Stock",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/know-wells-fargo-upgrades-synopsys-200932630.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:09:32Z",
+    "description": ""
+  },
+  {
+    "title": "Reformation Reports Double-Digit Income & Revenue Growth",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/reformation-reports-double-digit-income-200617199.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:06:17Z",
+    "description": ""
+  },
+  {
+    "title": "This advice from 9 real estate agents will change how you get a mortgage",
+    "link": "https://finance.yahoo.com/real-estate/articles/advice-9-real-estate-agents-200437765.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:04:37Z",
+    "description": ""
+  },
+  {
+    "title": "Stock market today: Dow, S&P 500, Nasdaq fall for fourth straight day as bond yields jump, oil stays above $100",
+    "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-10-dow-sp-500-nasdaq-oil-gains-100-083717303.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T08:37:17Z",
+    "description": ""
+  },
+  {
+    "title": "ZIM Integrated Shipping (ZIM): Can New Safeguards Preserve its $4.2B Sale?",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/zim-integrated-shipping-zim-safeguards-200217757.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:02:17Z",
+    "description": ""
+  },
+  {
+    "title": "Jefferies (JEF) Linked Fund Faces Nearly $500M in Reported Radiant Exposure. Is the Parent Protected?",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/jefferies-jef-linked-fund-faces-200004565.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:00:04Z",
+    "description": ""
+  },
+  {
+    "title": "Oracle Q1 FY2027 earnings beat as cloud infrastructure revenue doubles",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-q1-fy2027-earnings-beat-203648159.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:36:48Z",
+    "description": ""
+  },
+  {
+    "title": "How To Navigate Sideways Markets: Joe Fahmy Shares His Four Core Trading Rules",
+    "link": "https://www.investors.com/news/how-to-trade-sideways-markets-joe-fahmy-four-core-rules/?src=A00220&yptr=yahoo",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T19:59:50Z",
+    "description": ""
+  },
+  {
+    "title": "Nyxoah (NYXH) Begins BREATHE Study. Can Real-World Evidence Drive Genio Adoption?",
+    "link": "https://finance.yahoo.com/healthcare/articles/nyxoah-nyxh-begins-breathe-study-211832079.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T21:18:32Z",
+    "description": ""
+  },
+  {
+    "title": "Oracle, SpaceX, Cooper Cos., Macy’s, Apple, Navan, and More Stocks That Explain Today’s Market",
+    "link": "https://www.barrons.com/articles/stock-movers-76a48c30?siteid=yhoof2&yptr=yahoo",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:39:00Z",
+    "description": ""
+  },
+  {
+    "title": "Tyson Foods CEO-Elect Schomburger Buys $1 Million in Stock. What Is His Confidence Telling Investors?",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/tyson-foods-ceo-elect-schomburger-204101603.html",
+    "outlet": "Yahoo Finance",
+    "category": "미국 증시",
+    "published": "2026-09-10T20:41:01Z",
+    "description": ""
+  },
+  {
+    "title": "ECB 올해 두번째 금리 인상…유럽 국채금리 급등(종합2보) - 파이낸셜뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lVlNVTE9SV25XVTduMVVKdEMwQlBENzR0enNTeEN0Rzg3MmNMUVRmRXdsV19pNUxzU2RaYXBsbTJhSk96WU1Zcmt5Vm55NXk3b1Y1T1VGbFNyUQ?oc=5",
+    "outlet": "국채금리 키워드 예시",
+    "category": "매크로·공시",
+    "published": "2026-09-10T16:28:03Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lVlNVTE9SV25XVTduMVVKdEMwQlBENzR0enNTeEN0Rzg3MmNMUVRmRXdsV19pNUxzU2RaYXBsbTJhSk96WU1Zcmt5Vm55NXk3b1Y1T1VGbFNyUQ?oc=5\" target=\"_blank\">ECB 올해 두번째 금리 인상…유럽 국채금리 급등(종합2보)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">파이낸셜뉴스</font>"
+  },
+  {
+    "title": "[뉴욕채권] 단기물 급락 속 플랫…美 CPI에 다음주 금리 인상 '굳히기' - 연합인포맥스",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mdkIzY1FRQVpKN1ViTEZIOWJ6YjN4RHNEc0wzM1BFeEh4VkEtMk1oMTF2N08yTnM1MFVIdFJyY0prRm1jc1ZhNFh0bm5MbHpfZnZENnFBMERhbzBGY0pTU09HdXdZQ2FJanNIM3VBUjc?oc=5",
+    "outlet": "국채금리 키워드 예시",
+    "category": "매크로·공시",
+    "published": "2026-09-11T22:12:25Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9mdkIzY1FRQVpKN1ViTEZIOWJ6YjN4RHNEc0wzM1BFeEh4VkEtMk1oMTF2N08yTnM1MFVIdFJyY0prRm1jc1ZhNFh0bm5MbHpfZnZENnFBMERhbzBGY0pTU09HdXdZQ2FJanNIM3VBUjc?oc=5\" target=\"_blank\">[뉴욕채권] 단기물 급락 속 플랫…美 CPI에 다음주 금리 인상 '굳히기'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">연합인포맥스</font>"
+  },
+  {
+    "title": "[뉴욕 증시] 美 국채금리 안정화...뉴욕 3대 지수 반등 - 한양경제",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tbW9manozV1JicEo5N2JTVmUxUVNlV1I3MWdkQTFwMmRpTm1YR2hZaWJfclRnN09teklOT0dILWg3eWIyUW52c3cxSGd2OTBSZUQ1Z0ZVOENvOWo4aFU2dmdPd0ExUDFXMmNTaUZ5TlhGUQ?oc=5",
+    "outlet": "국채금리 키워드 예시",
+    "category": "매크로·공시",
+    "published": "2026-09-12T02:02:10Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE5tbW9manozV1JicEo5N2JTVmUxUVNlV1I3MWdkQTFwMmRpTm1YR2hZaWJfclRnN09teklOT0dILWg3eWIyUW52c3cxSGd2OTBSZUQ1Z0ZVOENvOWo4aFU2dmdPd0ExUDFXMmNTaUZ5TlhGUQ?oc=5\" target=\"_blank\">[뉴욕 증시] 美 국채금리 안정화...뉴욕 3대 지수 반등</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">한양경제</font>"
+  },
+  {
+    "title": "美 10년물 금리, 뜨거운 CPI에 5% 돌파…약 3년래 처음 - kbthink.com",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBFNWxKczJqZVkzLUQzVzB1cENISlByRVB0OTJqRGd5ZkJxemJKMERzMU9vSkt3MHk4UmxDN21OcFkwTW9qT1hXQU1vcGE2QjVEX2FnQUF3dW5HcHpMOGJzWXVBRE9NdGtmSG5lVHNJNjZZUQ?oc=5",
+    "outlet": "국채금리 키워드 예시",
+    "category": "매크로·공시",
+    "published": "2026-09-11T13:29:55Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFBFNWxKczJqZVkzLUQzVzB1cENISlByRVB0OTJqRGd5ZkJxemJKMERzMU9vSkt3MHk4UmxDN21OcFkwTW9qT1hXQU1vcGE2QjVEX2FnQUF3dW5HcHpMOGJzWXVBRE9NdGtmSG5lVHNJNjZZUQ?oc=5\" target=\"_blank\">美 10년물 금리, 뜨거운 CPI에 5% 돌파…약 3년래 처음</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">kbthink.com</font>"
+  },
+  {
+    "title": "\"10월 추가 금리인상 가능성 줄었지만…문제는 유가\" - 연합인포맥스",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Xa2tJNDQ0OEpZQnlKOWFvQ0ViR0FDbUxvZmJna0paNHBIdDFqRzVISi03TTYtcWhPMmh2RHhhczlIT2JxdmotTHlUVU5JSXBPLVN5Q3dLb3E1SUNlNS1hV2Q2R09NRnR0cFVieS1FaUw?oc=5",
+    "outlet": "국채금리 키워드 예시",
+    "category": "매크로·공시",
+    "published": "2026-09-12T00:15:01Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE5Xa2tJNDQ0OEpZQnlKOWFvQ0ViR0FDbUxvZmJna0paNHBIdDFqRzVISi03TTYtcWhPMmh2RHhhczlIT2JxdmotTHlUVU5JSXBPLVN5Q3dLb3E1SUNlNS1hV2Q2R09NRnR0cFVieS1FaUw?oc=5\" target=\"_blank\">\"10월 추가 금리인상 가능성 줄었지만…문제는 유가\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">연합인포맥스</font>"
+  },
+  {
+    "title": "美 국채금리·유가불안 돌파구는 어디에 - fetv.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqWVNVSUF5Zm94NFEtNUlLRElpTlh3anpWZl9YUllYOW5RcHVWTEFQYURoWmJRWjZJcTVzT1JJQlhwXzE1cTNPUDNxampkSC1KT3hQYVZfV1ZMVVdGQk56TXJULUdNNTJl?oc=5",
+    "outlet": "국채금리 키워드 예시",
+    "category": "매크로·공시",
+    "published": "2026-09-12T01:00:00Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqWVNVSUF5Zm94NFEtNUlLRElpTlh3anpWZl9YUllYOW5RcHVWTEFQYURoWmJRWjZJcTVzT1JJQlhwXzE1cTNPUDNxampkSC1KT3hQYVZfV1ZMVVdGQk56TXJULUdNNTJl?oc=5\" target=\"_blank\">美 국채금리·유가불안 돌파구는 어디에</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">fetv.co.kr</font>"
+  },
+  {
+    "title": "美 국채·유가發 충격…국고채 3년물 4% 돌파 [Pick코노미] - 서울경제",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PWTRrR1pBVExXVEozaUt3UUVhWnBabmhMQXIwS0pSX2hSckF3a0RjWlMxRkpmbEJRd2FPRVdtU0VFQ0VFVDhSZzlWY2lZWm9HTUHSAVNBVV95cUxNZ0dUeVBOUU1neUhyLTBJVXItbmNmTTRfbGpRN01vVFd5a3Nsc0IyS2t6WWNKbmlnNUpTNmI4SVloUmNfSXM0SW5fTkM3UTZRQm84cw?oc=5",
+    "outlet": "국채금리 키워드 예시",
+    "category": "매크로·공시",
+    "published": "2026-09-11T22:55:58Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PWTRrR1pBVExXVEozaUt3UUVhWnBabmhMQXIwS0pSX2hSckF3a0RjWlMxRkpmbEJRd2FPRVdtU0VFQ0VFVDhSZzlWY2lZWm9HTUHSAVNBVV95cUxNZ0dUeVBOUU1neUhyLTBJVXItbmNmTTRfbGpRN01vVFd5a3Nsc0IyS2t6WWNKbmlnNUpTNmI4SVloUmNfSXM0SW5fTkM3UTZRQm84cw?oc=5\" target=\"_blank\">美 국채·유가發 충격…국고채 3년물 4% 돌파 [Pick코노미]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">서울경제</font>"
+  },
+  {
+    "title": "원유 100달러·치솟는 국채금리…빨라지는 '9월 미 금리인상' - 뉴스토마토",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5jQktMTzJXd0pqbVJBZEt6QmViYWozN3Z2NXh4ZHlZcGpxaVhVYm1GVlhGOHVxYklEM29qMmlXbHF2bGNCemRBdHpiUHQ3SGJ5Nmd3UG5qZXMyVUZWRERLSg?oc=5",
+    "outlet": "국채금리 키워드 예시",
+    "category": "매크로·공시",
+    "published": "2026-09-11T06:42:23Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5jQktMTzJXd0pqbVJBZEt6QmViYWozN3Z2NXh4ZHlZcGpxaVhVYm1GVlhGOHVxYklEM29qMmlXbHF2bGNCemRBdHpiUHQ3SGJ5Nmd3UG5qZXMyVUZWRERLSg?oc=5\" target=\"_blank\">원유 100달러·치솟는 국채금리…빨라지는 '9월 미 금리인상'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">뉴스토마토</font>"
+  },
+  {
+    "title": "[글로벌증시] 뉴욕증시, 유가·美 국채금리 급등에 나흘째 하락 - 연합뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MUWp3RFZWWWZqRmRXWlNYbDQ2ODFXNGtObkU5Qlk3SzNtX3JvWU9nQ2VqeDNZSXJuWTVtekRpY0V2SVEtTFFBT0FIZVlGX3Ztc0V2dU9KenE3MEZQamlqZ9IBYEFVX3lxTE1MUWp3RFZWWWZqRmRXWlNYbDQ2ODFXNGtObkU5Qlk3SzNtX3JvWU9nQ2VqeDNZSXJuWTVtekRpY0V2SVEtTFFBT0FIZVlGX3Ztc0V2dU9KenE3MEZQamlqZw?oc=5",
+    "outlet": "국채금리 키워드 예시",
+    "category": "매크로·공시",
+    "published": "2026-09-10T21:53:56Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MUWp3RFZWWWZqRmRXWlNYbDQ2ODFXNGtObkU5Qlk3SzNtX3JvWU9nQ2VqeDNZSXJuWTVtekRpY0V2SVEtTFFBT0FIZVlGX3Ztc0V2dU9KenE3MEZQamlqZ9IBYEFVX3lxTE1MUWp3RFZWWWZqRmRXWlNYbDQ2ODFXNGtObkU5Qlk3SzNtX3JvWU9nQ2VqeDNZSXJuWTVtekRpY0V2SVEtTFFBT0FIZVlGX3Ztc0V2dU9KenE3MEZQamlqZw?oc=5\" target=\"_blank\">[글로벌증시] 뉴욕증시, 유가·美 국채금리 급등에 나흘째 하락</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">연합뉴스</font>"
+  },
+  {
+    "title": "불붙은 美국채 금리…트럼프 5000달러 공약이 기름 부었다 - 한국일보",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mTVdCbzdQdjRSOTl1TTZVWUpWQ29fOWh2RDZLODFrdlROVW9BV0IxaWNabW1sN0wyRFJPUzlWYk9BZWpTUTViaU1NUWQxNHBFRVQ2TE12dTJjRWotR2FGN2lsMHhnQ3VyaWZ1ME94b2k2QzTSAXNBVV95cUxPZk1XQm83UHY0Ujk5dU02VVlKVkNvXzlodkQ2Szgxa3ZUTlVvQVdCMWljWm1tbDdMMkRST1M5VmJPQWVqU1E1YmlNTVFkMTRwRUVUNkxNdnUyY0VqLUdhRjdpbDB4Z0N1cmlmdTBPeG9pNkM0?oc=5",
+    "outlet": "국채금리 키워드 예시",
+    "category": "매크로·공시",
+    "published": "2026-09-11T09:13:00Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE9mTVdCbzdQdjRSOTl1TTZVWUpWQ29fOWh2RDZLODFrdlROVW9BV0IxaWNabW1sN0wyRFJPUzlWYk9BZWpTUTViaU1NUWQxNHBFRVQ2TE12dTJjRWotR2FGN2lsMHhnQ3VyaWZ1ME94b2k2QzTSAXNBVV95cUxPZk1XQm83UHY0Ujk5dU02VVlKVkNvXzlodkQ2Szgxa3ZUTlVvQVdCMWljWm1tbDdMMkRST1M5VmJPQWVqU1E1YmlNTVFkMTRwRUVUNkxNdnUyY0VqLUdhRjdpbDB4Z0N1cmlmdTBPeG9pNkM0?oc=5\" target=\"_blank\">불붙은 美국채 금리…트럼프 5000달러 공약이 기름 부었다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">한국일보</font>"
+  },
+  {
+    "title": "\"소방수 없는 금융시장\"…美 바이백 실망·고유가에 국채금리 '흔들'[주末머니] - 아시아경제",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UZlpfR3JNTzUzSlpQblhHMDROd09oMzk5MkdBMExOMTd2eW9aRUJoWG16YWJGOXUxdEZ1WlItOGR6WmthdkxWWmwyM1BOZXdfYnlVY2tsV19LemNZZUx6Umpn?oc=5",
+    "outlet": "국채금리 키워드 예시",
+    "category": "매크로·공시",
+    "published": "2026-09-11T10:13:00Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UZlpfR3JNTzUzSlpQblhHMDROd09oMzk5MkdBMExOMTd2eW9aRUJoWG16YWJGOXUxdEZ1WlItOGR6WmthdkxWWmwyM1BOZXdfYnlVY2tsV19LemNZZUx6Umpn?oc=5\" target=\"_blank\">\"소방수 없는 금융시장\"…美 바이백 실망·고유가에 국채금리 '흔들'[주末머니]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">아시아경제</font>"
+  },
+  {
+    "title": "Rising Bond Yields Are Driving US Stocks Toward Correction Territory: Markets Pulse - finance.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ1dHemRKSmFIZzBtUldkOFozVDRYRW9zQjVqUkZ0Y0JkcVJzdzRTMTZLbEh5RkFIYnh5ZVo1YUNTWVVGbnJ5Z0N6UUNrc2k4YXRqSWNzeDhqVUJGWHBOVFhQMmFJbUZQbWFuUUdVNDRIM3RNM2l4YlRiZTlIYlQ3N2xZbGF5S1d1OHFLd3k3REN2MkIzYnNmZVRR?oc=5",
+    "outlet": "Treasury Yields 키워드 예시",
+    "category": "매크로·공시",
+    "published": "2026-09-11T09:31:00Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ1dHemRKSmFIZzBtUldkOFozVDRYRW9zQjVqUkZ0Y0JkcVJzdzRTMTZLbEh5RkFIYnh5ZVo1YUNTWVVGbnJ5Z0N6UUNrc2k4YXRqSWNzeDhqVUJGWHBOVFhQMmFJbUZQbWFuUUdVNDRIM3RNM2l4YlRiZTlIYlQ3N2xZbGF5S1d1OHFLd3k3REN2MkIzYnNmZVRR?oc=5\" target=\"_blank\">Rising Bond Yields Are Driving US Stocks Toward Correction Territory: Markets Pulse</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.yahoo.com</font>"
+  },
+  {
+    "title": "\"10년 안에 인류 멸종 가능\" AI는 왜 제동없는 전차가 됐나[김인엽의 AI 프런티어]",
+    "link": "https://www.hankyung.com/article/202609119432i",
+    "outlet": "한국경제 · IT·과학",
+    "category": "반도체·기술",
+    "published": "2026-09-12T01:00:03Z",
+    "description": ""
+  },
+  {
+    "title": "윤재웅 대구대 총장, 삼성전자 협력사 찾아 ‘인공지능·반도체 인재 취업 활성화’ 맞손 - 세계일보",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81QkhkOUpHLTJNRmd4dGRYTjFQbUVLcTg1Y0dwRFg5ODNiUXhVN0FfRE5BcEtPMEp1bFJVLXloUkkzS3lRcEYxeTl1R0ZxMExhSXNuUUJUOFLSAVRBVV95cUxNc1FoNTg1MG16aEhVZzRxdXVrOE4wQVc2NXhtb3U1Ykctd0Z0ZXJpV1hpdHFveVVlZUlsUEtxcGlWUlhyd2hQMnpHWW80Q05maGRpWE8?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-11T23:54:22Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE81QkhkOUpHLTJNRmd4dGRYTjFQbUVLcTg1Y0dwRFg5ODNiUXhVN0FfRE5BcEtPMEp1bFJVLXloUkkzS3lRcEYxeTl1R0ZxMExhSXNuUUJUOFLSAVRBVV95cUxNc1FoNTg1MG16aEhVZzRxdXVrOE4wQVc2NXhtb3U1Ykctd0Z0ZXJpV1hpdHFveVVlZUlsUEtxcGlWUlhyd2hQMnpHWW80Q05maGRpWE8?oc=5\" target=\"_blank\">윤재웅 대구대 총장, 삼성전자 협력사 찾아 ‘인공지능·반도체 인재 취업 활성화’ 맞손</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">세계일보</font>"
+  },
+  {
+    "title": "9월 초 수출도 고공행진…반도체 1년 새 270% 급증(종합) - 연합뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81dWJ4S2JBa0VNTUoxaDQxSmJfa0pMYnVFVHU0dEYtRXNYSjl1YnlVWjJWSzEtRXFYWF9KR3hEWUZZTlY3TWptQkZFa0lhS0gwR0V5ZGtOWjJobmvSAWBBVV95cUxOWXVyVDFjQk1NSm1MLWpRb3BnZkJWd0N6b0d0Y3J4QTJvdmxRTVJWbzM5ZUZxeUpuVFBPSzZDUEtMYUtNMFJORE9remFWMF9xTXRZN3NOS0M2bEZuUlR3ZWg?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-11T00:20:55Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE81dWJ4S2JBa0VNTUoxaDQxSmJfa0pMYnVFVHU0dEYtRXNYSjl1YnlVWjJWSzEtRXFYWF9KR3hEWUZZTlY3TWptQkZFa0lhS0gwR0V5ZGtOWjJobmvSAWBBVV95cUxOWXVyVDFjQk1NSm1MLWpRb3BnZkJWd0N6b0d0Y3J4QTJvdmxRTVJWbzM5ZUZxeUpuVFBPSzZDUEtMYUtNMFJORE9remFWMF9xTXRZN3NOS0M2bEZuUlR3ZWg?oc=5\" target=\"_blank\">9월 초 수출도 고공행진…반도체 1년 새 270% 급증(종합)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">연합뉴스</font>"
+  },
+  {
+    "title": "경기 제조업 생산 감소폭 커져…반도체 수출은 고공행진 - 기호일보",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fWTBQLVhGWTkxZDlzNEhPODVmU29NZ09tYlU2dTVsSV9ydmQ0eXBENXhEY2c5Q1lvb1pyZmhsdTZjZkhCa1YwVDI5T1dyemlDQXZYcGF4cERsQlowOWNPU0NBdzZ6UklRNDctSnRNMA?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-12T02:29:23Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1fWTBQLVhGWTkxZDlzNEhPODVmU29NZ09tYlU2dTVsSV9ydmQ0eXBENXhEY2c5Q1lvb1pyZmhsdTZjZkhCa1YwVDI5T1dyemlDQXZYcGF4cERsQlowOWNPU0NBdzZ6UklRNDctSnRNMA?oc=5\" target=\"_blank\">경기 제조업 생산 감소폭 커져…반도체 수출은 고공행진</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">기호일보</font>"
+  },
+  {
+    "title": "원자 하나에 깨진 2나노, 반도체가 쌓아온 제조 공식 뒤흔들다 - 글로벌이코노믹",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNall1SzdsZWVfalpXaG1Sa3Jaa0VvUW1wMkVadnZ6VjR1RnpsUkdsVVByZjg1cV9DLV9IcjFwTE9jbkdsTloxLTlxeEE4dndkV3JCelNrc2pyVEdVZWF2T09FUVp0SVg4cElkUjkxelVSeHdRMnNHellzOHVvNEdVbS01bTBISVdU?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-12T02:00:13Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNall1SzdsZWVfalpXaG1Sa3Jaa0VvUW1wMkVadnZ6VjR1RnpsUkdsVVByZjg1cV9DLV9IcjFwTE9jbkdsTloxLTlxeEE4dndkV3JCelNrc2pyVEdVZWF2T09FUVp0SVg4cElkUjkxelVSeHdRMnNHellzOHVvNEdVbS01bTBISVdU?oc=5\" target=\"_blank\">원자 하나에 깨진 2나노, 반도체가 쌓아온 제조 공식 뒤흔들다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">글로벌이코노믹</font>"
+  },
+  {
+    "title": "반도체·AI 커질수록 '물'이 중요해진다…물산업 무게중심 이동 - 녹색경제신문",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJeXBCdjR3clhKWERyaXNOalRPOGpYb0I4dThoV3l5YnRvdFdhSEFybm53UWU5MVpxREhJU3J6SmxySDRhalI1UUplcjIxVVkxcVJTQlhJQ0liMU1IUjc0V1VScTFSNmFm?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-12T02:06:30Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJeXBCdjR3clhKWERyaXNOalRPOGpYb0I4dThoV3l5YnRvdFdhSEFybm53UWU5MVpxREhJU3J6SmxySDRhalI1UUplcjIxVVkxcVJTQlhJQ0liMU1IUjc0V1VScTFSNmFm?oc=5\" target=\"_blank\">반도체·AI 커질수록 '물'이 중요해진다…물산업 무게중심 이동</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">녹색경제신문</font>"
+  },
+  {
+    "title": "반도체 ETF에도 급이란 게 있습니다…HBM 넘어 613% 오른 낸드株 - 매일경제",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XVWtXbnJrVTBZcWtzRkpWT3VINXBTWnRiQmtRd0RGQWMxemhTLWtWQXIzVVlJZmRrSVJOd2gxRE9Za0ktS0RGajJBdXJ6RWlXWWc?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-11T21:14:00Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XVWtXbnJrVTBZcWtzRkpWT3VINXBTWnRiQmtRd0RGQWMxemhTLWtWQXIzVVlJZmRrSVJOd2gxRE9Za0ktS0RGajJBdXJ6RWlXWWc?oc=5\" target=\"_blank\">반도체 ETF에도 급이란 게 있습니다…HBM 넘어 613% 오른 낸드株</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">매일경제</font>"
+  },
+  {
+    "title": "[2027 수시] 논술로 몰린 N수생, 반도체는 역대 최고…전형·대학별 양극화 뚜렷 - 아주경제",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nUWdQQ1kyZzJSdFFWcU1idmIyZ3RWNlBwekhOSWxEMllmSWtkY1htUThmMDNpcXNqZ2hQeEJDcTZrdUdrdXVCVE9NZkhnbnU4WkozZEN6d1RCd9IBWEFVX3lxTE1PMFlYUHBwTmZYTHp1RDdEREwwLUhUOWJmbzZ3WVNPUlcyUnlNUDBGbDBmVWktVkUzaEo5azUtX083MFhtcHZzUjlBSGQtX1g1UEp3OXF1cy0?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-12T01:30:43Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nUWdQQ1kyZzJSdFFWcU1idmIyZ3RWNlBwekhOSWxEMllmSWtkY1htUThmMDNpcXNqZ2hQeEJDcTZrdUdrdXVCVE9NZkhnbnU4WkozZEN6d1RCd9IBWEFVX3lxTE1PMFlYUHBwTmZYTHp1RDdEREwwLUhUOWJmbzZ3WVNPUlcyUnlNUDBGbDBmVWktVkUzaEo5azUtX083MFhtcHZzUjlBSGQtX1g1UEp3OXF1cy0?oc=5\" target=\"_blank\">[2027 수시] 논술로 몰린 N수생, 반도체는 역대 최고…전형·대학별 양극화 뚜렷</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">아주경제</font>"
+  },
+  {
+    "title": "[초격차 기업가] ④ 이건희 국수공장의 하얀 고무신 소년, 반도체에 미래를 걸다 - 여성경제신문",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xT3ItZmRLTlNmQ1YzQTlodTFvdlh2SnktUnZTUXh2MmhzbzZoQUc1VHZ5dFhrVUE2b19aa3hlaDlIOWQ1akNBWDlIMkx1WkhFVFo3OWZjaWJzQmN0ZFRjNmxSVUY2cmxQZUFVUXZuVWVsb0U?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-12T00:00:00Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE8xT3ItZmRLTlNmQ1YzQTlodTFvdlh2SnktUnZTUXh2MmhzbzZoQUc1VHZ5dFhrVUE2b19aa3hlaDlIOWQ1akNBWDlIMkx1WkhFVFo3OWZjaWJzQmN0ZFRjNmxSVUY2cmxQZUFVUXZuVWVsb0U?oc=5\" target=\"_blank\">[초격차 기업가] ④ 이건희 국수공장의 하얀 고무신 소년, 반도체에 미래를 걸다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">여성경제신문</font>"
+  },
+  {
+    "title": "용인특례시, 제6기 반도체 AI 최고위 과정 입학식 - 동방일보",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5uQ1hZei1QYjV3elF1MWZKZ1N1RTRzUjlGbTNTX3lKd0kzQ2hmWXdPWVllcWxwVU1VN2ZWU3VkSVZrMW1GRjM0OE5CRU5Hc2Z3dlZrdDVGdDRrbkt4QVN3ODRRc1JmS3ZhNGZkSElodUJqYm8?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-12T00:15:15Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5uQ1hZei1QYjV3elF1MWZKZ1N1RTRzUjlGbTNTX3lKd0kzQ2hmWXdPWVllcWxwVU1VN2ZWU3VkSVZrMW1GRjM0OE5CRU5Hc2Z3dlZrdDVGdDRrbkt4QVN3ODRRc1JmS3ZhNGZkSElodUJqYm8?oc=5\" target=\"_blank\">용인특례시, 제6기 반도체 AI 최고위 과정 입학식</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">동방일보</font>"
+  },
+  {
+    "title": "수억 달러 클린룸 대신 우주로… 11분 비행이 바꾼 팹의 미래 - 글로벌이코노믹",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOEFHbkM1VkxQOVFpbms5WVV6UEptQU8wTjhETzVBS2hpOHJGOTU4ZjdsazdGNHRVRnNNYVhVaUxrNVNtbnZoVFNiMEl5M01BcmJRRXVFeUtzQmFQa29XZ1BxblEzb1ZkMjlNUGxUOFNuQ19hZGNrWjc3NElEcmFJUjZaZ0wtS1o3?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-12T01:48:00Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOEFHbkM1VkxQOVFpbms5WVV6UEptQU8wTjhETzVBS2hpOHJGOTU4ZjdsazdGNHRVRnNNYVhVaUxrNVNtbnZoVFNiMEl5M01BcmJRRXVFeUtzQmFQa29XZ1BxblEzb1ZkMjlNUGxUOFNuQ19hZGNrWjc3NElEcmFJUjZaZ0wtS1o3?oc=5\" target=\"_blank\">수억 달러 클린룸 대신 우주로… 11분 비행이 바꾼 팹의 미래</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">글로벌이코노믹</font>"
+  },
+  {
+    "title": "웨이퍼부터 HBM까지 '공급 절벽'…AI 폭풍에 韓 반도체 패권 굳힌다 - 파이낸셜포스트",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11UUFSalhnYzlRUzZtQ1EwTDhfZHFTYWVaWERrSlhaRm1lQk0xVFFUWFJiUXBuVXNza3pWMmtSQVZhbm43VldiOXV2N05rWlpVVHFVVFc1TzlpX3VHQVQ1dnp5aGJJbzh3UWg4MDhtbV83T2lS?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-12T00:00:00Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE11UUFSalhnYzlRUzZtQ1EwTDhfZHFTYWVaWERrSlhaRm1lQk0xVFFUWFJiUXBuVXNza3pWMmtSQVZhbm43VldiOXV2N05rWlpVVHFVVFc1TzlpX3VHQVQ1dnp5aGJJbzh3UWg4MDhtbV83T2lS?oc=5\" target=\"_blank\">웨이퍼부터 HBM까지 '공급 절벽'…AI 폭풍에 韓 반도체 패권 굳힌다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">파이낸셜포스트</font>"
+  },
+  {
+    "title": "“반도체 계약학과 28대 1” 5992명 몰린 취업 보장 전쟁 - 서울경제",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aOTF6cnlfenBBN2tVTGZKTFU5NkpsSDcwY2xLZkl6NjgtOHIzM0ZrcUhNdlRscklMeC1lQ0gwWkFtakY3UDNyQ2tmeDRwenFDcEHSAVNBVV95cUxNUmFJQlZwM1N5LUFwWU1uZ3REVGpGTVVWU1h5VlBIWjJrZzFKSWlSdWwyNnhuUzVGNWFOZm02N3RDTGdsYWd6cFZ5WnZMUk9sQ01qVQ?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-12T01:00:00Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aOTF6cnlfenBBN2tVTGZKTFU5NkpsSDcwY2xLZkl6NjgtOHIzM0ZrcUhNdlRscklMeC1lQ0gwWkFtakY3UDNyQ2tmeDRwenFDcEHSAVNBVV95cUxNUmFJQlZwM1N5LUFwWU1uZ3REVGpGTVVWU1h5VlBIWjJrZzFKSWlSdWwyNnhuUzVGNWFOZm02N3RDTGdsYWd6cFZ5WnZMUk9sQ01qVQ?oc=5\" target=\"_blank\">“반도체 계약학과 28대 1” 5992명 몰린 취업 보장 전쟁</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">서울경제</font>"
+  },
+  {
+    "title": "뉴욕증시, 5일 만에 숨통…엔비디아 등 반도체는 약세 - dt.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5PcmhQTTItbkgyVm9faS1iaHUwTGFjVWMwZlF3YzBRZFFFaFVqM2l2SWpSMGxWVXFhbWNJNm9CSFdqcElJUVo4dnp1YU1Cdw?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-11T21:35:56Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE5PcmhQTTItbkgyVm9faS1iaHUwTGFjVWMwZlF3YzBRZFFFaFVqM2l2SWpSMGxWVXFhbWNJNm9CSFdqcElJUVo4dnp1YU1Cdw?oc=5\" target=\"_blank\">뉴욕증시, 5일 만에 숨통…엔비디아 등 반도체는 약세</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">dt.co.kr</font>"
+  },
+  {
+    "title": "신용한 충북지사, 민주당 지도부에 충북 미래 승부수...반도체가 오늘이면 바이오는 미래 - 아주경제",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pMnV5MUY0aElZZzRiRFYwSzBtWnZJbUJHdzRKeEhwMXQ3d2E1OVhxVGZXSG9XWi1FZjVkd0EwclJLRGNPVWZtdHA3SEpTalA5aG9tNXRtWnBOZ9IBWEFVX3lxTFBCR3FfVklTREhVRWowT3hnazRHcnlTandCS3g0Yk1LR05uTnZDVnRxWDI5Vjl3bmc5OWVMMGI0OTBJUnFONnFydXlFS0l2Vkc5dEhFOUxnYWE?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-11T20:01:00Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pMnV5MUY0aElZZzRiRFYwSzBtWnZJbUJHdzRKeEhwMXQ3d2E1OVhxVGZXSG9XWi1FZjVkd0EwclJLRGNPVWZtdHA3SEpTalA5aG9tNXRtWnBOZ9IBWEFVX3lxTFBCR3FfVklTREhVRWowT3hnazRHcnlTandCS3g0Yk1LR05uTnZDVnRxWDI5Vjl3bmc5OWVMMGI0OTBJUnFONnFydXlFS0l2Vkc5dEhFOUxnYWE?oc=5\" target=\"_blank\">신용한 충북지사, 민주당 지도부에 충북 미래 승부수...반도체가 오늘이면 바이오는 미래</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">아주경제</font>"
+  },
+  {
+    "title": "1~10일 수출 350억 달러 ‘역대 최대’…반도체 165억 달러 ‘신기록’ - 더퍼블릭",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrbi1WYXZVbUVwU05MM0JKUFVrSF9saEV4N0JXZjQ0S0k3OHB6WlA0NVJfTHBMcWZMVEV2WXdGVjFKcnl1anM3N1lSZkdXblRJcnNoel9YcGJ1ZmloVC1mR2xlQ09GQk5WZDhV0gFvQVVfeXFMT0NlNjZud0h4TjJlZnlESTdSV3pCZVlMbmFPRFhWcFlOeW1mTkllWkR4LWpoSFVmSXdxaTNFTzk2LTdyY201eE5PY2todDhlTXJiZ3ZLT3FtQzdzeEFrNUJ4aHNEY2gyeEJ6TFZkYk1Z?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-12T01:37:43Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTFBrbi1WYXZVbUVwU05MM0JKUFVrSF9saEV4N0JXZjQ0S0k3OHB6WlA0NVJfTHBMcWZMVEV2WXdGVjFKcnl1anM3N1lSZkdXblRJcnNoel9YcGJ1ZmloVC1mR2xlQ09GQk5WZDhV0gFvQVVfeXFMT0NlNjZud0h4TjJlZnlESTdSV3pCZVlMbmFPRFhWcFlOeW1mTkllWkR4LWpoSFVmSXdxaTNFTzk2LTdyY201eE5PY2todDhlTXJiZ3ZLT3FtQzdzeEFrNUJ4aHNEY2gyeEJ6TFZkYk1Z?oc=5\" target=\"_blank\">1~10일 수출 350억 달러 ‘역대 최대’…반도체 165억 달러 ‘신기록’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">더퍼블릭</font>"
+  },
+  {
+    "title": "엔비디아가 키운 반도체 패키징 시장…피에스케이홀딩스 ‘거침없는 실적’ - 핀포인트뉴스",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwM2VqMVE4bkRJMV9vUm5ISHk5N2tMNmhBSnpKcTE4b3NabU0tUkpITm0zWmE4XzJBMlkxUmxZQXJaTWFrTkt5YzkxSlpSLW1LbjJwbW9LQ2lwc1NrVWJLNzB1aG1PWDBzVEFZc1o1UWRDZ1nSAXdBVV95cUxPcTlsdC1FNF92Q1pzbmtTbkQwX3NMZVlua3AtVGxNaHlnQ1pEeEtvWDlQRk1EejU4XzFKZkdnZHJzZVpaUjFKTXdERXhxeW1WNDlBZmI5MEI3eVVpcS14LWZvZEhDbmhJWVNSaS1rNlFzcjd2YmtVZw?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-12T02:08:53Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTFBwM2VqMVE4bkRJMV9vUm5ISHk5N2tMNmhBSnpKcTE4b3NabU0tUkpITm0zWmE4XzJBMlkxUmxZQXJaTWFrTkt5YzkxSlpSLW1LbjJwbW9LQ2lwc1NrVWJLNzB1aG1PWDBzVEFZc1o1UWRDZ1nSAXdBVV95cUxPcTlsdC1FNF92Q1pzbmtTbkQwX3NMZVlua3AtVGxNaHlnQ1pEeEtvWDlQRk1EejU4XzFKZkdnZHJzZVpaUjFKTXdERXhxeW1WNDlBZmI5MEI3eVVpcS14LWZvZEhDbmhJWVNSaS1rNlFzcjd2YmtVZw?oc=5\" target=\"_blank\">엔비디아가 키운 반도체 패키징 시장…피에스케이홀딩스 ‘거침없는 실적’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">핀포인트뉴스</font>"
+  },
+  {
+    "title": "반도체 초순수 제조 기술의 '산업기술' 인정 여부와 죄형법정주의 - 대법원 2025도15967 판결을 중심으로 - 법률신문",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBaa3NocUFYZTdRRVZHaENLX1pTcWppQml1U0pKNWlnWFdoZDNKSHJqdUs4QTNfLWNqcVMzN2lROUZuX0RNOWpWMWlXTld2eXlzTVVVaGdXZ2pWbFBBV1VQekJsMWxWd2NLcWdmeEl6VEVsZ9IBckFVX3lxTFBaa3NocUFYZTdRRVZHaENLX1pTcWppQml1U0pKNWlnWFdoZDNKSHJqdUs4QTNfLWNqcVMzN2lROUZuX0RNOWpWMWlXTld2eXlzTVVVaGdXZ2pWbFBBV1VQekJsMWxWd2NLcWdmeEl6VEVsZw?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-10T05:46:20Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFBaa3NocUFYZTdRRVZHaENLX1pTcWppQml1U0pKNWlnWFdoZDNKSHJqdUs4QTNfLWNqcVMzN2lROUZuX0RNOWpWMWlXTld2eXlzTVVVaGdXZ2pWbFBBV1VQekJsMWxWd2NLcWdmeEl6VEVsZ9IBckFVX3lxTFBaa3NocUFYZTdRRVZHaENLX1pTcWppQml1U0pKNWlnWFdoZDNKSHJqdUs4QTNfLWNqcVMzN2lROUZuX0RNOWpWMWlXTld2eXlzTVVVaGdXZ2pWbFBBV1VQekJsMWxWd2NLcWdmeEl6VEVsZw?oc=5\" target=\"_blank\">반도체 초순수 제조 기술의 '산업기술' 인정 여부와 죄형법정주의 - 대법원 2025도15967 판결을 중심으로</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">법률신문</font>"
+  },
+  {
+    "title": "[2027 수시 마감] 서울 11개 대학 논술 쏠림 속 '반도체 웃고, 의대 울었다' - gukjenews.com",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vNDVRTVFhXzZCRTdrYTdXUHQtOEJFbXU1YU43ZDd6bm5JSEJzXzNianEtRElZR2tRVHJpbVdvNVlwemF0b1A3OGk1R2ptNVpocGRMYjA5VTloVXVGUWxnQU9EdlVqRGxMZE14YktB?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-12T00:27:42Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE5vNDVRTVFhXzZCRTdrYTdXUHQtOEJFbXU1YU43ZDd6bm5JSEJzXzNianEtRElZR2tRVHJpbVdvNVlwemF0b1A3OGk1R2ptNVpocGRMYjA5VTloVXVGUWxnQU9EdlVqRGxMZE14YktB?oc=5\" target=\"_blank\">[2027 수시 마감] 서울 11개 대학 논술 쏠림 속 '반도체 웃고, 의대 울었다'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gukjenews.com</font>"
+  },
+  {
+    "title": "반도체 공장 병목을 뚫는다…세미티에스, 숨겨진 수혜주로 뜨나 - 핀포인트뉴스",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfcmRXal9taG5rUjNLR3lqSnhxTXNpa0xsVjhFYTV1NVJfNkJ5ckE4bExnWlBSY0lteGNtbk45NjBVbWdzYmpWTmRTUHNJcmNQOFktc04wamtXU2lTR0dLdlExWjVUNFBIVzQ0dUxKQ0JkcW_SAXdBVV95cUxPN0pYdjRtVE8wMWw4a0ptYllYaHhvOTVpbnEtRjdRam93ZUVjcHc5Mzl3QVBKYmlUM2RXajlaU1daQUpPMzdyMVRKN2toQVpKejlsRjZKN25MQmdsaTYwak0wZTNUZy1nYWxLUjJVSURTQWoteTVfcw?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-12T01:55:23Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTFBfcmRXal9taG5rUjNLR3lqSnhxTXNpa0xsVjhFYTV1NVJfNkJ5ckE4bExnWlBSY0lteGNtbk45NjBVbWdzYmpWTmRTUHNJcmNQOFktc04wamtXU2lTR0dLdlExWjVUNFBIVzQ0dUxKQ0JkcW_SAXdBVV95cUxPN0pYdjRtVE8wMWw4a0ptYllYaHhvOTVpbnEtRjdRam93ZUVjcHc5Mzl3QVBKYmlUM2RXajlaU1daQUpPMzdyMVRKN2toQVpKejlsRjZKN25MQmdsaTYwak0wZTNUZy1nYWxLUjJVSURTQWoteTVfcw?oc=5\" target=\"_blank\">반도체 공장 병목을 뚫는다…세미티에스, 숨겨진 수혜주로 뜨나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">핀포인트뉴스</font>"
+  },
+  {
+    "title": "리더경제 【속보·수출 긴급진단 1부】 반도체 수출 2,812억 달러 ‘역대 최대’…한국 수출 40% 책임졌다 - youthassembly.kr",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PX2hYaDRzbC1aenZ1ZTF6NGNZU3NqVHBIblhHd3hxdk1Qc2JmcjRMU3NXanRiUTN4bHB5RzBhLXlVWXViUXZldDdqczZMUGV0VGc?oc=5",
+    "outlet": "반도체 키워드 예시",
+    "category": "반도체·기술",
+    "published": "2026-09-12T01:08:26Z",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PX2hYaDRzbC1aenZ1ZTF6NGNZU3NqVHBIblhHd3hxdk1Qc2JmcjRMU3NXanRiUTN4bHB5RzBhLXlVWXViUXZldDdqczZMUGV0VGc?oc=5\" target=\"_blank\">리더경제 【속보·수출 긴급진단 1부】 반도체 수출 2,812억 달러 ‘역대 최대’…한국 수출 40% 책임졌다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">youthassembly.kr</font>"
+  },
+  {
+    "title": "트럼프 '기름값 비상' 국방물자생산법 동원해 정유확대 검토",
+    "link": "https://www.yna.co.kr/view/AKR20260912023600009",
+    "outlet": "연합뉴스 · 국제",
+    "category": "전쟁·지정학",
+    "published": "2026-09-12T02:33:06Z",
+    "description": "(서울=연합뉴스) 김승욱 기자 = 도널드 트럼프 행정부가 이란전 여파로 기름값 폭등에 대응하기 위해 국방물자생산법(DPA)을 발동해 미국 내 정..."
+  },
+  {
+    "title": "\"북러, 2023년부터 파병 협상 시작…북한군 사망자 2천여명\"",
+    "link": "https://www.yna.co.kr/view/AKR20260912022100073",
+    "outlet": "연합뉴스 · 국제",
+    "category": "전쟁·지정학",
+    "published": "2026-09-12T01:59:18Z",
+    "description": "(도쿄=연합뉴스) 조성미 특파원 = 북한과 러시아가 &apos;포괄적 전략적 동반자 관계 조약&apos;을 체결하기 약 1년 전부터 이미 우크라이나와의 전쟁에 북..."
+  },
+  {
+    "title": "다저스 오타니, 오른쪽 이두근 염증으로 15일짜리 부상자명단",
+    "link": "https://www.yna.co.kr/view/AKR20260912022000007",
+    "outlet": "연합뉴스 · 국제",
+    "category": "전쟁·지정학",
+    "published": "2026-09-12T01:49:12Z",
+    "description": "(서울=연합뉴스) 김동한 기자 = 미국프로야구 메이저리그(MLB) 로스앤젤레스 다저스가 예고한 대로 오타니 쇼헤이(32)를 15일짜리 부상자 명..."
+  },
+  {
+    "title": "네팔 터널서 9일 만에 구조된 기계반장 \"흙탕물 마시며 버텨\"",
+    "link": "https://www.yna.co.kr/view/AKR20260912021400104",
+    "outlet": "연합뉴스 · 국제",
+    "category": "전쟁·지정학",
+    "published": "2026-09-12T01:45:42Z",
+    "description": "(자카르타=연합뉴스) 손현규 특파원 = &quot;눈으로 볼 수 있는 게 아무것도 없었습니다. 대부분 시간 동안 눈을 감고 있었어요. 실수로 미끄러지거나..."
+  },
+  {
+    "title": "日자위대, 민간인 신상 몰래 수집…\"사상·성적 취향까지\"",
+    "link": "https://www.yna.co.kr/view/AKR20260912020900073",
+    "outlet": "연합뉴스 · 국제",
+    "category": "전쟁·지정학",
+    "published": "2026-09-12T01:07:38Z",
+    "description": "(도쿄=연합뉴스) 조성미 특파원 = 일본 육상 자위대가 &apos;현지 정보대&apos;라는 조직을 만들어 비정부기구(NGO) 관계자 등의 개인 신상을 몰래 수집..."
+  },
+  {
+    "title": "푸틴 \"유럽 가스값 1천㎥당 1천500달러 넘어갈 수도\" 경고",
+    "link": "https://www.yna.co.kr/view/AKR20260912015600009",
+    "outlet": "연합뉴스 · 국제",
+    "category": "전쟁·지정학",
+    "published": "2026-09-12T00:25:52Z",
+    "description": "(서울=연합뉴스) 곽민서 기자 = 블라디미르 푸틴 러시아 대통령은 11일(현지시간) 겨울철을 앞둔 유럽 가스 가격이 더욱 치솟을 수 있다고 말했..."
+  },
+  {
+    "title": "비자 수수료 올린 日에 맞불…中, 일본인 비자 수수료 7배↑",
+    "link": "https://www.yna.co.kr/view/AKR20260912019000073",
+    "outlet": "연합뉴스 · 국제",
+    "category": "전쟁·지정학",
+    "published": "2026-09-12T00:24:11Z",
+    "description": "(도쿄=연합뉴스) 조성미 특파원 = 일본의 비자 수수료 대폭 인상이 중국인 관광객을 겨냥한 것이라는 관측 속에 중국도 일본인 대상 비자 수수료를..."
+  },
+  {
+    "title": "교체로 밀린 오현규, 리그 1호 도움으로 반전의 기회",
+    "link": "https://www.yna.co.kr/view/AKR20260912019500007",
+    "outlet": "연합뉴스 · 국제",
+    "category": "전쟁·지정학",
+    "published": "2026-09-12T00:21:45Z",
+    "description": "(서울=연합뉴스) 안홍석 기자 = 튀르키예 프로축구 베식타시에서 &apos;교체 자원&apos;으로 전락할 위기에 몰린 국가대표 스트라이커 오현규가 모처럼 풀타임..."
+  },
+  {
+    "title": "세계의 날씨(9월12일)",
+    "link": "https://www.yna.co.kr/view/AKR20260912017900009",
+    "outlet": "연합뉴스 · 국제",
+    "category": "전쟁·지정학",
+    "published": "2026-09-12T00:11:35Z",
+    "description": "(09:00)"
+  },
+  {
+    "title": "사우디 두 바닷길 이어 육로 송유관도 위협…이라크발 드론 지목(종합)",
+    "link": "https://www.yna.co.kr/view/AKR20260912013900009",
+    "outlet": "연합뉴스 · 국제",
+    "category": "전쟁·지정학",
+    "published": "2026-09-11T23:58:02Z",
+    "description": "(요하네스버그·서울=연합뉴스) 나확진 특파원 김승욱 기자 = 이란의 호르무즈 해협 봉쇄 이후 사우디아라비아가 원유 우회 수송로로 활용해온 송유관..."
+  }
+]
