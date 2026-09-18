@@ -84210,5 +84210,597 @@
   "fe783424b83b8161e2448e2655b30ce2ca4d2155373f5680066e9bb235d50ab1": {
     "url": "https://www.yna.co.kr/view/AKR20260918188300083",
     "first_seen": 1789757269.5943108
+  },
+  "dd852b23d4af5f7bf642126f4f4af7459e41dfd83cdad02ec3b7d0e9f15e2445": {
+    "url": "https://www.hankyung.com/article/2026091844221",
+    "first_seen": 1789769379.877345
+  },
+  "e2261edfd8838c58b7dee2f28a0a131b27d2be286e2580f74b274ffa9758053d": {
+    "url": "https://www.hankyung.com/article/202609078130i",
+    "first_seen": 1789769379.877352
+  },
+  "d98004add747cde32f722e3b80520d9d1eac9215e4464ecb18208b629660dcb4": {
+    "url": "https://www.hankyung.com/article/202609194827i",
+    "first_seen": 1789769379.877658
+  },
+  "4ee6dc3f756795ccb7cd8af241be9266edeb04ce1c992b191515bed89696cbd8": {
+    "url": "https://www.sedaily.com/article/20092853",
+    "first_seen": 1789769379.8779457
+  },
+  "4bf5c3b7bc484e8fc78a57ecc3eedf8a822b52dca4d60df41ac31f40b2d15db0": {
+    "url": "https://www.sedaily.com/article/20092762",
+    "first_seen": 1789769379.878815
+  },
+  "2a0a4564098b8972e74d3adb44756f2bff5efe46963fc1d0a5b8645d392ac9ec": {
+    "url": "https://www.sedaily.com/article/20092746",
+    "first_seen": 1789769379.878821
+  },
+  "43cab396cd1c69e1edb5f1f5e3694a497cc69fc03babbb01e87ba5e626aa1dc3": {
+    "url": "https://www.yna.co.kr/view/AKR20260918152000003",
+    "first_seen": 1789769379.879096
+  },
+  "64a7f7aa3701d0461370d7f7951102ca7a9d44176aea88d64a2ee10d4908e237": {
+    "url": "https://www.yna.co.kr/view/AKR20260918040300030",
+    "first_seen": 1789769379.8791025
+  },
+  "92fcc105a16fc01f87c150b4c4cf11cf1230f6ae76f83608502aa1d92a951bf9": {
+    "url": "https://www.yna.co.kr/view/AKR20260917184200030",
+    "first_seen": 1789769379.8791084
+  },
+  "460faaed879836c540a133a0d011a2e952fa825ad5fce1e60e3a3f48ab15dfae": {
+    "url": "https://www.yna.co.kr/view/AKR20260918121100017",
+    "first_seen": 1789769379.8791149
+  },
+  "210bb39103137c504c1b1fda100f641a1e8f18587ddc80a9947f07603df46b3d": {
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vOEdXM3V2YzBkajh4SE9YcHYzM1JkSEVwMEFnVDdXSVNhMnpNMGxOLXBjUTdaSC1NcEFCelcxa0ZxaEVBVWthbG1Ga29QUFlkeXBGU3lkVTEteVlqc2dRSExoQ29acGMx0gFuQVVfeXFMTTRRMUktQU5reVRON2lQMC1HZXZCeDRPanhuT3dMZnVRVW1EUUFEandxYlp1LWVoaXduQi1mTmpkM08wLUdKT2xLV3ZCWEt3V0NicFp1RmdjTGFxdlFOT3NqM2tzcUJYLW9pcXk2UWc?oc=5",
+    "first_seen": 1789769379.879814
+  },
+  "2106b687b406e2aefe48168df545ce0b5e09039f1995c5cf15dab81f646199e3": {
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsVmNZemlwdXFaaGNvbVk5RGE0ay02TjVUTlFpMWx6c05yWHc0dnZFYTFybU9yZ2FhMmk5eGJDV19DNVcwRGxDb0p2YUE4cWs?oc=5",
+    "first_seen": 1789769379.8798547
+  },
+  "c7329e7780e18917f2c2eb5c36f601eb72cc49f4aee0d557f943b4f8fff6c545": {
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Mc1JOQVFES0VjUEVYTDl4THdNcUdQNm5nT1dLZXVqQkduTThlSVNBTktXSHNyNGVpWGdlaGJ3U05vZ2wya0JQLTA3V2hQWkMwSkc5S2YtS3B6b3lSLXNQZtIBeEFVX3lxTE5CS0R4YUFuZVFLazBVdkdaMEFOc0pNVGotWUdIdXVkUTdMSnc2VzRfU01IUUFMLVAydXRoT1J6TkFLWktqNHhjRzVVWkRwRkc2ZE1uWjBYR3JBNXJRTXJIYUtNT3ZIT2pleFR1bS1GTWJhSEtQSTI0Rg?oc=5",
+    "first_seen": 1789769379.879904
+  },
+  "7e5fe516052354511cc32af5a93fa5b74a6a7e4cb69dc27b62ac1a271faf6ade": {
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBZWHgtSU1vVXFKUWhmcWMtaDJfaHBIeXJ1bFZXWWdKN19RZnJfcW9PMDFycmt3X1J5YXdyZWhNd0JNM0lVWVBjMWhNYWItUVFXT0J6bTFGUTEzNVJiY0hrbE9n?oc=5",
+    "first_seen": 1789769379.8801997
+  },
+  "d9fe3ea591b09a9ac198843d80310704b4dd882c4ee537b2f58bdb968e89e8de": {
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEYzhmSWxneGRPZDd5THBWbTAxcUVDeHB1cmlyS3I3MXFvUTNBZDlMYjRqNk4yYVFYSWhnY1Y5WF9INUJHNnFFeUNHX2xTVzg5ZkFBMFRyS2tONUdmQ1ZwR0NmdG9TUWc?oc=5",
+    "first_seen": 1789769379.8803408
+  },
+  "abc56185bf1f292872d05e63891ca325680c9f19b13279a0546016771e000a06": {
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE93MjUwalNSZ3RCVm1TUm02Rzk1TGxwbmxYckgxWXdFYTJKdkp1NjRDNnMtektxaXl6OGZmcjlpWkNDWGZBdWNVblZ1S2pvYXhOSGc?oc=5",
+    "first_seen": 1789769379.8804348
+  },
+  "42b6651ce258e53d169060a6d6e457ad4e815efb21fbddbc70d26b3f12681dda": {
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9pQ190X3NydTBTNm5EVXQyeGVYSk5qY0xibG5YOFF1WU9aODBObXA2RE4zUFR6UFAzRGNXUnZqYlVURGNUbWNoM0RtRQ?oc=5",
+    "first_seen": 1789769379.8807049
+  },
+  "d265629fe9488c4b20acce4a9bbe2de1bf9c4d85d194a31f61d1575545ab9eb1": {
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAwWGNuRGFCMVpZT0Jxb3ctN1FNSEI5U0d4eEZLemh6cl82NjhOcmx4TGZNMWF6MDMtWnVseHJIYnBmdkZhYkhlNlZSR2oxRFdJbVVqcg?oc=5",
+    "first_seen": 1789769379.880751
+  },
+  "d3818e061cc255d431f75a8af69385f8766bf9c45318ab9fa04e46ef564550cd": {
+    "url": "https://www.investing.com/news/stock-market-news/stifel-analyst-names-top-pick-in-drone-sector-93CH-4907944",
+    "first_seen": 1789769379.881863
+  },
+  "a5e4e337e9389ae491f5735c9658e822e00877380ada0dc301e758224a27279b": {
+    "url": "https://www.investing.com/news/stock-market-news/why-is-accenture-stock-surging-today-93CH-4907943",
+    "first_seen": 1789769379.88187
+  },
+  "74d892ead04fc2d8af68bd256c789322cb17d669339ff80bcbc3802a63826647": {
+    "url": "https://www.investing.com/news/stock-market-news/ai-cloud-firm-nscale-reveals-revenue-surge-in-us-ipo-filing-4907884",
+    "first_seen": 1789769379.8818767
+  },
+  "a5f7f1467162b6eca7275385dca327abbefbc728ca4563a63bbf3a8fbbbcac93": {
+    "url": "https://www.investing.com/news/stock-market-news/anthropic-delays-ipo-staging-to-november-amid-ai-fears-wsj-says-4907941",
+    "first_seen": 1789769379.8818834
+  },
+  "935fa60621c42dc986b442b0aa64538bb88799781523291bdcce0b74614c6fd9": {
+    "url": "https://www.investing.com/news/stock-market-news/mexico-stocks-lower-at-close-of-trade-spbmv-ipc-down-078-4907933",
+    "first_seen": 1789769379.88189
+  },
+  "4622ee032592902b17cc6262cf26fc51cf1a504f8e6732c75f47aacd1b7626d0": {
+    "url": "https://www.investing.com/news/stock-market-news/honeywell-wins-539m-navy-contract-for-navigation-parts-93CH-4907932",
+    "first_seen": 1789769379.8818963
+  },
+  "e63d1b1f95b7a7923f00b0056a8b8fb9bf6880450e658c75b4374bf337f8e45a": {
+    "url": "https://www.investing.com/news/stock-market-news/leidos-wins-85m-air-force-contract-for-aerospace-design-93CH-4907931",
+    "first_seen": 1789769379.8819022
+  },
+  "b5016c11e7249e83cae33fd16bc3207c4935a77b90718234446ab340482cf808": {
+    "url": "https://www.investing.com/news/stock-market-news/lockheed-martin-wins-871-million-f35-contract-modification-93CH-4907930",
+    "first_seen": 1789769379.8819087
+  },
+  "da8ea8c325db797ffa5ef41015b65b157d4a4b9a1a7dcc8a110a89c6515ac740": {
+    "url": "https://www.investing.com/news/stock-market-news/colombia-stocks-higher-at-close-of-trade-colcap-up-105-4907927",
+    "first_seen": 1789769379.8819153
+  },
+  "c9bf0ac0c38b2146c550a951f5b6b8210f4c0c59e468e1c5bb401740af574e01": {
+    "url": "https://www.investing.com/news/stock-market-news/trump-is-talking-with-senatesthune-about-bill-to-cut-datacenter-electricity-costs-4907925",
+    "first_seen": 1789769379.8819218
+  },
+  "60a89fadd7b1f057a6137bad4211886d06fea1eee801c9392295edaa1992989d": {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/southwest-luv-finally-joins-lounge-143820941.html",
+    "first_seen": 1789769379.8819282
+  },
+  "9114b1cc0b8779d79266aa026078f87d3450b61c4c0ea50f5fab7656bcb03406": {
+    "url": "https://finance.yahoo.com/technology/articles/nebius-announces-higher-rates-nvidia-143300096.html",
+    "first_seen": 1789769379.8819344
+  },
+  "08faa7c08306f06f666f5dc1177f7c924954d2cf8ebe0a8564e6254d1fcccb0c": {
+    "url": "https://finance.yahoo.com/news/save-auto-loans-federal-funds-220313700.html",
+    "first_seen": 1789769379.8819408
+  },
+  "ab2a07181c190925df5d1a508c5db4fa982989d343c7c41ad6a902f99b9b29b0": {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/ethereum-price-prediction-2-400-143354402.html",
+    "first_seen": 1789769379.8819468
+  },
+  "c93db5cd564cb42920f0d1b8e329f4313100cbd837ac1feacdc8c53538111046": {
+    "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-weakens-crude-oil-prices-143255714.html",
+    "first_seen": 1789769379.881953
+  },
+  "2a0b73c09f090bd59272e01fbdd7d58fe568244a011a4d143a1847a76bdd8291": {
+    "url": "https://finance.yahoo.com/technology/ai/articles/openai-fires-back-apple-aapl-142906076.html",
+    "first_seen": 1789769379.8819597
+  },
+  "c0b542700c704d7da24dae9f59e4c1c4e1f7ce3d6bd821b3cc34c3f3b4085474": {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/pegasystems-stock-fallen-46-where-143424553.html",
+    "first_seen": 1789769379.881966
+  },
+  "13a2fc58e1540bb6556dd2096996c3a71e324d4b9a8acbaf783b4b81c883eb9e": {
+    "url": "https://finance.yahoo.com/economy/policy/articles/truckload-carriers-capacity-exodus-growing-143616028.html",
+    "first_seen": 1789769379.8819726
+  },
+  "8b9fd10ae4ce6b39c22be0d6f0c0982ec4e66f668bdd1b02a1a86e14363f6a70": {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/sold-micron-q2-earnings-fell-143843816.html",
+    "first_seen": 1789769379.8819792
+  },
+  "d02df13fe616d2a797a4eebfe428b80a54061959f36fe7481d241672eb86fb3f": {
+    "url": "https://finance.yahoo.com/real-estate/articles/why-why-baron-capital-bought-143155988.html",
+    "first_seen": 1789769379.881986
+  },
+  "6882c8006961c193b2d2439d92efea2f79f230774945133eef1f3e66cd2ced06": {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/brown-forman-stock-underperforming-nasdaq-143102015.html",
+    "first_seen": 1789769379.881992
+  },
+  "df123bb33a352a47cd44bca47af412450be3930d09d7136b11425561113faa63": {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/generac-stock-already-20-today-143415281.html",
+    "first_seen": 1789769379.8819983
+  },
+  "88cb324ec79385df2c89af54702a27992677154d6cf22c72ff6b3ce4be21e378": {
+    "url": "https://finance.yahoo.com/healthcare/articles/medtronic-mdt-raises-outlook-again-143459144.html",
+    "first_seen": 1789769379.882005
+  },
+  "0032121c40ea0e38487f0b71b71acc3dd29221b87094541af32cfbb80c3c7075": {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/solana-price-prediction-sec-support-142622632.html",
+    "first_seen": 1789769379.8820112
+  },
+  "ad7c4214b6f12cf2fa01a5b70cb824a59c284a67bbc8be9c4e5fabb37a6b2966": {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/eversource-energy-stock-underperforming-dow-142448471.html",
+    "first_seen": 1789769379.8820176
+  },
+  "f13463ed021a3749b747f0cd80a92280c3ddcd4db560271d3fc0fba75bc0a7e3": {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/warner-bros-discoverys-stock-performance-144029291.html",
+    "first_seen": 1789769379.8820236
+  },
+  "4f55ae128d318a7746ec3d66e9141a1834059312417857f8fff171e8637c6147": {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/next-100-billion-netflix-value-143033478.html",
+    "first_seen": 1789769379.88203
+  },
+  "4f354ea3bd50649ffd7b5e45cdb85ecf6062334d38c1d9c1a06fd9e6f62acc2d": {
+    "url": "https://finance.yahoo.com/economy/policy/articles/britain-economy-growing-inflation-141533913.html",
+    "first_seen": 1789769379.882043
+  },
+  "19fa67022a859320807e40dd775fe279f1657f3c9466248978d6d2091032bc46": {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/berentzen-gets-shot-takeover-speculation-141307195.html",
+    "first_seen": 1789769379.8820548
+  },
+  "4ecd57cc8ee1ccacc582c98aba1901c0045d37b81fa8300da052d1ca128c5960": {
+    "url": "https://finance.yahoo.com/media-advertising/articles/mountain-mike-appoints-jack-box-143221359.html",
+    "first_seen": 1789769379.8820612
+  },
+  "869198b76a54c6d18cc5b6c7fa6e8d724a812cb2ee16b4545c10b305cde8476c": {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-rally-crude-prices-bond-140517540.html",
+    "first_seen": 1789769379.8820937
+  },
+  "b278ff2af2dd7bba0c7b92d4aa6ffa54ff4cdbfbc606fd740c5975b118a9d435": {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-looks-cheap-keep-143603412.html",
+    "first_seen": 1789769379.8820994
+  },
+  "53b292528990eb11f797ea966307abe7b9126eec1a32de53fdc03acba75a7bc0": {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-8-4-billion-144356015.html",
+    "first_seen": 1789769379.8821058
+  },
+  "61897e5bd9cd4d04f4a538248472e9e8edd47346c0b7124123ea985273cb8f5b": {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/ptc-inc-stock-performance-compared-144340989.html",
+    "first_seen": 1789769379.8821123
+  },
+  "69070d6bbb8bdf1dc50adb022054d604aebb97e9c948cd2f28a2d38a101abce3": {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-dow-p-500-forecast-140116492.html",
+    "first_seen": 1789769379.8821185
+  },
+  "34bb55ee16d7ab9fa8c6c585e1c8af197e1530933c8b3c9a99bf413dea1e7d31": {
+    "url": "https://finance.yahoo.com/economy/policy/articles/bond-yields-surging-around-world-143033248.html",
+    "first_seen": 1789769379.8821306
+  },
+  "cd1bc5865b8d86822c907bc8a85b9c3f828c4ab10c1b0ad4925a7aca6919ee72": {
+    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/when-will-mortgage-rates-go-down-for-now-rates-are-following-the-fed-190610094.html",
+    "first_seen": 1789769379.8821552
+  },
+  "ea040bdb62beba33d4bd115aaac7bd1b8cb34766f42a3e17de00266750a964ca": {
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-17-2026/card/mark-walter-sued-by-class-action-lawyer-in-florida-IXCkAf6FxRBQeOquxtZ0?siteid=yhoof2&yptr=yahoo",
+    "first_seen": 1789769379.8821685
+  },
+  "6dceed8c9481165deb0b120d3d813a8390f877f662e7996429799714487598e9": {
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/10000-high-yield-savings-account-vs-cd-earnings-one-year-211941165.html",
+    "first_seen": 1789769379.8821757
+  },
+  "dc286d0a2a1ac316d5c649915202c6dfe02827a6e9c87f84d6f8d6f493295a05": {
+    "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/how-to-compare-credit-cards-213141307.html",
+    "first_seen": 1789769379.8821821
+  },
+  "39b49c22ef0a041a67ce10893c529238ece3bdefb085d8eb3c180ce27c9f15fb": {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-vicor-stock-surging-thursday-143347585.html",
+    "first_seen": 1789769379.882224
+  },
+  "c4942bc7488cf3cd98fa615bbd8c36db08c8b6340fc64634e1c94264b9f5d0d9": {
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-friday-september-18-2026-up-to-440-apy-return-available-with-a-2-year-cd-100000224.html",
+    "first_seen": 1789769379.8822424
+  },
+  "290ca0888403f6064dd794c4b5dd92dd23d9631a632110a021958b217072f8e9": {
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5aMHhWS2lrcF9pZUNJSTV2LTNJZHo5SUFjSkgwUVgzVWplZ1hWdjhNamNMLWROWElmaU85ZUN0MXRtbWhxa3drV0hLN2FLY09wcWxydGltcUlmczjSAWBBVV95cUxNbnAwY3N0Q3RHYUV0cmlwTWxOZXZldW5XNlB0UG84OTBmWjhwZ1MtS29JMjdiMTBuZ3k4UjBBeXN2ZExlb2hLZmpPZkpUVWo2RzJMRm41ZURkZWpmbThTZDU?oc=5",
+    "first_seen": 1789769379.882945
+  },
+  "2777e2827991709d06836e27ede0f08abb5cafa0eafe60e560aba791b40d33be": {
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RNENyd2hLbFVGdzRiVkpUaVFnaEdabFB1dEpsaEtuaEpkV3hVSldGdG1Kd1FtU3dBMTVlRlJtdDJBM2trRTRxTHI2dEwzbHBfRDlFckdqTF8yYldCLU4zRnJtVV93NnByaHloNUw1aks?oc=5",
+    "first_seen": 1789769379.8829763
+  },
+  "13de49a1924605444cdddb3f9e01543edd37d348a40f9b63043e5b9d5b764bf7": {
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBWYkhIdVJ6OU5YUHZZVXJ3bmpidTYtNGZPSmE0SnB3M3NxMHZsenN2MGZvMzBhWW5rdU9BTmtJb094bTBpV3JRU2pHYmlqenMzZ2fSAVNBVV95cUxQUHRLVkJTTklpd0QzNDBVU3hiZzNhV2wtLVlNSTJmQV91UkJ5UTBoWGRJdlZHWU9VN0VBaG9fYjUzaEJ5VGhjNnI4Q2ptd0c4NFRFMA?oc=5",
+    "first_seen": 1789769379.8830626
+  },
+  "44adb69367a3041e6aea5c136ad901a9f407f2c50bba4df70d4bff84fc17de69": {
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE02SHBqcnA2Q3FBZVJYZFNZRnM1d09tcWlIM0hpd2pHSW9DVmJzTGpPWUdTUXRlV3Y5M1U3b3hpZWZIYTdBTlEtNG1OS2ZSRlJrbGl0TDZPZGlJZ19n?oc=5",
+    "first_seen": 1789769379.8830726
+  },
+  "b2bfbf6b5852b65ae96419dd16f535b0ecc7ff12f6fe354d755611e7cb57a175": {
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BNE1sWW5iU0FpR0lhNy04UzJHMDZMbjNoempyemE0V2hHWFVzTV9zXzFWdGVoUDFmczA4RG54azJvRWQ5R2d1VTZFQzlESGNzSEdhRnVuZFJ2aW9jM01MTEdON21UM20wMjZuM3B3a3E?oc=5",
+    "first_seen": 1789769379.8830817
+  },
+  "14f37963ab8bc8e6612b26c243f1e6eb54e8e6f4ee131b270381aedc038b2683": {
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzNG9nWlhWWW9DQXM2YkFqaDJ2OERBdFNCNklDRE53XzZPNENLSGdYT1B5cWRLWFhKcEFialFVSHNqaXUwRjhIY2stcUdaam0xQTJIRGEtSDJMMVk?oc=5",
+    "first_seen": 1789769379.883091
+  },
+  "129bd5ce8e1d71741b43b200c07937ba1267df3c697040d0707818e57cdc237d": {
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BRGdIcV9rb2NiTEJPR0hvMDkyX05mLXZLWGFWSjhwbjc0YzJ3eUxuXzhfejcyR1ZFMlN0Q2dlWTFucThRWDVhWlJnRkJ0RjQ?oc=5",
+    "first_seen": 1789769379.8831005
+  },
+  "299994b171392bb41d29b423bb59feb01d48cd34acabe74eab8e2b329654e931": {
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKUXhZZXUyWVNHeWNpZVU4MnVmWERndnlOb1ZRWHVOeGM5bXU3aWFaSkRlRUwxbnp1aFpnX0dnX1hZdUpVMTYzTXRBMHM3UFE5SmZtREYwZ09paEVTazd2Ty13bzdJVGNVcWs3QU1xSQ?oc=5",
+    "first_seen": 1789769379.8831098
+  },
+  "121055d44432195d11e0cbe11772c7251436f1dfe8dbe00cf32094c22322cc7b": {
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53R3Z2LTdMZjBVZTRNUmdXVmNvcmVGVmFDYUg4OEFWRlVSdXhRVWhTaUh4bThCRzVnTnBkNXdqOUthOFpMeVl4aEUwRFhwZ0I0REhBaVV0YTAydw?oc=5",
+    "first_seen": 1789769379.8831193
+  },
+  "5aa1481e9249cce5588cb66891dd6731d02213048a185850dc913916e0269844": {
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdVpFNWgwZU1CV0d2LWFmU2VRMmRYbnkzb0E5eVl5bkpyMFUyYl8tNHZUWlNSVkwzUHVRRU5nMFpCLU84WTFKeXZkWWI5UURUa2hfZmZUa1hsTlpETThRU2gyRTJacFl1OHNyYmc3VmpoWHpRN3FGWGViT1BaV3RIaUJyd01YUkFQ0gGcAUFVX3lxTE01d2tfcnk3MG0wUW1OY1ZLWHZRbW1xSHEyVEphZjBvMnJHSk5hRTV2NEJxbGRaX2lpRVVpUUdfeng3TnNYWWZvWHItRDd1UFY0Zmg2WmRXd015bG81UUEyRVM3aHJOMVAza3UwczU1VmZDNFVoZHl4TlE0ZTRNTnZscW8tUGo1TUVGaldIelRNRm5PR1lJamJBWU1WRQ?oc=5",
+    "first_seen": 1789769379.8831391
+  },
+  "8cca9615a1aa62a5baead8e73affbf772b8a9e356c3a1d832c691dee04f83c14": {
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oX3hqVjFUR1BmRXYxOW85b1BEcXF3NUpad3Zsc1hzQWxRVU1xTjJKTUd3Y01jcExsVWFDNWRhdkZ5TFNHSFhqcUVhaVZsN2xnN3B3Uk9nM01jTEFIdkZOMTZ5dGFJQWNEZnfSAW5BVV95cUxPaDlrM0k3bXE3TDFtWmhiUDNYZVdETnUtUUJQT2JBODJFNGVfTVFVWE05eWxVVktzVmd2VU5lVzdLd0ltNUpkeUpSYlB3OWlGazVHeXNUX25kUkQzRnlWT0o0NzNEd1UtZVE5YUU3UQ?oc=5",
+    "first_seen": 1789769379.8831491
+  },
+  "1f9475558a2144ccbb08ddbe5c8a1e15340e66ebdbdd06faee1bb046a16bdbda": {
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00RzlsWEpTMVIzLTBxTEpRUmVzLUJjXzljOUxmNFpHd3dZYWdfV2pHWE9HZUJxemJJQ21uMVFTQ1h6Mng2NU8xLVg4VU9QdEdWVjR1YURMalRfUkk?oc=5",
+    "first_seen": 1789769379.8831582
+  },
+  "a35836ddcacac574b0e9bd77e430bb38e73df9421d18c68b81a97534baea72a4": {
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkOVpBNlNER2JyZFVSQnlQQkZhc1hXT1VLd2FnUTN4OEw2VW9wUGlxVmVfLTI0WlhCQ2lWT1A5WnlabTFldUdFZzlFdUFQZnc?oc=5",
+    "first_seen": 1789769379.8831677
+  },
+  "b3a90bda46d597f337d532466ee6bbf11123a27f6318bd9fc97c17e4f41da7fe": {
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yV09jYll2ZkpTT251VEdlUVEzbVdrQXpKQlIyaUpZYmlYSm9mV3JQSnE3MmlrVjdNN1liOGt3WFBxOV9iN0RSTTUzaE9FVGM?oc=5",
+    "first_seen": 1789769379.883186
+  },
+  "21fa14c5f416a76a84645ae5fb0e6add56c3031b010eeb5a4f3081892621361c": {
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IWVluemY0bHBIUTRacHBxSHBEUTVyMzZ4WUVzWmxPR1haSUJaSy1tRHpRaGdtZDBvWGJQYllKNlJWWlhSRE1FZjdfVjZkNXc?oc=5",
+    "first_seen": 1789769379.8831954
+  },
+  "a8b81153d94d9d9f77abddae8dbbab6aafa24ab2c66f21552c2ff737b8927ead": {
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE45Qm16OXUtS1pHLW55d3BCNEVka1VxeVZaa2pXZEE2b0dIYi00M1o0YldHR2ZwY3lqUGdHTHZ5X3JQcTZEbmhoSUo4U20taUhzNTAtZA?oc=5",
+    "first_seen": 1789769379.8832514
+  },
+  "7e2d6d4f2fa2a1d194670a5ae24a7a3d3acc4f10ecc15d3e638944120d393cfc": {
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE82OTVsYnRtMzVmR1hYTHlxeGZUU3ZsYTRicTB3WkJ6Mk5JaVFISFhIWGZZaDhUOFZlSTA2OFl6bi1RWThHYlNBQ2taeTRsS3FWcVhuWF9BY3hFTDZnYkdLcGdEUkZZQy1RZkpMc1BSS2VYWUE?oc=5",
+    "first_seen": 1789769379.8832612
+  },
+  "7d798f9d8bd175890e72a514b5d1826e940c523c70dc3426d9a71c8255af9afb": {
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QU1hNYVpZU3JNaTBJNTNibzVRYkN2eUxGLUpwMHNVNVI5WGRXWG9BbXV5ckRfRy1rdE1SckJVU1BYblV1WVNBS2c4R3p5NFdmcUowd0pzc1JjNzg?oc=5",
+    "first_seen": 1789769379.8832798
+  },
+  "f9b4f55737f560cd9392c9dc37678d36cde19b6536bc9e18a1087a1d4903dd38": {
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONWZCSFBVTzdmTUZZZ05jTXhPdFM4OGpscjlZTVhDajVQMEQ2RXRLWmpOekNTSzNrSEsxV0J6aHpEcWdTNFpUc1gwZEJOVUtkaXFfUTNReEItSEZZS3Bod0VmcVJSbFN1dHBwR0FUWVFZaHRnUGt4RXlQME01ZlN4UDA2V3RpQnp3?oc=5",
+    "first_seen": 1789769379.8832986
+  },
+  "72f32698b408cf8e42007ec739acd870f3b4a23182cd082d4a6d9bc967f5ea55": {
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45SDlqLTRpWG1ObDN1QTVxcVlwNUdnSVN1eXI2MEJqTGVsTl84M1dQVllaX0xZTmdBaDMwTEhhMWVDa2NHaG5LZEc5V0NRTW9EeFhlUzViNDVldGZJRDZtWTU4WV9ZUkVv0gFuQVVfeXFMUFJYOUVheUhBNUJDVVNYNC1pZFFTSERvSXk0bThTZDlEZjVJaWZ0dWVLdDh0TFBjMElXVWZ6YW1GNGJabk9feUVELWhKMlEteVJkVENSNFltMW85bC1yS2JQSWMzVnJacjFFRmlTVEE?oc=5",
+    "first_seen": 1789769379.8833082
+  },
+  "37157d86a01613d17290f00d0f1a229cc0bb6262699d71266096ad36d09158cc": {
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11WDZVaERDcDhBTzhNSDk4UlpGV0RGaXBKdUZWbmllWW5qV1dxSW43UWZDd3ZGRE1jaDktRGFaOFhGZmVkMVlyV2N6WXNFSWRaNEZz0gFYQVVfeXFMT0o5MHFIaUh2MHJnT3BEbFRISGpHb2R5X3k0dkk5NTJDQ2xHWktWV3JnS3gteGF0ZW1hc09IZ0hIVUFOUzVXYmdvRlNmdGduVUhnN3NycHVTVw?oc=5",
+    "first_seen": 1789769379.8833919
+  },
+  "618c74afcfb7fc785535023ecff8b43f0da9a0399b01122070dedfac31fbe668": {
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5WT0pPSHRWRzdvd2hrT2YwbExPYnYzaklFZDFGQ0tISWhKeElmZ2pxX2d5T2lSYjFXX2NBOWFfV2JmQ1JmTUhXckNETUc1YTF5ejdKdTdMVV9mbnlHXzhPZUxKUTVjcGp6MUNhZXFoVjdRaFk?oc=5",
+    "first_seen": 1789769379.8834665
+  },
+  "15970154a0e16bc72639008fe4cd8318e8a6d9abd9736aab1c274dea179c52e5": {
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CSGZwdmdiejhqc1ZqUl96NjNIYWozY1JqY1BIWWJEbjFZdFRlaThhYWJRNWFBRG54RWdyQ3VjcUtlMVJWUnpCa19WNXE3RVlKODc5RW1rNmlfX09OaXlvV0I2UEc?oc=5",
+    "first_seen": 1789769379.8834941
+  },
+  "b4d1e522feb25ec41018dd456330a1a6f171f980619c6c9a40552e22dadfd04c": {
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ESmNfYnZYV0JJTXdYQlY5a3FFTGdfS1pfbzVpSzhjX3RwRVZwV2xDc0x1cHNtS1FJOUpWTGpYVnd6X2hrQV9pb242SGpxV2Zkd2s4aWhyblJEYkZ0MFI4R2E0YWtPWENuQ1BHazN5eWdNdHUz?oc=5",
+    "first_seen": 1789769379.8835778
+  },
+  "d3a5c4a14aaf73a430733005dc95ee9db2409925c858cdf843fc921ed72b6766": {
+    "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQdjkwZDZsMUdzTnFEaHp5Y1NfcERSSnJJbVo0eFZka2dzLW9FdXVsWW1WTlhrWVlKbGNuVmRFRVNjc3ZHNkZqMThJakxCQWxpRnh6WHNQa2paYjZUbTI2c2t5WHNUM1pKVjVac2JhTFp1WTg4N3N5dXJKeVpQUXY0V3BBWjYwSmUxNnRKb3MyY0xVRUY3bWFYUlY4QmtXLVpZclJIekJtMk95bk16OWs1cE5yMmdBbWNEVkQ2VHp6WVJTbGdnOG4zWGRIWjJRR1daNmRRRWtZeXRFVnJIeVlZTFZlOWlJQU9SV3BFZXpac0RXbVpyZlFHaldvQjc4ZHZfWE10cV9LbEEwQWs2T1ZPTDJfZjl6aDg?oc=5",
+    "first_seen": 1789769379.8836813
+  },
+  "10e0de2ed9732cfe9349a70289c12a94c784ebc38226b1704a4f2280271712d9": {
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WdGhjZ3BxdEVzeDk1dEo2Ti1lNlZ4OEZGeTAwSzZEM1VqclBlLVZhMHM5dHhRNVBhSW8yV2c4NVk3QUhIc1JLU1BTSkVvSE5PSEx3MTczMlpwQXJleVNoYdIBYEFVX3lxTE9WdGhjZ3BxdEVzeDk1dEo2Ti1lNlZ4OEZGeTAwSzZEM1VqclBlLVZhMHM5dHhRNVBhSW8yV2c4NVk3QUhIc1JLU1BTSkVvSE5PSEx3MTczMlpwQXJleVNoYQ?oc=5",
+    "first_seen": 1789769379.8837092
+  },
+  "9c9b5b53e04e05b0d642c7ca0a250b1f063974afb2e33b0f3e19f54afb84eaae": {
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTTF2aW1vOFFoT2ZvLWNuQ3J6NHhlNUl5ZDRiUGFwOWFZblpBazhVdlRDLWNHcjduUkg0R3MzU1ZqWGZxS1RPXzJpNHh0czRPYlhHT1h4Q2FwOWg5SmVjLTRrQktLdlpLdzgwSUpPYjJIZjcxSmVwMkp3OGtsRjd6SjBOWl9SN2xBQldTZG9zQXYxaXJDbFo2aFVJeE1heXFkbHNRUnZSR0ctY3lQQmNaR3h0SWkzQnRPOTVLZFVDVHNjNnYwQ0Etcnpn?oc=5",
+    "first_seen": 1789769379.884013
+  },
+  "f5f60a2602251e275f776992a750fce328e4c4bab0d6570e14b05bc2d7954f46": {
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd1ZacWF2N0tlWWw1VjJ1dXE2djgxQnlrU0NCNjNTQm5Ibm5BNExpZ1dUY0tHSXpPNGlKUk5jN2MtSG1aQktzWGNoZF91ZURmV1NmMzZLcVJTTXBIVVNNamphU0FGeWJkeU40aEROWlhZMWxsWl92dnJOcFcyZjlPRXlQcV9aU0Z4dW9yWXVzbVh5bEJ6TlBtZQ?oc=5",
+    "first_seen": 1789769379.8841856
+  },
+  "e3647de26255200ad0ad2f20a07baa0efd71371e027944e3be645bbc49f09a9b": {
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdVF3RjExTlNRc3J3di0wb3NKYkp5TEFiTDIwUXFEODd0SW05VkFwclJGRFZOOWw1RC1RZ0ZXRHpSbDU3ZkRiZG5ZaGJVcXlvQnRLT2ZKR2NSVlZkVlNHQkdXSU02bGxoQWZfMU5keFNOVVQtcUJoSU9UOHpDXzN3NkVsSWtONC1CRlowWE94cXZLYVk?oc=5",
+    "first_seen": 1789769379.8842134
+  },
+  "bf2c927a2846ea5ba2d585fb3f70ab71a1761f4c61f45e345eec996ecc21a171": {
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbEFvWE5tVUhYUXBjN2NQT00tWUlJeExpcnhnc28zS0tRSXlxaVNHam05S0NFM3NNbWI5aUNwcGlnT3hnYXQ3eVpETUUzN0RqY25LeW5qYWtWTDhscVJNLXU0MUJhVVA5Y1FUeHVTdEkwMXRnNmlFS2JoYy0xX0tuSWRoSGFHaWNqZjkxaGxwM2NNQkx4WWNoX0lxNy1CU2dxRkM1NDNfc1M4Qm5jcDNfcDdTRkw?oc=5",
+    "first_seen": 1789769379.884242
+  },
+  "25d201fd04512435db3d465dedc0779e7f10af8164aa696fb190bae5edaefaa2": {
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaHktRHV2V2JNeDdHdVQyLVdkU3dLMUtaaUU1Z09sZjA1aDJaeEVtcGZIMl84RHpKN2Z5V0owd05HSFhZMkJ3OXNHR1hFMVlkWmdHQ2VkNWhfbDB5d1pIdVpnLUNhNDlLNlRZcElWT1lfeTV4V2thN0E4UDVKZDBVeXl5WlhIT19jR1lJdll4N19FeThEb0g0UFlTdWxRN1VV?oc=5",
+    "first_seen": 1789769379.8842518
+  },
+  "aff7a2ea440ab5610ef76e5c6b7fbe75f11eff53c1169dede83661afe75ffd3a": {
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVDlRNGRwazlOVUY2ZkNoZ192TjdVaDRMcGJ1ejJkVU5zSUN3Q2M4MlFlbkMwM3BLbUZfMXR2NjNvMXNTM0Y4RDdxcVQ2Y2VTSzQyanFHTk5ZOHN4RzV5SmlWOTE3U0NmdGJGbE9ZTWx1TnlSWWF5SmViN29UWXo0dl9kMHRtUmVyMEhxdXoyTnB5SzFncjVkRVZwY01BZTFyY1l0bW51aHNvTzYzamxIcVdWRFFpZUhFQnFUNV9NZWFoa3lDTFh1NExxbUU3UlplZXpzMg?oc=5",
+    "first_seen": 1789769379.884299
+  },
+  "82b457702079f1d1023266909f0c35fa8c8c025040558959bb574646653e988a": {
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdDRUeklZVm5pMFlLR1ZZQzZxbm1tVUVmU0ZpLVgyUWRUUkFacF9sRklteGhqYTJzSl9yUFd0c0xhYS05STRHNUFOOFVZZkttUU1KQ1NfTTdPTVZ1THVSQ3ZTNmIxWVlhZ2hUQmZ4eVZHdFVxN2N3dXdmNVVyMzhxNnZYMkloNlEzWmo2MXpBXzJtcXNTUGxVcFRzWWdkYUdr?oc=5",
+    "first_seen": 1789769379.884318
+  },
+  "d47c1147e944460faad7ac7431c027ca8040d7ea7f639c851354f15bb8db4c6a": {
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbWwzanZCbjNjUVlnZllaYlNwbDNkYTdaamdEdTVYOVpONEk0YXFwVVlwS3Q4YTRGaWhlTHEtWmFXR1dFTTVrMlRHTzBkUGtXZkNDN0xTdWs4N0FjWWl4clM5cTgwRkFmTXVZcDdaVzYyNXBpUnlMcGl1Mk96b0JRbEg1SGdXWmNscFp4V2lYTlpVMTQ4a25rbk1aUFFIRi1YREI1eVI1eFJJaGtXcGtpNw?oc=5",
+    "first_seen": 1789769379.884366
+  },
+  "4e5d8142cf3fe841a12462541371a93bb427696b0b99e0d2390a4b337ed0e5b5": {
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRGt6WFdhNFhGZVpMb1RmT3NpX0NuUVVlMk40cWloTVpzS3JtS010N282UUdhRmRod2h0MFhOZnplQy0tS3R4WFhMZFYtRHJ2UUtjSUtIN0JxUWsySklRQ1dmczVXQXpOMXAyUklWZnJ1dm5KTlBLalhRdmM1cjhqTGlxd2R2OVEyNjNGYW90OEhEMGRRcHF0cGctM3UtTG1ic1lHaXdRdTM1azc2aUpjeUhjRkhjZDVwVy1YMkpsR3pxNE0?oc=5",
+    "first_seen": 1789769379.8844044
+  },
+  "3972b56ba3e0004f977c53b801a6f369ff49e1749dd5260295a6681b4fe7c1fb": {
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9EaFNHbGNZVzJjeVppT2pHMkg3NW9EMnk2S3V5MExsRVNVeUxlNVRrb3N1aWh4Ni1VaWJmakFWVUZ1UHN3T0lSZTNMWkx2Y2d6ZmxvY0xUTGFiUnJ6MjlwOXJtTGRkQ3M0RE5QMnl3?oc=5",
+    "first_seen": 1789769379.8845267
+  },
+  "b118e13cb13f1814500884600d4af919aecc01d63120497a70714b90c01d903a": {
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFotZUNoam9EWlZXUE9BWnJNQmZEQjhjUGV2Wmc0ZTNNQlNnUU4xbWNyci0yaElkTW1BcU5rVVBXVmVDZ3c1NFZ0azFZaU01NDM3RDk0WnhmU2xHUTZBRlRtQVdjWHAwWV96ejE1dUtUd2xnbWozSEJMUXNJMmpEUWE2UQ?oc=5",
+    "first_seen": 1789769379.8846052
+  },
+  "0ebaa9779700b0254587a4eb361068b9f30a6512667afc1d3f3de78ee294420e": {
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOC04SFRVZ1hweHN1YkpVUTJGZEZxVzNteTYwNk5FSThiNmdVSHFCQlRkNHd0OGhJajZKRnc4NXFyTFA3aWU0OWRoQnp0Q21nX3AtSHd6R09LVWdEMUQxUzRyb29jNEFRUnZDN0RmMFVOWEttSGZOQkxyNklXbzE2VmRnREdxNThhM2M2aVBGVTlMT2R6WU1POS1WTDhvTDdJOHVDZ2xwX0F5QkZnTF91d0dHQkwzQ1BT?oc=5",
+    "first_seen": 1789769379.8846147
+  },
+  "f3b1485e5036d18c31b0609851b211f5dbcec1efe4e7aed16593f6ca11324af8": {
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tOWNiZGlzMlUxbHZIbW0wNEJRZUR5M2xRYUdneGhtblFjUFJmV044eU1lNE8tcmNjQWh4R2V3eHVCVnNQM2R6Vm95YTlNMUt6TUVJaEpnT1FiYXZyMG5JdU96TG9iVXBicUxuNmw4QXpVSFN1?oc=5",
+    "first_seen": 1789769379.8846245
+  },
+  "02733e03a6f0a32f18090394b0ceb50e21ee18115c53ee1fd058c83fe0e614ec": {
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSnhRc0EzLVBOYWVvOTZRMDJJT0Jab19pV1Myal82cU00WDFsSkQzaWxKOHA2OVVtckNwbzJ5Zk1LMldhOXZRNnUwR1hENXFGclZuVDUxRzJEWmVsLXJDdVFibWk0YlVudGhGWE1iWlpKUWxCYllIaTh3UDk2dEsyX3pqZUJwc3RQ?oc=5",
+    "first_seen": 1789769379.8846529
+  },
+  "2cd855a7e96241ba7a48aca715165084200a0e05a9efd4e4357aff4d02998f8d": {
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBnZlhSLVJPTG1LRmZJdnNmQVBTSGw3cVhQNDhqVklvNm56cWVIWlBWdEpveExmR2dHc0lMNnNMVS1oNkEtWExHRUFfdGh1THJNQ2xYZkZoQnVrdnVHXy0wWDBCWEdjMFZ5VU5GX1NEUQ?oc=5",
+    "first_seen": 1789769379.884841
+  },
+  "cc8fe756c7b4d8b1f9f1087c3a41419080054ed66b0e1d195a5c7b10db48a30b": {
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aNzVQcUJIUFM5S0lWZ1g1Zm54S2ttUklreEltWkRfT2VhUEtlYmVxdWZkR3ZrRUhfU3ZDd0V4cS1nTVp4T1RSdXBwN2JDNE4wcDFlYUdqa05GT3ZLNkxGctIBeEFVX3lxTFBYWUI5RmRpbDNGUjdlOEZacGlXMGF2d1JubGc1NFNISXdWWE9EU2NYQ0VqaEYwR0ZGQzlaOXZvVEJjZEk1Q183dEh0UFlYSDNHUi1sUDg1ckRFZW1mVW02UGkwMHlBbGVlS1JnQWp1eENOWGlqdHozZA?oc=5",
+    "first_seen": 1789769379.8851821
+  },
+  "e99820cc66adb9f987cb193685445daf5fff25f26d3a9607e1d1cffa9297afa4": {
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSMzFpYWg2TWVlV1RPWDZwUHlwUnpKRDJNOFVPQl9kdUJXc3piMkQzZ0RKYVNHOERWc19aWDRVckhrNVM0NjNHdXhKRWdvUHpOTExtaFdZa08weEZnMEVZN3NNVGN2SDhUbW5SYWprMl8?oc=5",
+    "first_seen": 1789769379.885228
+  },
+  "0f490de9b60aa8589303e04bdc6e38d13e1305a4fc0ad58e60e6a5793d2ae8bf": {
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yOVBnMDQ0N0YtblJyS0QzRHBXWEpRNVBHeVNjcDluZlNlXzQ5di11OE1NU3ptaVVRNWF3bWplV05YMkdLUGRXSHdGZWI2U1FVTGRoUGRncWdXc1AtWTVWb2d0d0Z2QjNLQ1NJc2kwbzA?oc=5",
+    "first_seen": 1789769379.885248
+  },
+  "76ff736cd4704e5a3c9f47d7530752a371685eb0dbc25252244a88cb1b9a8a4c": {
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DbEVpOVVwOS1QNU01VWhSRExXS1JJLXo5U2RHTlJSdXlHa1ExNlIwdWRsY2g2Wkg5VnJMVWlzZ2VRVHUtRVg1SVVQQTRoc0xhT04tQzBUOGV2N2lpbXI1MWxEYVdJeDBvLUVzQUxxVGZWTmc?oc=5",
+    "first_seen": 1789769379.885258
+  },
+  "e53e170d63103c7e23dc4e6befc5c598d0e8ba542ab37e7380514288c71e64a7": {
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03VGJtMTRuVGRpbUpuUVl4V2h3WGd2M0drakVTZVhPdDZvVkhWdXVrai1NUVU1eTdaX0VyN2FmWE13QkNxa0RobGZKbldKcjQ?oc=5",
+    "first_seen": 1789769379.8852675
+  },
+  "07cbdfe3b66069cc8d40ba0609aae98490ec93cd0b869419f57949187447a4a4": {
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Db1FhQWFfNlYwZWhBeG1GbHZTdTIzT241aWFlUDI5c3ItMDZMM1ZjaEtLczRJSUhKNGpxRm1rb1FfQUFTdmNSV1hxbnBtd24zelJSSm9La3JoUUNnYnFJRlFyZWEwUThYU1cxOHlNUUVlckU?oc=5",
+    "first_seen": 1789769379.8854072
+  },
+  "3d998381bf8f66cb1469ee0235c0b989cfbb7ae8b08a948aa62b4ae4be714a6f": {
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11MnR4d0tSU1pVWWVyMnNUZGVKb1VScVdNYW9ZdHZBY2ZhRWNwdFRoNnlfLW1oVEIyQy1HYnRWU3B4NXRuNzFVN0FnTHVBZTVDUXNfZWFvSFQxdVVnQml4Vkdkbm1MVW9v?oc=5",
+    "first_seen": 1789769379.885521
+  },
+  "716a923c28dd91e8b38dacfafcba71029af2a9aec7db0fc8e410b25c814f2c54": {
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oMmdKX2NXbWxZcmUtUENZek1JbWtZcG5WcWNoMHBiN0oxQTYtN1oxZlFyR092MktiNjYwU0dBMVotOWtuNC1nOXVYQ1pFam92cTVYS0htdUszbkdzRGZONERMR3lqYjdj?oc=5",
+    "first_seen": 1789769379.8856206
+  },
+  "50bd8520c8669fb2d2a223c43e7a2a91469fbc8c171b9d40d295143481ebef95": {
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IYVdGMGZJdWd2WHVDQkpEVmgwUFZkemg3T281VlQyVmVEelA3dVJsLXRpQUJScDd0YVdwLTEzTENOWWVwVWpkQWtrYXRXWEJsTVh0blIzeUVmR1VRUHpWNDN4dEZVN0ti?oc=5",
+    "first_seen": 1789769379.8856392
+  },
+  "f28bd72656cc10464578757c3c2f3c24f58b57a7ebca8b49483d2f2b56a5315d": {
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE14TlF3VzlSYk9iT3d5em96c1BjbzdOaDF1NWQxcVREeVFqRjF1Qm9hU2hGNGk3YlFBYmdmb2V4Wl9YMTVxS2NxQUZZeXQ4ZF9JUVHSAVNBVV95cUxONG41M2FxRENaU3ZDenB4Sm9GdWhPOEU4Nm1QcUpVTlhrdGF2WVhSS3FRNEZsUGkxY0hNOW0xUzJsdnR1TlZuT0pIdVIyVWNicWpwbw?oc=5",
+    "first_seen": 1789769379.885732
+  },
+  "8444b91b512cf47e5680d79e1c6e6c8ec619ed7bb02607bda40104fe838ced61": {
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MV0M5Z3dSSTNBREMydGtCbVJqeHNFNmdGSHV2RXBpdG1TSEJUVDlLYlA1UlhtV0Jyb3lmTnRDOEFNSXlfQjRZcW8xWUlBbkhVQUJWOFRB?oc=5",
+    "first_seen": 1789769379.8859253
+  },
+  "f9de57cfdae59f44c777c429e100e02b9c538abb0a8081e05ff01e9c34d08d81": {
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zYjBEQVY5REVVbHFMZmFRWjNxZm51QlNua3prbVphcGNsZ01mN2ljaFpWTXR0UlIzMDQzbFlLNmRNUzhIcDFxb3lsUVItemh2ZTVGbEdFSnZiWHFlQWI4?oc=5",
+    "first_seen": 1789769379.8859901
+  },
+  "0536d01183f85adbf15071b38b2058ae22478786f30fc69a459023f340b3f800": {
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9PMmVJbGFUTUxEOG1XSnFMNUxYTG9mT0VZUzdsbHRoNTBLaW5MUTJMUDZweDk1LTRXVlVLMDNFb2tOTGVzMnp3d2FQNGY5cFhiOFJhRk1nWEZEbkxjMzhpajBwVjFkVjR5UmxHZVZn?oc=5",
+    "first_seen": 1789769379.8860264
+  },
+  "d1efd081189d8fd038a65cd342cca31d6e39959d63104e250227caa927141761": {
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNTBFekE2MHR0bDlGa3RxR2thekdzRzdzOUFJUk1EcXpqYTJXZzlaRFV5QjBVVFRXdnRwZXk3MDRyMzJSdHlGZGJmWUZKSEQwNk1ISUQ5RVljei1BdDJjM3Z6M1JtbzZ4cFBXVnVKZ1RhdnZvdlY2S0VsT2wyckI0MlJaZkQ0bEs4YXBHMDhPZkNJYWFISTZ3UWl1Yy10bjJlenJuMlZyX25mSWVZY2MweTkxVTRCaXdNNFh0azJobFJodmhQNi1GOTVXZF9sc2RqQ3JrTkNFMA?oc=5",
+    "first_seen": 1789769379.8860457
+  },
+  "4eb5ef118e55616720085cd849d29a3721d8cfd0e25ec8ad11685008ac50eaa7": {
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOM0Y0MXlZRnpHdFdxd3Q5Q01laFB5elhIQlRoT0pTYkpsQzhUS0g5dEFCeXA3YlVwd1hsMEg1QzVGQTdmZzVvZ3RRRVdCWTUyR2EzY3h2NldOUVVQVmtPWlQzbDItMGI1cGk5ZEVIVWEtT2NuU0x1TGlHMlZFZ2tPV1JoS0c1MmxIR2hVOVdiNl96UmdGTm9MRy1mb3YyUUdvWWxmaGx0NXZpUVp4Ri1Qb0JTTEVTM2lSZjBFWDN1ZncyRTBSaEE?oc=5",
+    "first_seen": 1789769379.8860638
+  },
+  "3e4735896b9ce1b097d22d82378f13878051da5af53213004302de4bd16dd61d": {
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IX1Y3RGdULW9OblNqQzFUdzlwZnVzR3V6dzRwMVRqX296NlBrWEduTUtxVks3RzkybUF5VWp1MU9XSjA3c1ZjYXlINWlMTk5HajRNQXlvTDhEUTI5QS1GMzhQX3llTjZKZFprcDQ0NHQ?oc=5",
+    "first_seen": 1789769379.886073
+  },
+  "8a11e2f27884cf7e097ac5d9af1ac52e4dcb5fb170e89baf807756129834129d": {
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45eUFzTEtfbTZfZ3Ruc20xRDZvSjYxVS1wUmZkbTB3RjdpRUJzVTZKZDhjcFJJNTJoZ01HMnd4ODJqcmFOYWlGelVKVzBEbm01YkhfbjRDN2d2OHVtTUEzX0VDVndwNGVPUFow?oc=5",
+    "first_seen": 1789769379.886136
+  },
+  "6647c9fc50b2e199d7b26845235f7bd201063db984c5a6d3e774653992cddeca": {
+    "url": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
+    "first_seen": 1789769379.8861697
+  },
+  "8232697a094c45a359db3e05971cc9362e04283d8a47c48c6dfef471a2aa88c5": {
+    "url": "https://www.bbc.co.uk/news/videos/cqy4zw4xr717o?at_medium=RSS&at_campaign=rss",
+    "first_seen": 1789769379.8861809
+  },
+  "e16e191edb7b8b13366b11eb31f81d80974f44cbbdc1b7aab332eb86f6b286a7": {
+    "url": "https://www.bbc.co.uk/news/articles/cm1j4kj57k08o?at_medium=RSS&at_campaign=rss",
+    "first_seen": 1789769379.8862143
+  },
+  "019c5f3fc425b30a912433de3d3031f494cb970186b58195f1d7a3ffc3e4e621": {
+    "url": "https://www.bbc.co.uk/sport/hockey/articles/cmx2zg85gq03o?at_medium=RSS&at_campaign=rss",
+    "first_seen": 1789769379.8862255
+  },
+  "fb865641efa4f7357341fc59c39c3b51b07216a1ce6727e39bc3487f51816225": {
+    "url": "https://www.bbc.co.uk/news/articles/cq0m3gmv8n7ko?at_medium=RSS&at_campaign=rss",
+    "first_seen": 1789769379.8862927
+  },
+  "62a7b221ca9281715d0f8795e3078dfcbb8ad20e84b2cd85a08c90098e76e69b": {
+    "url": "https://www.bbc.co.uk/news/videos/cm93e7p1wkndo?at_medium=RSS&at_campaign=rss",
+    "first_seen": 1789769379.8863924
+  },
+  "62fe0780dbf5c5e332b830d33fbf6c1d6a537521b75d680e985afad0cf24e8fa": {
+    "url": "https://www.yna.co.kr/view/AKR20260919009551071",
+    "first_seen": 1789769379.886563
+  },
+  "fc9258146a1e8a6ad0d924d62f82335ec7c27a6635c37d6a76604a5de9468f7a": {
+    "url": "https://www.yna.co.kr/view/AKR20260919012400071",
+    "first_seen": 1789769379.8865693
+  },
+  "030cfc45466de2dd9b5ebf09df784eb93211bb7ec298e35e5cc9ff4b9969ad10": {
+    "url": "https://www.yna.co.kr/view/AKR20260919011500087",
+    "first_seen": 1789769379.8865755
+  },
+  "f958444c768f931191e26185e39fb08bde57962de7afeb768cc524aebfe6d525": {
+    "url": "https://www.yna.co.kr/view/AKR20260919011400091",
+    "first_seen": 1789769379.8865814
+  },
+  "84955113df4ebc5b2951fcabd148f6c39982533d46ba2da1b446b37f6ce4470b": {
+    "url": "https://www.yna.co.kr/view/AKR20260919006051071",
+    "first_seen": 1789769379.8865876
+  },
+  "13b15b690846230752a386571c9903b1f631602639a8a37d2db7247b6da729ca": {
+    "url": "https://www.yna.co.kr/view/AKR20260919009700087",
+    "first_seen": 1789769379.886594
+  },
+  "f8dd6acf50ea2f479608c7109d91080431560b87c1c5582501ec01ba7ee8a603": {
+    "url": "https://www.yna.co.kr/view/AKR20260919007451072",
+    "first_seen": 1789769379.8866003
+  },
+  "bcd64838996df1cfd1cd8f6a32cd0d9b6f0ce8cfabc88ce5dac5527cb686e548": {
+    "url": "https://www.yna.co.kr/view/AKR20260919009500071",
+    "first_seen": 1789769379.886606
+  },
+  "4706ef76897cef12f4a0c7faab8a5579ded2508ff37de6bc4e7842000cfccccf": {
+    "url": "https://www.yna.co.kr/view/AKR20260919009600079",
+    "first_seen": 1789769379.8866122
+  },
+  "60c3e9958a45c83476f4c83958fc4634672c7a52aa1801d180fe609dddbb025d": {
+    "url": "https://www.yna.co.kr/view/AKR20260919008900075",
+    "first_seen": 1789769379.8866184
+  },
+  "953812146957d0f195be974b07b20d049f4eae3aef7413314060c849a31d323d": {
+    "url": "https://www.yna.co.kr/view/AKR20260919009000071",
+    "first_seen": 1789769379.886624
+  },
+  "9541bfa19cfbfeaf3656de1c82c9802c0a0304e6b1e361df161e3e6057f2ea4f": {
+    "url": "https://www.yna.co.kr/view/AKR20260919008700071",
+    "first_seen": 1789769379.8866298
+  },
+  "74100463517533728d8ed95c6b4d133c88eecfd9d8dae1683a4de3e329e2fea7": {
+    "url": "https://www.yna.co.kr/view/AKR20260919008600071",
+    "first_seen": 1789769379.8866355
+  },
+  "55348f62828c514cf106944f7bc1cfe71d063e878470bcf2bef4370a06220924": {
+    "url": "https://www.yna.co.kr/view/AKR20260919007100091",
+    "first_seen": 1789769379.8866415
+  },
+  "26aa7f443374145649c18233a4fd034d8134b72205adbda2a19e1edac4bb606a": {
+    "url": "https://www.yna.co.kr/view/AKR20260919007700087",
+    "first_seen": 1789769379.886647
+  },
+  "cdfa387874bca8be1291a4feb6bbaa263d3185480d34291b93775a4486d57ec2": {
+    "url": "https://www.yna.co.kr/view/AKR20260919007400072",
+    "first_seen": 1789769379.886653
+  },
+  "4f424767b62f1c52225cbc68069b01b6e65028f497f98b941c7ebd8a04047229": {
+    "url": "https://www.yna.co.kr/view/AKR20260919006100071",
+    "first_seen": 1789769379.886659
+  },
+  "3dfc7daf909472a2cd0e407418e72e7e239f88eef9b02df883a25c1625512564": {
+    "url": "https://www.yna.co.kr/view/AKR20260919006200072",
+    "first_seen": 1789769379.8866646
+  },
+  "825d56ede501fa984ab8e5ad644e04a67feb55a873592d18b14ade9c23744fc9": {
+    "url": "https://www.yna.co.kr/view/AKR20260919005900071",
+    "first_seen": 1789769379.8866706
+  },
+  "9a750afded140d82e4a999e4317856cba7c8627a4d6618fdf37e0571d8f37cd9": {
+    "url": "https://www.yna.co.kr/view/AKR20260919006000071",
+    "first_seen": 1789769379.8866763
+  },
+  "cea787fdc7c1e0bbf9a64d84a7e7557ee3f96a2ac2e667cfc535258d25d301b5": {
+    "url": "https://www.yna.co.kr/view/AKR20260919004800087",
+    "first_seen": 1789769379.8866823
+  },
+  "615982efe0782591ae90344e06da5018bea4ee20a288d1fccf8ef9bcb9fce600": {
+    "url": "https://www.yna.co.kr/view/AKR20260919004500091",
+    "first_seen": 1789769379.8866882
+  },
+  "64cf7bd5efb488abda79eb28e19af1bc08d64a371485e3f84ebdc03b37f7b538": {
+    "url": "https://www.yna.co.kr/view/AKR20260919004300075",
+    "first_seen": 1789769379.8866942
+  },
+  "db9682b0c9647a5451bdb6b7000f7c5eb049246a0297b18353d44146c41b111f": {
+    "url": "https://www.yna.co.kr/view/AKR20260919005300079",
+    "first_seen": 1789769379.8867
   }
 }
