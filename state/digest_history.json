@@ -13388,5 +13388,502 @@
         }
       ]
     }
+  },
+  {
+    "date": "2026-10-01",
+    "sent_at": "2026-10-01T01:43:11.415864Z",
+    "collected": 1590,
+    "groups": {
+      "국내 증시": [
+        {
+          "title": "삼전·닉스, 마이크론 호실적에도 약세 출발…0.7∼1.0%↓",
+          "link": "https://www.yna.co.kr/view/AKR20261001040400008",
+          "outlet": "연합뉴스 · 경제",
+          "category": "국내 증시",
+          "published": "2026-10-01T00:16:46Z",
+          "description": "(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 미국 메모리 반도체 기업 마이크론의 깜짝 호실적에도 1일..."
+        },
+        {
+          "title": "코스피, 美금리 부담에 사흘째 하락…\"10월 반도체 실적 주목\" - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YWTVuTldVQWp2V3ZLVm9WTHEtdzhIcGFmSENrWVNzcUxra1c1VnRXQjh0ZmszQmdPWVFCajlWNmlsTV9QY3ZJazRRdmJHZ1RwRTNVclJzTl92SzZFVjlYNVA3UzVXcm8?oc=5",
+          "outlet": "코스피 종합 키워드 예시",
+          "category": "국내 증시",
+          "published": "2026-09-30T12:09:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YWTVuTldVQWp2V3ZLVm9WTHEtdzhIcGFmSENrWVNzcUxra1c1VnRXQjh0ZmszQmdPWVFCajlWNmlsTV9QY3ZJazRRdmJHZ1RwRTNVclJzTl92SzZFVjlYNVA3UzVXcm8?oc=5\" target=\"_blank\">코스피, 美금리 부담에 사흘째 하락…\"10월 반도체 실적 주목\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">연합뉴스TV</font>"
+        },
+        {
+          "title": "“고금리에도 주식 상승 가능”…반도체·증권·조선·에너지 주목",
+          "link": "https://www.sedaily.com/article/20096396",
+          "outlet": "서울경제 · 경제",
+          "category": "국내 증시",
+          "published": "2026-09-30T01:00:05Z",
+          "description": ""
+        },
+        {
+          "title": "'전강후약' 코스피, 美금리 부담속 0.4%↓…사흘연속 하락(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260930148600008",
+          "outlet": "연합뉴스 · 경제",
+          "category": "국내 증시",
+          "published": "2026-09-30T07:16:30Z",
+          "description": "(서울=연합뉴스) 김유아 기자 = 30일 코스피가 미국 국채금리 급등 부담과 주요 경제 지표와 마이크론의 실적 발표를 앞두고 커진 경계 심리 등..."
+        },
+        {
+          "title": "마이크론 실적 경계감? 삼전 1.5%↓…하이닉스 0.6%↑(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260930042451008",
+          "outlet": "연합뉴스 · 경제",
+          "category": "국내 증시",
+          "published": "2026-09-30T06:56:36Z",
+          "description": "(서울=연합뉴스) 황철환 기자 = 미국 마이크론 실적 발표를 앞둔 30일 삼성전자[005930]가 1%대의 낙폭을 기록한 채 정규장 거래를 마무..."
+        },
+        {
+          "title": "금리 우려에도 美반도체 훈풍에…코스피 6900선 회복[fn오전시황] - 파이낸셜뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aMVBqSUxfcnZPNGxRRjhReHpXLU5JMXZsbDJlYV9MY1Ffa1l6WXJHNWRkUmFCMHNPTWZuVTV6UjNPYmtkeG1wQVh1ejllSVlocjdCTG14Vk1EUQ?oc=5",
+          "outlet": "코스피 종합 키워드 예시",
+          "category": "국내 증시",
+          "published": "2026-09-30T02:02:39Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aMVBqSUxfcnZPNGxRRjhReHpXLU5JMXZsbDJlYV9MY1Ffa1l6WXJHNWRkUmFCMHNPTWZuVTV6UjNPYmtkeG1wQVh1ejllSVlocjdCTG14Vk1EUQ?oc=5\" target=\"_blank\">금리 우려에도 美반도체 훈풍에…코스피 6900선 회복[fn오전시황]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">파이낸셜뉴스</font>"
+        },
+        {
+          "title": "[장중시황] 코스피 6860선 약보합⋯ 삼성전자·SK하이닉스 희비 - viva100.com",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYZ19FRlBHa2N2X2I3SG9GTThGVWNaV1ZlbjFpSkdjUnhBWVR1T0pLR1ZsaDJVWUpKT0VxS2Z4elFDa0kxRlp5WXIwMkhIQm5UNkVDVmtCX3JpQQ?oc=5",
+          "outlet": "코스피 종합 키워드 예시",
+          "category": "국내 증시",
+          "published": "2026-09-30T05:08:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYZ19FRlBHa2N2X2I3SG9GTThGVWNaV1ZlbjFpSkdjUnhBWVR1T0pLR1ZsaDJVWUpKT0VxS2Z4elFDa0kxRlp5WXIwMkhIQm5UNkVDVmtCX3JpQQ?oc=5\" target=\"_blank\">[장중시황] 코스피 6860선 약보합⋯ 삼성전자·SK하이닉스 희비</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">viva100.com</font>"
+        },
+        {
+          "title": "코스피 1%대 상승 출발…SK하이닉스·삼성전자 강세 - 노컷뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1LTmI0c0prbUx4LThBaktRUW54d0pYNWxrWnNLejRjd3o3MHFHU1llNFhNbnlsTUlyUHNLLThic3FGQVBYTEctOTUwZ2FvZUN6bmc?oc=5",
+          "outlet": "코스피 종합 키워드 예시",
+          "category": "국내 증시",
+          "published": "2026-09-30T00:49:56Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE1LTmI0c0prbUx4LThBaktRUW54d0pYNWxrWnNLejRjd3o3MHFHU1llNFhNbnlsTUlyUHNLLThic3FGQVBYTEctOTUwZ2FvZUN6bmc?oc=5\" target=\"_blank\">코스피 1%대 상승 출발…SK하이닉스·삼성전자 강세</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">노컷뉴스</font>"
+        },
+        {
+          "title": "美 8월 PCE 예상보다 완화…연준 추가금리인상 부담 덜었다",
+          "link": "https://www.hankyung.com/article/202609305956i",
+          "outlet": "한국경제 · 경제",
+          "category": "국내 증시",
+          "published": "2026-09-30T13:37:07Z",
+          "description": ""
+        },
+        {
+          "title": "물가 둔화했는데, 멈추지 않는 금리(10년 5.3%) … 마이크론 실적 좋지만 [김현석의 월스트리트나우]",
+          "link": "https://www.hankyung.com/article/202610016031i",
+          "outlet": "한국경제 · 증권",
+          "category": "국내 증시",
+          "published": "2026-09-30T22:59:55Z",
+          "description": ""
+        },
+        {
+          "title": "마이크론 '괴물 실적'...낮아진 美 금리인상 가능성 [오늘 아침, 당신이 알아야 할 7가지]",
+          "link": "https://www.hankyung.com/article/202610016192i",
+          "outlet": "한국경제 · 증권",
+          "category": "국내 증시",
+          "published": "2026-09-30T22:33:52Z",
+          "description": ""
+        },
+        {
+          "title": "\"삼성전자, 내년 HBM 판매가 100% 넘게 오를 듯\"-KB",
+          "link": "https://www.hankyung.com/article/2026100162116",
+          "outlet": "한국경제 · 증권",
+          "category": "국내 증시",
+          "published": "2026-09-30T22:27:47Z",
+          "description": ""
+        }
+      ],
+      "매크로·공시": [
+        {
+          "title": "코스피, 美금리 부담에 사흘째 하락…\"10월 반도체 실적 주목\" - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YWTVuTldVQWp2V3ZLVm9WTHEtdzhIcGFmSENrWVNzcUxra1c1VnRXQjh0ZmszQmdPWVFCajlWNmlsTV9QY3ZJazRRdmJHZ1RwRTNVclJzTl92SzZFVjlYNVA3UzVXcm8?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-09-30T12:09:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YWTVuTldVQWp2V3ZLVm9WTHEtdzhIcGFmSENrWVNzcUxra1c1VnRXQjh0ZmszQmdPWVFCajlWNmlsTV9QY3ZJazRRdmJHZ1RwRTNVclJzTl92SzZFVjlYNVA3UzVXcm8?oc=5\" target=\"_blank\">코스피, 美금리 부담에 사흘째 하락…\"10월 반도체 실적 주목\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">연합뉴스TV</font>"
+        },
+        {
+          "title": "\"이 정도 국채 금리면 증시 폭락 수준\"…버티는 AI주, PCE·마이크론 실적이 변수[오미주] - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54NjJ2b3NSRXlRSmtQVmFlUTJaMmRabDloYTBuOW54R0lxTG1CS2h1cXMxMzBSUTlrb3hYaFY5UTZqZWw0bnVhQmR5VzFGMlkyaC1yQUtaOW1JdXB6ZHNhdUlDMC1XdmRu0gFuQVVfeXFMTVpsMG84OXh6eWY3S3ctOUhSTHlGN2hubmhvbUJOVXM1Sy1MNmY1cVc0SlNPdXpGOTBnRlRxck9ValZtODdsc1ZFNGRhalJHNGZsX3l4eFBoQkdWTzdIVERWY0xEN29YTm5ZUEZ6dlE?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-09-30T07:33:13Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE54NjJ2b3NSRXlRSmtQVmFlUTJaMmRabDloYTBuOW54R0lxTG1CS2h1cXMxMzBSUTlrb3hYaFY5UTZqZWw0bnVhQmR5VzFGMlkyaC1yQUtaOW1JdXB6ZHNhdUlDMC1XdmRu0gFuQVVfeXFMTVpsMG84OXh6eWY3S3ctOUhSTHlGN2hubmhvbUJOVXM1Sy1MNmY1cVc0SlNPdXpGOTBnRlRxck9ValZtODdsc1ZFNGRhalJHNGZsX3l4eFBoQkdWTzdIVERWY0xEN29YTm5ZUEZ6dlE?oc=5\" target=\"_blank\">\"이 정도 국채 금리면 증시 폭락 수준\"…버티는 AI주, PCE·마이크론 실적이 변수[오미주] - 머니투데이</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">머니투데이</font>"
+        },
+        {
+          "title": "美국채금리 한파에 외인·기관 3조 이탈…\"반도체 주목\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE84VTFMbDdvanhPWGtONFE0R2xhY1hJQncwdUFyMWtPdXR1R3ZaN1BWRjNZMEhpc3BsN3VWVVVJN2FnRWZLTXRSMzJ0SEVhYjg4Q2ROSUNBYy1fLVhhaWQtTGdneFNYajh40gFuQVVfeXFMT0tNZlU0ZWNGbG40UmMwaVlrT0dhbW1JU1hhZzVLQWVheFNYemJZWnpBUGFRcXpsMTByVEpGQWRNOHNsc3lLZHVvWFU2cHUxaUExUUV0QVBVc0E2UzBkZnVYZE9WRFZTQzFPSTJ5ckE?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-09-30T08:52:06Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE84VTFMbDdvanhPWGtONFE0R2xhY1hJQncwdUFyMWtPdXR1R3ZaN1BWRjNZMEhpc3BsN3VWVVVJN2FnRWZLTXRSMzJ0SEVhYjg4Q2ROSUNBYy1fLVhhaWQtTGdneFNYajh40gFuQVVfeXFMT0tNZlU0ZWNGbG40UmMwaVlrT0dhbW1JU1hhZzVLQWVheFNYemJZWnpBUGFRcXpsMTByVEpGQWRNOHNsc3lLZHVvWFU2cHUxaUExUUV0QVBVc0E2UzBkZnVYZE9WRFZTQzFPSTJ5ckE?oc=5\" target=\"_blank\">美국채금리 한파에 외인·기관 3조 이탈…\"반도체 주목\" - 머니투데이</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">머니투데이</font>"
+        },
+        {
+          "title": "미 국채금리 5.3% 돌파…마이크론 호실적, 코스피 반등 이끌까 - 경북매일",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vV190R0NvdmtBeC1jNmtqVTNWMFBMMnh3RkRIUUtqS3QyVHd5WlR1SEVMWS1pN2NtUU16SjlZSHdSOUVlb2JoRkJfdHJGel8xZkJNTFcyUmFNQQ?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-09-30T23:18:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vV190R0NvdmtBeC1jNmtqVTNWMFBMMnh3RkRIUUtqS3QyVHd5WlR1SEVMWS1pN2NtUU16SjlZSHdSOUVlb2JoRkJfdHJGel8xZkJNTFcyUmFNQQ?oc=5\" target=\"_blank\">미 국채금리 5.3% 돌파…마이크론 호실적, 코스피 반등 이끌까</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">경북매일</font>"
+        },
+        {
+          "title": "채권금리 압박에 다우 444P↓...마이크론 호실적에도 시간외 약세 [월가월부] - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aVDA3ZE9EZEZESXY2NnNqTnZTeVc5dnpKWFU1NmdVUEQ4OThUb2pOX2c5eDVCWFZQUnFzdk9sb0JnTFZMRDVnZ3psdXcxWVFSalE?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-09-30T21:55:18Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aVDA3ZE9EZEZESXY2NnNqTnZTeVc5dnpKWFU1NmdVUEQ4OThUb2pOX2c5eDVCWFZQUnFzdk9sb0JnTFZMRDVnZ3psdXcxWVFSalE?oc=5\" target=\"_blank\">채권금리 압박에 다우 444P↓...마이크론 호실적에도 시간외 약세 [월가월부]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">매일경제</font>"
+        },
+        {
+          "title": "마이크론 호실적 vs 美국채금리 급등…코스피 하락 출발[개장시황] - 뉴스1",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jdk1xS3Q0VjZPNHFpZFNONW51c2k2ajc0N1BHMi1mLXJZbEo3QTQxekNTQm5UdTZhZUxMRWxaUXVhbEU0ODFhVTlhNk1NcWJIX1hVVlFfTlBHbmPSAWBBVV95cUxQaWhZUTI2UmI1NTBhZnE3SGlZQXBpU3cyclhRVm1HZnZBTUduN0ZKVUNvSDc3dzRsS2hEM0ppTF85emNEaUN5ZVdRSjdSeWs2dzM1WXJ1aXd3U0NpRlRCdWU?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-10-01T00:28:44Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jdk1xS3Q0VjZPNHFpZFNONW51c2k2ajc0N1BHMi1mLXJZbEo3QTQxekNTQm5UdTZhZUxMRWxaUXVhbEU0ODFhVTlhNk1NcWJIX1hVVlFfTlBHbmPSAWBBVV95cUxQaWhZUTI2UmI1NTBhZnE3SGlZQXBpU3cyclhRVm1HZnZBTUduN0ZKVUNvSDc3dzRsS2hEM0ppTF85emNEaUN5ZVdRSjdSeWs2dzM1WXJ1aXd3U0NpRlRCdWU?oc=5\" target=\"_blank\">마이크론 호실적 vs 美국채금리 급등…코스피 하락 출발[개장시황]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">뉴스1</font>"
+        },
+        {
+          "title": "[마켓뷰] 美금리 악재·마이크론 호실적…코스피 반등하나 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GTDh0bFdhVGItYklfUlJ0QlViNlpFUUdmYzRxLS1BVkdHQ1ZacjVlQnptYXhOT0NGLVRJaklySUh0ejIwVnBqWm9FS1ZsVExFQ1JlYmh0ZW1sLTTSAWBBVV95cUxQVWRlVkxWZEExcjFzZ0cxVTZnRUIyejJxbkhYLU5rWjNpcm53M2dTSVVUNEhfcE44SzRSZlprWUxESllCRlV4a1RfV1lqalZySmI5M3d6ampuVzFYNTR0NV8?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-09-30T23:01:47Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GTDh0bFdhVGItYklfUlJ0QlViNlpFUUdmYzRxLS1BVkdHQ1ZacjVlQnptYXhOT0NGLVRJaklySUh0ejIwVnBqWm9FS1ZsVExFQ1JlYmh0ZW1sLTTSAWBBVV95cUxQVWRlVkxWZEExcjFzZ0cxVTZnRUIyejJxbkhYLU5rWjNpcm53M2dTSVVUNEhfcE44SzRSZlprWUxESllCRlV4a1RfV1lqalZySmI5M3d6ampuVzFYNTR0NV8?oc=5\" target=\"_blank\">[마켓뷰] 美금리 악재·마이크론 호실적…코스피 반등하나</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">연합뉴스</font>"
+        },
+        {
+          "title": "금리 급등에 뉴욕증시 대체로 약세…마이크론은 ‘깜짝 실적’ - 마켓인",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5DSnVCWkpicEFFODdfWHlsamc2NElGSVg4X1dpb082TzJHcldDeWtkUDg4WGh6aDUzeXlPYnBFaVBJTktWSUlUMUh5SEtJcXJUVTF1UGtoMUxnd25MbzZzRThjSEgwRkVSUUZSY0lSMXFZQ00?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-09-30T22:58:38Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5DSnVCWkpicEFFODdfWHlsamc2NElGSVg4X1dpb082TzJHcldDeWtkUDg4WGh6aDUzeXlPYnBFaVBJTktWSUlUMUh5SEtJcXJUVTF1UGtoMUxnd25MbzZzRThjSEgwRkVSUUZSY0lSMXFZQ00?oc=5\" target=\"_blank\">금리 급등에 뉴욕증시 대체로 약세…마이크론은 ‘깜짝 실적’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">마켓인</font>"
+        },
+        {
+          "title": "바클레이즈 \"미 30년물 국채금리 6% 이를수도\" - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsb2wwTEN6ZS1xREFUZngxZk1kUmxPWFF5MlpZdTh4R0tlTGFvYTV4X0play1zdDl0bzM3LXE4bVl4Vk9GSXJaRjNQZGdxbW5zM0E?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-09-30T07:05:59Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsb2wwTEN6ZS1xREFUZngxZk1kUmxPWFF5MlpZdTh4R0tlTGFvYTV4X0play1zdDl0bzM3LXE4bVl4Vk9GSXJaRjNQZGdxbW5zM0E?oc=5\" target=\"_blank\">바클레이즈 \"미 30년물 국채금리 6% 이를수도\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">매일경제 마켓</font>"
+        },
+        {
+          "title": "\"시장금리 더 뛸라\"…부랴부랴 보도자료 고친 정부 [김익환의 부처 핸즈업] - hankyung.com",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oSmRySzhxZlBMYXZjUHl1b3U4WWJOQVdvVW8yeGJ5dG41MEthMFZYQ09NZzV3Sk1UTTBYbHhnVnlOVGZTZUtBclVuRnFmbUtyRGM4bDNVTG1wZw?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-09-30T02:32:37Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oSmRySzhxZlBMYXZjUHl1b3U4WWJOQVdvVW8yeGJ5dG41MEthMFZYQ09NZzV3Sk1UTTBYbHhnVnlOVGZTZUtBclVuRnFmbUtyRGM4bDNVTG1wZw?oc=5\" target=\"_blank\">\"시장금리 더 뛸라\"…부랴부랴 보도자료 고친 정부 [김익환의 부처 핸즈업]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">hankyung.com</font>"
+        },
+        {
+          "title": "거시경제당국 \"국고채 금리 상승 과도하면 긴급바이백\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5mTGZESlZPcmFLVXdwYV9ldDRnb0JxbGpIQzRGal9TaURBR0JRYmtpNmUxMkVfVGljT19lYlVpTDhCRzhjR2paVFMtMXBDdGktNmVpOElPX2V2MjNxSlF4YTF4WU9tQ3VELXA00gFwQVVfeXFMUDdLcXo5YUVETE9RUXF2YloxbDRpcVdnLW0tVjJKNHlvZExiVmNIcTlxbW9QaWZpYThkT2pFOUtFRWRjb3RMQXltbVhOSkNwQm1FekZZZzBNcjZmemtDUnZMeVJBenJMMzNsalFFNWJWSg?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-09-30T01:17:03Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE5mTGZESlZPcmFLVXdwYV9ldDRnb0JxbGpIQzRGal9TaURBR0JRYmtpNmUxMkVfVGljT19lYlVpTDhCRzhjR2paVFMtMXBDdGktNmVpOElPX2V2MjNxSlF4YTF4WU9tQ3VELXA00gFwQVVfeXFMUDdLcXo5YUVETE9RUXF2YloxbDRpcVdnLW0tVjJKNHlvZExiVmNIcTlxbW9QaWZpYThkT2pFOUtFRWRjb3RMQXltbVhOSkNwQm1FekZZZzBNcjZmemtDUnZMeVJBenJMMzNsalFFNWJWSg?oc=5\" target=\"_blank\">거시경제당국 \"국고채 금리 상승 과도하면 긴급바이백\" - 머니투데이</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">머니투데이</font>"
+        },
+        {
+          "title": "코스피 약세 마감…美 국채금리 상승 여파 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IS2piVkJHUkZnRlQ0N1dOS3lsU1A3bE1VZFVBd21sdlhlMHEzUlY4Ny01dDJ2OHdqN1MweG0tOFVhU0E0NWxKdzNnbzRkXy02R0VHbHNpTGtJMGpkaVhIMXA1d20wbDhU0gFuQVVfeXFMTmZfUmh0ZjhtM2psX0g1cTVHOHRCRGoxSEtaTHptZUtCQ05OdmEwcmQ0UDR0VVlab25vbzJIQmxhZU9MQ25KUVNxRnpKUlZqZzcyLWFUWE1pYkx0c0U2X2FLSW44X0lvemRIZ3FZNkE?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-09-30T07:23:41Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IS2piVkJHUkZnRlQ0N1dOS3lsU1A3bE1VZFVBd21sdlhlMHEzUlY4Ny01dDJ2OHdqN1MweG0tOFVhU0E0NWxKdzNnbzRkXy02R0VHbHNpTGtJMGpkaVhIMXA1d20wbDhU0gFuQVVfeXFMTmZfUmh0ZjhtM2psX0g1cTVHOHRCRGoxSEtaTHptZUtCQ05OdmEwcmQ0UDR0VVlab25vbzJIQmxhZU9MQ25KUVNxRnpKUlZqZzcyLWFUWE1pYkx0c0U2X2FLSW44X0lvemRIZ3FZNkE?oc=5\" target=\"_blank\">코스피 약세 마감…美 국채금리 상승 여파 - 머니투데이</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">머니투데이</font>"
+        }
+      ],
+      "반도체·기술": [
+        {
+          "title": "코스피, 美금리 부담에 사흘째 하락…\"10월 반도체 실적 주목\" - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YWTVuTldVQWp2V3ZLVm9WTHEtdzhIcGFmSENrWVNzcUxra1c1VnRXQjh0ZmszQmdPWVFCajlWNmlsTV9QY3ZJazRRdmJHZ1RwRTNVclJzTl92SzZFVjlYNVA3UzVXcm8?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-09-30T12:09:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YWTVuTldVQWp2V3ZLVm9WTHEtdzhIcGFmSENrWVNzcUxra1c1VnRXQjh0ZmszQmdPWVFCajlWNmlsTV9QY3ZJazRRdmJHZ1RwRTNVclJzTl92SzZFVjlYNVA3UzVXcm8?oc=5\" target=\"_blank\">코스피, 美금리 부담에 사흘째 하락…\"10월 반도체 실적 주목\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">연합뉴스TV</font>"
+        },
+        {
+          "title": "[김대호 진단] 반도체열전 (59) HBM... SK하닉 vs 삼성전자 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSGxRTUxjcE00WEYyOE95M2k1a09mMVdHNzhoR2RBWDYyNDkzc3dVNjNYN2VST0JIN3NyZVhMMWtaNnJWRFlzSlByZDRzZHd3R0VpSzlvb3pIZDNwZEkyZDBrSWd6cjNTM3V1VFZfM0x3c2QxbE91SGpGYjR4RjBWbF9vNGk?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-09-30T15:00:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNSGxRTUxjcE00WEYyOE95M2k1a09mMVdHNzhoR2RBWDYyNDkzc3dVNjNYN2VST0JIN3NyZVhMMWtaNnJWRFlzSlByZDRzZHd3R0VpSzlvb3pIZDNwZEkyZDBrSWd6cjNTM3V1VFZfM0x3c2QxbE91SGpGYjR4RjBWbF9vNGk?oc=5\" target=\"_blank\">[김대호 진단] 반도체열전 (59) HBM... SK하닉 vs 삼성전자</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">글로벌이코노믹</font>"
+        },
+        {
+          "title": "10월 증시, 금리 공포보다 실적…AI·반도체로 좁혀지는 승부 By EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DLTVfd2xZcUNYNVpFNnZVWjgyanNBQWUyZzdCUWhaY3Y4MWtOaTE3VU1XaDF5WDN0ZzFxVVZrYVNFNC1xSzBMc2lWdVBpRlV6UU5kMFhEUnhMMGdQSlBNVlZvX01ZZkJxdXAtZzZhZEE?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-09-30T21:41:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE5DLTVfd2xZcUNYNVpFNnZVWjgyanNBQWUyZzdCUWhaY3Y4MWtOaTE3VU1XaDF5WDN0ZzFxVVZrYVNFNC1xSzBMc2lWdVBpRlV6UU5kMFhEUnhMMGdQSlBNVlZvX01ZZkJxdXAtZzZhZEE?oc=5\" target=\"_blank\">10월 증시, 금리 공포보다 실적…AI·반도체로 좁혀지는 승부 By EBN</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com 한국어</font>"
+        },
+        {
+          "title": "\"외인 K주식 줍는다\" 금리·유가 치솟아도 반도체 강세...코스피 반등 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0dk50ZXZobWxIaXRMd3Y2eWtOUXhXZ1h2SjFKVTRQeWlyclJTSUdYUDhiVkhEWW5qVk9Pbll2SkhQclhJY1lnaVRaN0d4MWF0VEEwZ1M0clo1VXVFLXJMZ1B1M2htSlhl0gFuQVVfeXFMTkdzWThWb2tNS3U3X19XMENZMmRjMTJLUFNnOHE5Yl9QN3VBaS15ZDYwa2hDSnRSSGk4MU1OVnZsX0JBSlp2ZU83ZTRDdzdpZjhMOVFQTlFLUnh5Tkc0VW5KRzFjVFM2Skk1Ri1yTVE?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-09-30T02:29:08Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0dk50ZXZobWxIaXRMd3Y2eWtOUXhXZ1h2SjFKVTRQeWlyclJTSUdYUDhiVkhEWW5qVk9Pbll2SkhQclhJY1lnaVRaN0d4MWF0VEEwZ1M0clo1VXVFLXJMZ1B1M2htSlhl0gFuQVVfeXFMTkdzWThWb2tNS3U3X19XMENZMmRjMTJLUFNnOHE5Yl9QN3VBaS15ZDYwa2hDSnRSSGk4MU1OVnZsX0JBSlp2ZU83ZTRDdzdpZjhMOVFQTlFLUnh5Tkc0VW5KRzFjVFM2Skk1Ri1yTVE?oc=5\" target=\"_blank\">\"외인 K주식 줍는다\" 금리·유가 치솟아도 반도체 강세...코스피 반등 - 머니투데이</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">머니투데이</font>"
+        },
+        {
+          "title": "코스피, 반도체 반등 시도…美 국채금리 5.2%가 ’복병’ By EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAybXBYTzZueXlKUDlnVDFCcTZyeHQ0ck5Uc3pEeC1QenpjbTc3X2RlbThmRDZiVFR4WEZETHFXaXZYR3ZlOTB5eC12WXRHQjhiYkV4M2dPQWpBYnFoRzdLb1ZDeEE3WXIyUTlDeFFVMHY?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-09-30T02:12:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFAybXBYTzZueXlKUDlnVDFCcTZyeHQ0ck5Uc3pEeC1QenpjbTc3X2RlbThmRDZiVFR4WEZETHFXaXZYR3ZlOTB5eC12WXRHQjhiYkV4M2dPQWpBYnFoRzdLb1ZDeEE3WXIyUTlDeFFVMHY?oc=5\" target=\"_blank\">코스피, 반도체 반등 시도…美 국채금리 5.2%가 ’복병’ By EBN</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com 한국어</font>"
+        },
+        {
+          "title": "금리 우려에도 美반도체 훈풍에…코스피 6900선 회복[fn오전시황] - 파이낸셜뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aMVBqSUxfcnZPNGxRRjhReHpXLU5JMXZsbDJlYV9MY1Ffa1l6WXJHNWRkUmFCMHNPTWZuVTV6UjNPYmtkeG1wQVh1ejllSVlocjdCTG14Vk1EUQ?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-09-30T02:02:39Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aMVBqSUxfcnZPNGxRRjhReHpXLU5JMXZsbDJlYV9MY1Ffa1l6WXJHNWRkUmFCMHNPTWZuVTV6UjNPYmtkeG1wQVh1ejllSVlocjdCTG14Vk1EUQ?oc=5\" target=\"_blank\">금리 우려에도 美반도체 훈풍에…코스피 6900선 회복[fn오전시황]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">파이낸셜뉴스</font>"
+        },
+        {
+          "title": "TSMC 반도체 공장 '대만 집중 리스크' 대응, 삼성전자 뒤따라 미국 텍사스로 눈 돌린다 - 비즈니스포스트",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9aTVVmcHplcDAyWlcxdU5vREtGOEhoTS1xUGwtUm5SZ1R2NjRHc095YzFpbWhMM05UR3NOd3lmLV9jdERPdTRMa2VqQUFrTmM2OXM2NmFHZS1WOGFxLWxJbFVpbmlKZTZOdEtiVEl4NnJQUG8?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-09-30T05:16:15Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE9aTVVmcHplcDAyWlcxdU5vREtGOEhoTS1xUGwtUm5SZ1R2NjRHc095YzFpbWhMM05UR3NOd3lmLV9jdERPdTRMa2VqQUFrTmM2OXM2NmFHZS1WOGFxLWxJbFVpbmlKZTZOdEtiVEl4NnJQUG8?oc=5\" target=\"_blank\">TSMC 반도체 공장 '대만 집중 리스크' 대응, 삼성전자 뒤따라 미국 텍사스로 눈 돌린다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">비즈니스포스트</font>"
+        },
+        {
+          "title": "삼성전자, '에이전틱 AI' 전환 본격화…반도체 설계·제조에도 적용 - 녹색경제신문",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14MjlRcl80TjFRcWJmYkZCVUxjWVhJd0RwdE0xVkVYa1F5MmVJZTQ2Q0I5eFVIRVZBZzdFeFJzSDFxLWpsZHZ5eUp5UlBZckIyYkhIOUwtYUozQ1hRTjM2dFRJWUQtdTJF?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-09-30T04:37:07Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE14MjlRcl80TjFRcWJmYkZCVUxjWVhJd0RwdE0xVkVYa1F5MmVJZTQ2Q0I5eFVIRVZBZzdFeFJzSDFxLWpsZHZ5eUp5UlBZckIyYkhIOUwtYUozQ1hRTjM2dFRJWUQtdTJF?oc=5\" target=\"_blank\">삼성전자, '에이전틱 AI' 전환 본격화…반도체 설계·제조에도 적용</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">녹색경제신문</font>"
+        },
+        {
+          "title": "美국채금리 한파에 외인·기관 3조 이탈…\"반도체 주목\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE84VTFMbDdvanhPWGtONFE0R2xhY1hJQncwdUFyMWtPdXR1R3ZaN1BWRjNZMEhpc3BsN3VWVVVJN2FnRWZLTXRSMzJ0SEVhYjg4Q2ROSUNBYy1fLVhhaWQtTGdneFNYajh40gFuQVVfeXFMT0tNZlU0ZWNGbG40UmMwaVlrT0dhbW1JU1hhZzVLQWVheFNYemJZWnpBUGFRcXpsMTByVEpGQWRNOHNsc3lLZHVvWFU2cHUxaUExUUV0QVBVc0E2UzBkZnVYZE9WRFZTQzFPSTJ5ckE?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-09-30T08:52:06Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE84VTFMbDdvanhPWGtONFE0R2xhY1hJQncwdUFyMWtPdXR1R3ZaN1BWRjNZMEhpc3BsN3VWVVVJN2FnRWZLTXRSMzJ0SEVhYjg4Q2ROSUNBYy1fLVhhaWQtTGdneFNYajh40gFuQVVfeXFMT0tNZlU0ZWNGbG40UmMwaVlrT0dhbW1JU1hhZzVLQWVheFNYemJZWnpBUGFRcXpsMTByVEpGQWRNOHNsc3lLZHVvWFU2cHUxaUExUUV0QVBVc0E2UzBkZnVYZE9WRFZTQzFPSTJ5ckE?oc=5\" target=\"_blank\">美국채금리 한파에 외인·기관 3조 이탈…\"반도체 주목\" - 머니투데이</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">머니투데이</font>"
+        },
+        {
+          "title": "‘반도체 공룡’ 마이크론 오늘 실적 발표…주식 분할에 쏠린 눈 [재테크+] - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYUGFjSkZYQmRtYWN2TjYzXzM2NzdUX1NxLUxaZWxkeWgtbG16RF9GaThuODhjUGdXaXg4ZkZ2cllFWHpUMGxHT0M2V1ZGMXp3SnIxYzZ0ZHNjOUhxejc4dkxMNE5tRnhhcWdlRm5yNA?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-09-30T10:43:26Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBYUGFjSkZYQmRtYWN2TjYzXzM2NzdUX1NxLUxaZWxkeWgtbG16RF9GaThuODhjUGdXaXg4ZkZ2cllFWHpUMGxHT0M2V1ZGMXp3SnIxYzZ0ZHNjOUhxejc4dkxMNE5tRnhhcWdlRm5yNA?oc=5\" target=\"_blank\">‘반도체 공룡’ 마이크론 오늘 실적 발표…주식 분할에 쏠린 눈 [재테크+]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">서울신문</font>"
+        },
+        {
+          "title": "제퍼리스가 선정한 3분기 실적 시즌 유럽 반도체 주식 3종목 - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JTXVMR09RdU9fVnk3QW5vM1VyY3FGbUFDb0N2OGpKYVdxUFh5dTJWYWtnQ3BWcGpJbk5pQUNlR3QtMVd2R2Jsc0V3OEE2X296Q2tYV1NSUlZfdGI4OUx0M09iUE1Tc0FMeGJEcmE1amw?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-09-30T11:50:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1JTXVMR09RdU9fVnk3QW5vM1VyY3FGbUFDb0N2OGpKYVdxUFh5dTJWYWtnQ3BWcGpJbk5pQUNlR3QtMVd2R2Jsc0V3OEE2X296Q2tYV1NSUlZfdGI4OUx0M09iUE1Tc0FMeGJEcmE1amw?oc=5\" target=\"_blank\">제퍼리스가 선정한 3분기 실적 시즌 유럽 반도체 주식 3종목</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com 한국어</font>"
+        },
+        {
+          "title": "‘반도체 풍향계’ 마이크론 실적 드디어 나온다…‘삼전닉스’ 랠리 재점화할까 - v.daum.net",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mZ2ZCbU5DNTd3Xy1hdG1xeWMzYjl2NGdmLWs3XzVyQjBXbmNMa3BZZ1hCZFFWZnQwWEljeEk4NmVxRkh1YndpMXh1czNEaVE?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-09-30T11:02:11Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mZ2ZCbU5DNTd3Xy1hdG1xeWMzYjl2NGdmLWs3XzVyQjBXbmNMa3BZZ1hCZFFWZnQwWEljeEk4NmVxRkh1YndpMXh1czNEaVE?oc=5\" target=\"_blank\">‘반도체 풍향계’ 마이크론 실적 드디어 나온다…‘삼전닉스’ 랠리 재점화할까</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">v.daum.net</font>"
+        }
+      ],
+      "전쟁·지정학": [
+        {
+          "title": "마이크론, 2030년 매출 3분의1 장기계약 확보…\"수급 빠듯\"",
+          "link": "https://www.yna.co.kr/view/AKR20261001033500009",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-10-01T00:16:00Z",
+          "description": "(서울=연합뉴스) 정주호 기자 = 사상 최대 실적을 낸 미국 메모리 반도체 기업 마이크론이 2030년까지 매출의 3분의 1 이상을 장기공급계약으..."
+        },
+        {
+          "title": "마이크론, 분기매출 73.5조원 '사상최대'…\"내년 실적 더 강력\"",
+          "link": "https://www.yna.co.kr/view/AKR20261001007400091",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-09-30T20:51:33Z",
+          "description": "(샌프란시스코=연합뉴스) 권영전 특파원 = 미국 메모리 반도체 기업 마이크론이 인공지능(AI) 열풍에 따른 메모리 수요 폭발에 힘입어 사상 최대..."
+        },
+        {
+          "title": "바클레이즈 \"미 30년물 국채금리 6% 이를수도\"",
+          "link": "https://www.yna.co.kr/view/AKR20260930143800009",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-09-30T07:05:59Z",
+          "description": "(서울=연합뉴스) 설원태 기자 = 바클레이즈 캐피털은 미국 30년물 국채 금리가 6%까지 상승할 수 있다고 분석했다."
+        },
+        {
+          "title": "달러화 강세 지속…유로화 대비 16개월 만에 최고",
+          "link": "https://www.yna.co.kr/view/AKR20260930070000009",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-09-30T01:50:44Z",
+          "description": "(서울=연합뉴스) 정주호 기자 = 미국 10년물 국채 금리가 5%를 웃도는 가운데 달러화가 29일(현지시간) 유로화와 스위스프랑화에 대해 16개..."
+        },
+        {
+          "title": "中, 日'유엔 적국조항 삭제' 요구 반대…\"재군사화 현실적 위협\"",
+          "link": "https://www.yna.co.kr/view/AKR20260930062100083",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-09-30T01:16:23Z",
+          "description": "(베이징=연합뉴스) 김현정 특파원 = 중국이 일본의 유엔(UN) 헌장상 &apos;적국조항&apos; 삭제 요구에 대해 일본의 &apos;재군사화&apos; 움직임을 이유로 들며 ..."
+        },
+        {
+          "title": "美 8월 PCE 물가 3.4%↑…전망 밑돌며 10월 금리인상 부담 완화(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20260930194151072",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-09-30T14:07:19Z",
+          "description": "(뉴욕=연합뉴스) 임수정 특파원 = 미국의 8월 개인소비지출(PCE) 물가 상승률이 시장 전망을 밑돈 것으로 나타났다."
+        },
+        {
+          "title": "독일 9월 소비자물가 3.3％↑…ECB 금리인상 압박",
+          "link": "https://www.yna.co.kr/view/AKR20260930196400082",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-09-30T13:43:10Z",
+          "description": "(베를린=연합뉴스) 김계연 특파원 = 이달 독일 소비자물가가 작년 9월보다 3.3％, 지난달에 비해 0.6％ 오른 것으로 독일 연방통계청이 30..."
+        },
+        {
+          "title": "美 10년물 금리 장중 5.3% 돌파…24년 만에 최고치 경신",
+          "link": "https://www.yna.co.kr/view/AKR20261001005300072",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-09-30T19:46:05Z",
+          "description": "(뉴욕=연합뉴스) 임수정 특파원 = 미국의 10년 만기 국채 금리가 30일(현지시간) 5.3%를 돌파하며 24년 만에 최고 수준으로 올라섰다."
+        },
+        {
+          "title": "\"금리 상승에 日정부 2035년 국채이자 부담 3.5배 급증 가능성\"",
+          "link": "https://www.yna.co.kr/view/AKR20261001034400073",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-10-01T00:15:35Z",
+          "description": "(도쿄=연합뉴스) 조성미 특파원 = 국제적인 금리 상승세 속에서 장기 금리가 4%대에 올라설 경우 일본 정부가 내야 할 국채 이자 비용이 지금의..."
+        },
+        {
+          "title": "콜롬비아, 강진 피해에도 금리인상…\"엘니뇨가 인플레 압력\"",
+          "link": "https://www.yna.co.kr/view/AKR20261001014500087",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-09-30T22:53:13Z",
+          "description": "(멕시코시티=연합뉴스) 송광호 특파원 = 콜롬비아 중앙은행이 30일(현지시간) 금리 인상을 단행했다."
+        },
+        {
+          "title": "뉴욕증시, 美PCE 예상 밑돌았지만 장기금리 부담에 혼조세(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261001006251072",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-09-30T21:29:24Z",
+          "description": "(뉴욕=연합뉴스) 임수정 특파원 = 뉴욕증시의 3대 지수가 30일(현지시간) 혼조세로 마감했다."
+        },
+        {
+          "title": "Three takeaways from Trump's 'Super Intelligence' summit",
+          "link": "https://www.bbc.co.uk/news/articles/cme30dz5vkzko?at_medium=RSS&at_campaign=rss",
+          "outlet": "BBC · World News",
+          "category": "전쟁·지정학",
+          "published": "2026-09-30T04:01:52Z",
+          "description": "The meeting at the White House came as some tech bosses and experts have called for tighter rules around AI."
+        }
+      ],
+      "미국 증시": [
+        {
+          "title": "U.S. stock futures rise following upbeat Micron earnings",
+          "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-rise-following-upbeat-micron-earnings-4926147",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-10-01T00:43:51Z",
+          "description": ""
+        },
+        {
+          "title": "Beijing warns of retaliation if Europe imposes curbs on Chinese businesses",
+          "link": "https://www.cnbc.com/2026/09/30/china-warns-europe-increases-trade-pressure.html",
+          "outlet": "CNBC · Finance",
+          "category": "미국 증시",
+          "published": "2026-09-30T03:39:08Z",
+          "description": "China must \"respond firmly\" if the EU introduces restrictions on Chinese businesses or products, the Commerce Ministry said, according to a CNBC translation."
+        },
+        {
+          "title": "Trump denies offering Iran sanctions relief; Qatar pushes for peace talks",
+          "link": "https://www.cnbc.com/2026/09/30/us-iran-war-trump-hormuz.html",
+          "outlet": "CNBC · Energy",
+          "category": "미국 증시",
+          "published": "2026-09-30T07:47:42Z",
+          "description": "U.S. President Donald Trump has denied reports that he had offered sanctions relief to Iran in exchange for concessions from Tehran on its nuclear program."
+        },
+        {
+          "title": "Why is Saga stock surging today?",
+          "link": "https://www.investing.com/news/stock-market-news/why-is-saga-stock-surging-today-93CH-4924246",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-09-30T07:27:23Z",
+          "description": ""
+        },
+        {
+          "title": "Why is Greggs stock surging today?",
+          "link": "https://www.investing.com/news/stock-market-news/why-is-greggs-stock-surging-today-93CH-4924245",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-09-30T07:25:33Z",
+          "description": ""
+        },
+        {
+          "title": "DoorDash to create 3,000 jobs at global tech centre in India",
+          "link": "https://www.investing.com/news/stock-market-news/doordash-to-create-3000-jobs-at-global-techcentre-in-india-4924243",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-09-30T07:24:28Z",
+          "description": ""
+        },
+        {
+          "title": "FTSE 100 today: Stocks rise as UK GDP beats forecasts, miners lead",
+          "link": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-rise-as-uk-gdp-beats-forecasts-miners-lead-4924242",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-09-30T07:22:09Z",
+          "description": ""
+        },
+        {
+          "title": "European equities gain as tech listings track U.S. AI expansion signals",
+          "link": "https://www.investing.com/news/stock-market-news/european-equities-gain-as-tech-listings-track-us-ai-expansion-signals-4924144",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-09-30T07:21:11Z",
+          "description": ""
+        },
+        {
+          "title": "Japan stocks higher at close of trade; Nikkei 225 up 2.16%",
+          "link": "https://www.investing.com/news/stock-market-news/japan-stocks-higher-at-close-of-trade-nikkei-225-up-216-4924223",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-09-30T07:00:04Z",
+          "description": ""
+        },
+        {
+          "title": "Australia stocks higher at close of trade; S&P/ASX 200 up 0.92%",
+          "link": "https://www.investing.com/news/stock-market-news/australia-stocks-higher-at-close-of-trade-spasx-200-up-092-4924164",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-09-30T06:30:04Z",
+          "description": ""
+        },
+        {
+          "title": "Bond yields weigh on stocks - but this medical device name is up 19%",
+          "link": "https://www.investing.com/news/stock-market-news/bond-yields-weigh-on-stocks--but-this-medical-device-name-is-up-19-4924161",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-09-30T06:27:52Z",
+          "description": ""
+        },
+        {
+          "title": "Crypto Q3 roundup: Bitcoin up 42%, while this altcoin nearly doubled in price",
+          "link": "https://www.investing.com/news/stock-market-news/crypto-q3-roundup-bitcoin-up-42-while-this-altcoin-nearly-doubled-in-price-93CH-4924147",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-09-30T06:18:32Z",
+          "description": ""
+        }
+      ]
+    }
   }
 ]
