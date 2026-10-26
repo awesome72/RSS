@@ -25813,5 +25813,502 @@
         }
       ]
     }
+  },
+  {
+    "date": "2026-10-26",
+    "sent_at": "2026-10-26T00:53:30.335824Z",
+    "collected": 658,
+    "groups": {
+      "반도체·기술": [
+        {
+          "title": "​삼성전자·SK하이닉스 3분기 합산 영업익 180조 원 돌파… AI 반도체 호황이 만든 '역대급 실적' - 뉴스21 통신",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85QjJLVGkzSmxfdDFIOE50N3J4M3AzczlkWTJnWXB5YTJKQWp2YnhUaEY1dHlHekNkUWdPMzhBeHlHYjhRVzY0cTZuT25iV2QtcXMwVk1B?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-10-25T15:19:03Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE85QjJLVGkzSmxfdDFIOE50N3J4M3AzczlkWTJnWXB5YTJKQWp2YnhUaEY1dHlHekNkUWdPMzhBeHlHYjhRVzY0cTZuT25iV2QtcXMwVk1B?oc=5\" target=\"_blank\">​삼성전자·SK하이닉스 3분기 합산 영업익 180조 원 돌파… AI 반도체 호황이 만든 '역대급 실적'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">뉴스21 통신</font>"
+        },
+        {
+          "title": "코스피, 美 FOMC·반도체 실적 앞두고 방향성 탐색…바닥 다질까 - 블루밍비트",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTjhrTWVubUoyVEpYcktENUFiYXJZN19CSlc1eGJxZkQ2RllOREt1U2pvemJTb3FkT0JYNXZIajRaSHk5OGhmQTlVeWJHV3ox?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-10-25T02:28:57Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTjhrTWVubUoyVEpYcktENUFiYXJZN19CSlc1eGJxZkQ2RllOREt1U2pvemJTb3FkT0JYNXZIajRaSHk5OGhmQTlVeWJHV3ox?oc=5\" target=\"_blank\">코스피, 美 FOMC·반도체 실적 앞두고 방향성 탐색…바닥 다질까</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">블루밍비트</font>"
+        },
+        {
+          "title": "이번주 국내 증시 미국 FOMC·물가·AI실적에 요동치나, 반도체 반등할지 주목 - 비즈니스포스트",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BLXN5ajlzeWhjY3NUTGxVWHRfMEJMQl9NM1RQOXFvYnI4ZmI5MW84QTBMbnViTnJpcUhSeWtoVXVyYmpQd3YwQ3hlYXI2V2N1bkktWEpsTlRxMVlmUXdxQW92Um4zb2trVDVvYkZLdzM1U3M?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-10-25T03:14:22Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5BLXN5ajlzeWhjY3NUTGxVWHRfMEJMQl9NM1RQOXFvYnI4ZmI5MW84QTBMbnViTnJpcUhSeWtoVXVyYmpQd3YwQ3hlYXI2V2N1bkktWEpsTlRxMVlmUXdxQW92Um4zb2trVDVvYkZLdzM1U3M?oc=5\" target=\"_blank\">이번주 국내 증시 미국 FOMC·물가·AI실적에 요동치나, 반도체 반등할지 주목</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">비즈니스포스트</font>"
+        },
+        {
+          "title": "FOMC에 반도체 실적까지…널뛰기 장세에 이벤트 촉각 - 국제신문",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTjkxcEFueHF4OVNxRmFwVHJKbnQxUXlOVUNIYXlpUElfN1d1ZUdTNndtSEx2cGN2NUw4NGN3NUVCTDhKNk5kdHBSX1R4MURiZGdhaktTZllCaWJZM2Z4M0IzR0dTMHgtYkV6d0ZPY2JzUFZudHV6eHJwMkZWSFRpREpJZFd0YWlScXRv?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-10-25T10:12:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTjkxcEFueHF4OVNxRmFwVHJKbnQxUXlOVUNIYXlpUElfN1d1ZUdTNndtSEx2cGN2NUw4NGN3NUVCTDhKNk5kdHBSX1R4MURiZGdhaktTZllCaWJZM2Z4M0IzR0dTMHgtYkV6d0ZPY2JzUFZudHV6eHJwMkZWSFRpREpJZFd0YWlScXRv?oc=5\" target=\"_blank\">FOMC에 반도체 실적까지…널뛰기 장세에 이벤트 촉각</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">국제신문</font>"
+        },
+        {
+          "title": "FOMC에 반도체 실적까지…널뛰기 장세에 이벤트 촉각 - 국제신문",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQTg1R3g1dDdvb1JyZGxKM3RSVDc4eVh4d19Lb0JLdl91dGVKVEYtTWQyaENTNVNNMWdsLThBbndWaXdjc0Q5cHIySEwtZldnc0hnMEpEc0xlMFpMTVRyazd5TTVHeTN2OEdIWmgwcTl6N0I0Ym4taGxYM2EtclBQZzNWMnFVeGJVdXhaUnZn?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-10-25T10:12:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQQTg1R3g1dDdvb1JyZGxKM3RSVDc4eVh4d19Lb0JLdl91dGVKVEYtTWQyaENTNVNNMWdsLThBbndWaXdjc0Q5cHIySEwtZldnc0hnMEpEc0xlMFpMTVRyazd5TTVHeTN2OEdIWmgwcTl6N0I0Ym4taGxYM2EtclBQZzNWMnFVeGJVdXhaUnZn?oc=5\" target=\"_blank\">FOMC에 반도체 실적까지…널뛰기 장세에 이벤트 촉각</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">국제신문</font>"
+        },
+        {
+          "title": "반도체 초호황 이익, 주주에게 얼마나 돌려줄까 … 삼성·하이닉스 실적 주목 - 뉴데일리",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TR2xlRHpXUm9FQ0pCMjMxeWFwbG4yZDRyWmd0SUh6bUpmLUc4LXBVR1dqZk01MkRPSnRYZE5uelVtbE4zdmUwdmVpT3BzV1BvTkZEeVZDSFpSTER2b3N2YXZQTDVBdkdhRXRrcVF5Rjl5TXU3bzFfWmMwZ9IBgAFBVV95cUxQZ2VEaThob2VJaDRXTHVWbEVfeXZRZnhoRG5LNjJhbm54T1pzRUM2TWNibmlUTHg5bF9ubTB0OXJGNm4wU0lnQ1I4ckFodnZfNGtXUUU0dGpZSzFmREExdExHTlJrSm5DODlLbWNCQlc0N0xtSlhPeXRJOVlJM0lxYQ?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-10-25T01:14:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE1TR2xlRHpXUm9FQ0pCMjMxeWFwbG4yZDRyWmd0SUh6bUpmLUc4LXBVR1dqZk01MkRPSnRYZE5uelVtbE4zdmUwdmVpT3BzV1BvTkZEeVZDSFpSTER2b3N2YXZQTDVBdkdhRXRrcVF5Rjl5TXU3bzFfWmMwZ9IBgAFBVV95cUxQZ2VEaThob2VJaDRXTHVWbEVfeXZRZnhoRG5LNjJhbm54T1pzRUM2TWNibmlUTHg5bF9ubTB0OXJGNm4wU0lnQ1I4ckFodnZfNGtXUUU0dGpZSzFmREExdExHTlJrSm5DODlLbWNCQlc0N0xtSlhPeXRJOVlJM0lxYQ?oc=5\" target=\"_blank\">반도체 초호황 이익, 주주에게 얼마나 돌려줄까 … 삼성·하이닉스 실적 주목</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">뉴데일리</font>"
+        },
+        {
+          "title": "용인 플랫폼시티 컨벤션센터, 반도체 국제회의 거점으로 검토 - 팔당유역신문",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4yb2ItZU9LSjEwcVMyTTV6M3gxTGI1ZnJydTJwZ2lZNHJiUG1hWUlXVE5LdWNRSUdlUGNIVzh3dFlNM2dTUnN0RHBMTmJTLXMzd0ZjUEdLcTNxWkkwU3A5X3g2aXhsUVptOFBB?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-10-25T12:14:53Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE4yb2ItZU9LSjEwcVMyTTV6M3gxTGI1ZnJydTJwZ2lZNHJiUG1hWUlXVE5LdWNRSUdlUGNIVzh3dFlNM2dTUnN0RHBMTmJTLXMzd0ZjUEdLcTNxWkkwU3A5X3g2aXhsUVptOFBB?oc=5\" target=\"_blank\">용인 플랫폼시티 컨벤션센터, 반도체 국제회의 거점으로 검토</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">팔당유역신문</font>"
+        },
+        {
+          "title": "맞춤형 HBM 시대 본격 개막...반도체 ‘적과의 동침’ ‘합종연횡’ 가속화 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUG8zVzlmTm5ZSDRqZnBYSjU0ZjB0RUg4cGlZcUZtQWQzSGlYTlRsalpTZG9IUHVWVG54NXRnQUt4MGp3MVl3a2lOazBEWl9DLU1pdmY0azZIVGc5ZHhZSEFvMlRLdWwzeERRVVVLblE5cGY2UDdoNVp1a0U0eGpOYVd4Yw?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-10-25T22:07:29Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQUG8zVzlmTm5ZSDRqZnBYSjU0ZjB0RUg4cGlZcUZtQWQzSGlYTlRsalpTZG9IUHVWVG54NXRnQUt4MGp3MVl3a2lOazBEWl9DLU1pdmY0azZIVGc5ZHhZSEFvMlRLdWwzeERRVVVLblE5cGY2UDdoNVp1a0U0eGpOYVd4Yw?oc=5\" target=\"_blank\">맞춤형 HBM 시대 본격 개막...반도체 ‘적과의 동침’ ‘합종연횡’ 가속화</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">조선일보</font>"
+        },
+        {
+          "title": "위기 딛고 HBM4 승부수…삼성 반도체 초격차 재건 [이재용 4년, 미래 지도] - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5scjhYUHdyN29XcE05RHlLaTBISWdhOHBYZGhIc01zenBGbHFtbzhNU3UwZElCdWp1M2pMSHBhdnp2UUtyYU1OYlRSSDAzTU1pdUU0QQ?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-10-25T20:00:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5scjhYUHdyN29XcE05RHlLaTBISWdhOHBYZGhIc01zenBGbHFtbzhNU3UwZElCdWp1M2pMSHBhdnp2UUtyYU1OYlRSSDAzTU1pdUU0QQ?oc=5\" target=\"_blank\">위기 딛고 HBM4 승부수…삼성 반도체 초격차 재건 [이재용 4년, 미래 지도]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">이투데이</font>"
+        },
+        {
+          "title": "삼성전자, 반도체 설계부터 생산까지 AI 혁신…글로벌 협력 확대 [혁신경영] - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1VW1maFhPdlJRTERIcTVqY2tZU1dUcjNzSlhGZXlHWndReUJTR1Q4WEZwLVNmdXRnZ1BKYUViekprdVFNMHREYXFoLW5xdDgtMnpNRA?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-10-25T20:00:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1VW1maFhPdlJRTERIcTVqY2tZU1dUcjNzSlhGZXlHWndReUJTR1Q4WEZwLVNmdXRnZ1BKYUViekprdVFNMHREYXFoLW5xdDgtMnpNRA?oc=5\" target=\"_blank\">삼성전자, 반도체 설계부터 생산까지 AI 혁신…글로벌 협력 확대 [혁신경영]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">이투데이</font>"
+        },
+        {
+          "title": "11월 제조업 회복 기대 꺾였다…반도체 ‘웃고’ 휴대폰 ‘울고’ - 마켓인",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBla015dVkwam5nWVZHU0tCVTlrSmdzTFZ1SzVMOTVPcUJyTzZNdlhYYzRPVE9rOXJzek5WNWU3Tl9ZNHdtWU81cF9wMExWWDVoOGVrbW1hREZYNmJkV3IyWndtZlB1X1BTU1REbjVqNWxoYlE?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-10-25T01:00:03Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTFBla015dVkwam5nWVZHU0tCVTlrSmdzTFZ1SzVMOTVPcUJyTzZNdlhYYzRPVE9rOXJzek5WNWU3Tl9ZNHdtWU81cF9wMExWWDVoOGVrbW1hREZYNmJkV3IyWndtZlB1X1BTU1REbjVqNWxoYlE?oc=5\" target=\"_blank\">11월 제조업 회복 기대 꺾였다…반도체 ‘웃고’ 휴대폰 ‘울고’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">마켓인</font>"
+        },
+        {
+          "title": "반도체 소부장, AI 타고 ’훨훨’…글로벌 진출 확대 - 연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVREE1RHI5WTJFVXNEWHVHUkNrQkZxZ2dMdnBtREtFVnR3WDhzMElTOFUtdlJrWDh4Y2xGNkNXc0RfV2w4X0hNbkZUTWF5NjBCcEV3eEVIVEZ6TVVpTHBqMXE3Y21tWVE?oc=5",
+          "outlet": "반도체 키워드 예시",
+          "category": "반도체·기술",
+          "published": "2026-10-25T00:31:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVREE1RHI5WTJFVXNEWHVHUkNrQkZxZ2dMdnBtREtFVnR3WDhzMElTOFUtdlJrWDh4Y2xGNkNXc0RfV2w4X0hNbkZUTWF5NjBCcEV3eEVIVEZ6TVVpTHBqMXE3Y21tWVE?oc=5\" target=\"_blank\">반도체 소부장, AI 타고 ’훨훨’…글로벌 진출 확대</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">연합뉴스TV</font>"
+        }
+      ],
+      "국내 증시": [
+        {
+          "title": "솔리다임 상장 중단 후 반등한 코스피…FOMC·실적 주목 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQUTJiYUdiZnZJbXVvY2d6c2ZLVVRjWkhpOU4yZFUwdHpUdnJYRTNTRVRZdEcxdDdxTlRtOGN1Uk5nY1pnY0tXWV9haDNjSkVSMXNXUG1wT2g2cVU1T0sxcmt1cko4T1JU0gFuQVVfeXFMTWwtT0JMWnk3RmxhNklKSFk0dmhGcVJhS1NQQldROTRwVTVHNFVWaFpSR2owY3ZNUzJkczVJdmNqdVlOX2xTNlpzNzlLaXlfeDdiWEZxeGh3eVpwMm9DZWhhNUVwRy03V1Q2SjJtZFE?oc=5",
+          "outlet": "코스피 종합 키워드 예시",
+          "category": "국내 증시",
+          "published": "2026-10-25T02:15:23Z",
+          "description": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQUTJiYUdiZnZJbXVvY2d6c2ZLVVRjWkhpOU4yZFUwdHpUdnJYRTNTRVRZdEcxdDdxTlRtOGN1Uk5nY1pnY0tXWV9haDNjSkVSMXNXUG1wT2g2cVU1T0sxcmt1cko4T1JU0gFuQVVfeXFMTWwtT0JMWnk3RmxhNklKSFk0dmhGcVJhS1NQQldROTRwVTVHNFVWaFpSR2owY3ZNUzJkczVJdmNqdVlOX2xTNlpzNzlLaXlfeDdiWEZxeGh3eVpwMm9DZWhhNUVwRy03V1Q2SjJtZFE?oc=5\" target=\"_blank\">솔리다임 상장 중단 후 반등한 코스피…FOMC·실적 주목 - 머니투데이</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">머니투데이</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Pd0tDSFlXTFFvZE1mZWtWU2hXV3llUUtKV1BqWkZyZ0dBOGFWR0IwRlMwVHFmT2gtX3N6eWpEZ25GLTc0X3JYZEtvZHFjdFZvRmc?oc=5\" target=\"_blank\">“5300선까지 밀렸는데, 기사회생”…코스피, 기관 매수에 반등 마감</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">매일경제 마켓</font></li><li><a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9PZ1dvLWNCdEVvaUVBWEZNTU5XNkRPU0Y4VEdqdTZyQnZzaDdjNDFMak01SXZhZHZSOXVFMmxQNTVzbXB2c3l4NlZacHZZNnF3NEhJUlN1Z1VKc1J1bGZNTk1FTVItT09GXzFWd2tyVlLSAXRBVV95cUxQVHE5ZVA1YmduVzd6X1JOMnZpdDVSVlhzYjRpcVFJMmpNb0hGelU4dTktXzcyc3pqYlIzMXI2VzJVcHVkZWVCMGhsZXJNNF9SZHYxZEMtVW5jV0htQXdKX3B6Qm9YMnBaUmphMkdieTNNbVVKRA?oc=5\" target=\"_blank\">반도체 실적, 반등 계기될까… 코스피, AI 신용위험 주시 [주간증시전망]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IT조선</font></li></ol>"
+        },
+        {
+          "title": "코스피, 美 FOMC·반도체 실적 앞두고 방향성 탐색…바닥 다질까 - 블루밍비트",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTjhrTWVubUoyVEpYcktENUFiYXJZN19CSlc1eGJxZkQ2RllOREt1U2pvemJTb3FkT0JYNXZIajRaSHk5OGhmQTlVeWJHV3ox?oc=5",
+          "outlet": "코스피 종합 키워드 예시",
+          "category": "국내 증시",
+          "published": "2026-10-25T02:28:57Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTjhrTWVubUoyVEpYcktENUFiYXJZN19CSlc1eGJxZkQ2RllOREt1U2pvemJTb3FkT0JYNXZIajRaSHk5OGhmQTlVeWJHV3ox?oc=5\" target=\"_blank\">코스피, 美 FOMC·반도체 실적 앞두고 방향성 탐색…바닥 다질까</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">블루밍비트</font>"
+        },
+        {
+          "title": "美 FOMC·반도체 실적 ‘슈퍼위크’…코스피, 반등 실마리 찾을까 [주간 증시 전망]",
+          "link": "https://www.sedaily.com/article/20105745",
+          "outlet": "서울경제 · 마켓시그널",
+          "category": "국내 증시",
+          "published": "2026-10-25T22:00:05Z",
+          "description": ""
+        },
+        {
+          "title": "[마켓 ING]기업 실적·FOMC 몰린 슈퍼위크 속 코스피 반등 모색 - 아시아경제",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHYmwwcGNHSmtnbllXVEZjdmRubXRMYlp3d1huMlJQM1VOZl9LZGxwcUlPMW9CWjRHTWprMXZkYll6ZUFQSHdNLWpQMll0NVpPTExqeDJ1ZXJFYWUzQmhoNA?oc=5",
+          "outlet": "코스피 종합 키워드 예시",
+          "category": "국내 증시",
+          "published": "2026-10-25T05:50:05Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHYmwwcGNHSmtnbllXVEZjdmRubXRMYlp3d1huMlJQM1VOZl9LZGxwcUlPMW9CWjRHTWprMXZkYll6ZUFQSHdNLWpQMll0NVpPTExqeDJ1ZXJFYWUzQmhoNA?oc=5\" target=\"_blank\">[마켓 ING]기업 실적·FOMC 몰린 슈퍼위크 속 코스피 반등 모색</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">아시아경제</font>"
+        },
+        {
+          "title": "FOMC·삼전닉스 실적 발표… 코스피 '빅이벤트' 버텨낼까 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aVFY0Yi1GQVM3WGc5RnZKelh3N0NjbzRHdDczMHZUTTVWNzJCM0F2R1JKVVpnaHl1NnpESURFbjQ3Z3ZpdjN3QUdCcnp3bUlCWGN5MmRYaEl0OGEzdl9wTTZTYmhRUkhL0gFuQVVfeXFMT2o4Q2tZX0MyU0c4QXN0dzhsSGlXU1lFT3V2T2UzeVVhdUtTem5vNlI4ODNKc1g0RWpMcnFBN21ZTTV5RkhWSkVwdDZrVThHOTNEUlFzbDhEMkIxa0NseEEyMUJEOHF0YWt1VEowWUE?oc=5",
+          "outlet": "코스피 종합 키워드 예시",
+          "category": "국내 증시",
+          "published": "2026-10-25T18:28:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aVFY0Yi1GQVM3WGc5RnZKelh3N0NjbzRHdDczMHZUTTVWNzJCM0F2R1JKVVpnaHl1NnpESURFbjQ3Z3ZpdjN3QUdCcnp3bUlCWGN5MmRYaEl0OGEzdl9wTTZTYmhRUkhL0gFuQVVfeXFMT2o4Q2tZX0MyU0c4QXN0dzhsSGlXU1lFT3V2T2UzeVVhdUtTem5vNlI4ODNKc1g0RWpMcnFBN21ZTTV5RkhWSkVwdDZrVThHOTNEUlFzbDhEMkIxa0NseEEyMUJEOHF0YWt1VEowWUE?oc=5\" target=\"_blank\">FOMC·삼전닉스 실적 발표… 코스피 '빅이벤트' 버텨낼까 - 머니투데이</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">머니투데이</font>"
+        },
+        {
+          "title": "고점서 반토막 난 SK하이닉스…실적·주주환원에 쏠린 눈 [코주부]",
+          "link": "https://www.sedaily.com/article/20105711",
+          "outlet": "서울경제 · 마켓시그널",
+          "category": "국내 증시",
+          "published": "2026-10-25T21:30:05Z",
+          "description": ""
+        },
+        {
+          "title": "‘삼전닉스’ 실적에 주요국 금리 결정까지…이번주 ‘슈퍼위크’, 코스피 바닥 다지고 반등할까 - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMFNyVjk0SnBBMHpYYlZrazhyMERtbExZeDhtakV0aGo5OGp0aTE5YTMtN3hvdW5GRWFfVHAwa0F4YndRNm01eDlod1hOcTA4Ymt3UlRyc1FKVV83c2hnMWZ0N2xZT1ZqOFRPRl9MVUlRNWtXcVdSaldJbDYybHZLc3hiOXpWRHFvUHRsT1A1WkprWWVnUXUtY2dmTGxYMWlZUHR5QllkTnhKZw?oc=5",
+          "outlet": "코스피 종합 키워드 예시",
+          "category": "국내 증시",
+          "published": "2026-10-25T21:00:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMFNyVjk0SnBBMHpYYlZrazhyMERtbExZeDhtakV0aGo5OGp0aTE5YTMtN3hvdW5GRWFfVHAwa0F4YndRNm01eDlod1hOcTA4Ymt3UlRyc1FKVV83c2hnMWZ0N2xZT1ZqOFRPRl9MVUlRNWtXcVdSaldJbDYybHZLc3hiOXpWRHFvUHRsT1A1WkprWWVnUXUtY2dmTGxYMWlZUHR5QllkTnhKZw?oc=5\" target=\"_blank\">‘삼전닉스’ 실적에 주요국 금리 결정까지…이번주 ‘슈퍼위크’, 코스피 바닥 다지고 반등할까</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">경향신문</font>"
+        },
+        {
+          "title": "FOMC·삼전닉스 실적 발표… 코스피 '빅이벤트' 버텨낼까 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tWGtteEtEVURNUWh4QlZpMUszQVAybE54eWZSemJkQktmdUQwUXRXd3NYX1c3S1A4UFJmX1Rkd0pDcG1Ya21wRUFYa0swb04xV3hkUWtWeHFlYzB4ZHRyY21NWGlFU29MZHdmdEx0WUdKSUdHOHfSAXtBVV95cUxNeDBGYTdaTHRoeUhHRDJoZW92Sm1aaFBFaVBWeTRlVDdzR21kdUhVaEh1MTMyVFEzUkFaQnNDRGYwTGxkbDRKaHg0eEV4c0FvcXBLUXVQZUs4Y05GZmFVd3h4U0xDZURwNWZYaGNZX3BpRFM4UmVLR1VlTjQ?oc=5",
+          "outlet": "코스피 종합 키워드 예시",
+          "category": "국내 증시",
+          "published": "2026-10-25T18:28:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5tWGtteEtEVURNUWh4QlZpMUszQVAybE54eWZSemJkQktmdUQwUXRXd3NYX1c3S1A4UFJmX1Rkd0pDcG1Ya21wRUFYa0swb04xV3hkUWtWeHFlYzB4ZHRyY21NWGlFU29MZHdmdEx0WUdKSUdHOHfSAXtBVV95cUxNeDBGYTdaTHRoeUhHRDJoZW92Sm1aaFBFaVBWeTRlVDdzR21kdUhVaEh1MTMyVFEzUkFaQnNDRGYwTGxkbDRKaHg0eEV4c0FvcXBLUXVQZUs4Y05GZmFVd3h4U0xDZURwNWZYaGNZX3BpRFM4UmVLR1VlTjQ?oc=5\" target=\"_blank\">FOMC·삼전닉스 실적 발표… 코스피 '빅이벤트' 버텨낼까 - 머니투데이</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">머니투데이</font>"
+        },
+        {
+          "title": "고점 대비 56% 급락 SK하이닉스…솔리다임 상장 중단에 반등 이어갈까 [선데이 머니카페]",
+          "link": "https://www.sedaily.com/article/20105702",
+          "outlet": "서울경제 · 마켓시그널",
+          "category": "국내 증시",
+          "published": "2026-10-25T01:16:59Z",
+          "description": ""
+        },
+        {
+          "title": "반도체 주52시간 ‘법제화’ 무산되나…입법 대신 시행령 개정",
+          "link": "https://www.sedaily.com/article/20105686",
+          "outlet": "서울경제 · 경제",
+          "category": "국내 증시",
+          "published": "2026-10-25T00:15:05Z",
+          "description": ""
+        },
+        {
+          "title": "미국 10년물 금리 3년 7개월 만에 최대 낙폭…다시 5% 밑으로",
+          "link": "https://www.sedaily.com/article/20105690",
+          "outlet": "서울경제 · 경제",
+          "category": "국내 증시",
+          "published": "2026-10-25T00:15:05Z",
+          "description": ""
+        },
+        {
+          "title": "美, 중국 AI·첨단 반도체 투자 옥죈다…생명공학까지 규제 확대",
+          "link": "https://www.sedaily.com/article/20105691",
+          "outlet": "서울경제 · 경제",
+          "category": "국내 증시",
+          "published": "2026-10-25T00:15:05Z",
+          "description": ""
+        }
+      ],
+      "매크로·공시": [
+        {
+          "title": "\"美 국채금리 박스권 이탈 임박 가능성…FOMC가 촉매될 것\" - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9vWW4zT01nTm5PS1RuQ3FBcTZLRmc4LW1SR01EOV9fQXFFbVNrUzdMSEtaWXFESG5SN1BvbmwxUzNwNEV4c0N6RXdxZ2FmeE5BNXhaRjgyWTk4QmxBMzV4alNEaks2YV9sMHpyRlJmQUw?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-10-23T02:14:49Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9vWW4zT01nTm5PS1RuQ3FBcTZLRmc4LW1SR01EOV9fQXFFbVNrUzdMSEtaWXFESG5SN1BvbmwxUzNwNEV4c0N6RXdxZ2FmeE5BNXhaRjgyWTk4QmxBMzV4alNEaks2YV9sMHpyRlJmQUw?oc=5\" target=\"_blank\">\"美 국채금리 박스권 이탈 임박 가능성…FOMC가 촉매될 것\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">연합인포맥스</font>"
+        },
+        {
+          "title": "美 연준, 내주 기준금리 동결 유력…12월 인상론 '무게' - www.ebn.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tZ082VlBnQVRQRzlXM1VuY0d4QWtUQTFRZjhLMU5VLW85RXhEYWgtVGI1NzM2dHoxTlRMckFpT1Bsdml4Nl9ZeG9aTkxRME5QMkM0dGROTkhzeFJWanBkVVg1LWJYS3Z4?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-10-25T00:50:38Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tZ082VlBnQVRQRzlXM1VuY0d4QWtUQTFRZjhLMU5VLW85RXhEYWgtVGI1NzM2dHoxTlRMckFpT1Bsdml4Nl9ZeG9aTkxRME5QMkM0dGROTkhzeFJWanBkVVg1LWJYS3Z4?oc=5\" target=\"_blank\">美 연준, 내주 기준금리 동결 유력…12월 인상론 '무게'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">www.ebn.co.kr</font>"
+        },
+        {
+          "title": "AI發 美 국채금리 급락·佛 재정불안까지 … 한은 연내 추가 인상 '안갯속' - 뉴데일리",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE81R2l1WlNMUVNnNkdyRklGOExvMTVCQXBaZzVyOGtEeVJaWV9GU3drSUJheU5fdnBrR3A0dFo1QXJ5OEY5QWRGbl92QU5kVWMwbm5PampaUjU4bUw2M0RFTXFhYXNoWTM0bmpPa1lzLVpVVjBaLUNQUU01QdIBgAFBVV95cUxNUHFlY2RWSXNLUGFLY3hYUE01THhSaWxFMnFqWHRRTlZDQlUyajM2QWU5NXY3MWJydnFGRVFnS0ZrN2YyeElBMklxaTNxT1ltdHNhZTZjY2kyUnJMMnA3S0wwVlNlYlVIUUl4NzRuWVRNRC1DU3VPR3NGYU9nU3JaSw?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-10-23T07:00:00Z",
+          "description": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE81R2l1WlNMUVNnNkdyRklGOExvMTVCQXBaZzVyOGtEeVJaWV9GU3drSUJheU5fdnBrR3A0dFo1QXJ5OEY5QWRGbl92QU5kVWMwbm5PampaUjU4bUw2M0RFTXFhYXNoWTM0bmpPa1lzLVpVVjBaLUNQUU01QdIBgAFBVV95cUxNUHFlY2RWSXNLUGFLY3hYUE01THhSaWxFMnFqWHRRTlZDQlUyajM2QWU5NXY3MWJydnFGRVFnS0ZrN2YyeElBMklxaTNxT1ltdHNhZTZjY2kyUnJMMnA3S0wwVlNlYlVIUUl4NzRuWVRNRC1DU3VPR3NGYU9nU3JaSw?oc=5\" target=\"_blank\">AI發 美 국채금리 급락·佛 재정불안까지 … 한은 연내 추가 인상 '안갯속'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">뉴데일리</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE9pcnBReE1qWVBRekNZQzZmeGZNRmloaFFtQ1pVd09PRVBzQzhRMGM2N2ZickpRUmxpMndMdE5NY1c2MFJyLWJmUVYxSTBXd2hvSUE?oc=5\" target=\"_blank\">AI거품 우려에 안전자산으로…美국채로 이자·자본차익 노려볼까</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">매일경제 마켓</font></li><li><a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPRUdlSlVyRjZXUDluUWpZR2lvVjUxbWJyZkt1QUdaR3ZlT0x0bEdwZkpGb2R1SHBuX3ZaTk43YnNzckNvaC1MNDktOWFsdUtiU2lkSnMtRzFJdTBmNnAtNUtDMkpYaWRVVnlMd2FhQVZLNW9FOEw5eDJ5MjdtSnhDLXFfN0E?oc=5\" target=\"_blank\">[김대호 진단] 미국 국채금리 5% 붕괴...반도체 주가폭락 신호탄?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">글로벌이코노믹</font></li></ol>"
+        },
+        {
+          "title": "프랑스 부채 위기, 유로존 전역으로 퍼질까 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jdFB3cS03QTBaWGtGdzFWQ09fX0Q2elBNazlHaXBGdDJxeDdRcnBaLXhMU2g5T25zTjVJLW9wYW4wZVpJY0xZYVdaVFVZQ2xjR0d6LVR3?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-10-25T00:38:56Z",
+          "description": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jdFB3cS03QTBaWGtGdzFWQ09fX0Q2elBNazlHaXBGdDJxeDdRcnBaLXhMU2g5T25zTjVJLW9wYW4wZVpJY0xZYVdaVFVZQ2xjR0d6LVR3?oc=5\" target=\"_blank\">프랑스 부채 위기, 유로존 전역으로 퍼질까</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">지디넷코리아</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb19HVkxwenVJelFBMjFyempWZkVGUjFqSVVCUldzTG1YYk5EYmRIYWxIVC1qU1JHeV9PVHE4SnBzT0ptcExGb3Vhaml1ZjFpbDVOTU5HbG03eURES2UydzBCOThlbUFYd3hGOTgzT19JU05HV195WHlFQWk3dkdfYUNDdTJVT0ps?oc=5\" target=\"_blank\">프랑스 재정 적자 경고등…국채 금리 5% 돌파에 유로존 '전염 공포'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">글로벌이코노믹</font></li><li><a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1wMW1BS3N0b25xT21QckoyUzdBMGx0XzF5cW56T0RobHhCa3JLejlYckxQeGdXYXVrajFnYlY0ck84b3c2RGg2TTRscFFJR2d5SVkxUmpKd01PWWs4NVpvNFBmOEk3aF96MElObWZJMUg?oc=5\" target=\"_blank\">유럽 대규모 시위 확산에 프랑스·이탈리아 등 국채 금리 일제 상승(상보)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">연합인포맥스</font></li></ol>"
+        },
+        {
+          "title": "프랑스 41만명 반정부 시위, 국채금리 24년 최고…마크롱 '이중 위기' - 위키리크스한국",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OSFk3U2dOd01xWVVuUDFTYXlIbjY5NF9jMzBlWXdvOVBQU3dZXzlrRHFuWHBJUjBOTDFYOFV6dDl4ZGt5NVdGVDl5a1Q5NE9QdmpLNVVRRXVSYzN2aUV2bFJlVjZta1NhMkMwUjB1WQ?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-10-25T02:01:59Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1OSFk3U2dOd01xWVVuUDFTYXlIbjY5NF9jMzBlWXdvOVBQU3dZXzlrRHFuWHBJUjBOTDFYOFV6dDl4ZGt5NVdGVDl5a1Q5NE9QdmpLNVVRRXVSYzN2aUV2bFJlVjZta1NhMkMwUjB1WQ?oc=5\" target=\"_blank\">프랑스 41만명 반정부 시위, 국채금리 24년 최고…마크롱 '이중 위기'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">위키리크스한국</font>"
+        },
+        {
+          "title": "프랑스 국채금리 24년 만에 최고…시위때문에 증시·성장률 '휘청' - 마켓인",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE13dElpVENnbmpscFlKUzZxOGh2TDR2Q0dmX1FpLVlWNWRqMmEwQ3RhenRLQ3hpc1drT3RNektBbER2d291UktjQzluUmxETHg3SGdxX2tKbl9XZDRWUUkxQzhFNE1QYWJnSWZXS2xYNlpYV1k?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-10-25T00:19:36Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE13dElpVENnbmpscFlKUzZxOGh2TDR2Q0dmX1FpLVlWNWRqMmEwQ3RhenRLQ3hpc1drT3RNektBbER2d291UktjQzluUmxETHg3SGdxX2tKbl9XZDRWUUkxQzhFNE1QYWJnSWZXS2xYNlpYV1k?oc=5\" target=\"_blank\">프랑스 국채금리 24년 만에 최고…시위때문에 증시·성장률 '휘청'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">마켓인</font>"
+        },
+        {
+          "title": "프랑스 국채금리 24년 만에 최고…시위때문에 증시·성장률 '휘청' - 이데일리",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQ3lmSkhCaHVhX2xCN2lsb0p1M0F4REJMLU9rTGw3ME9wNzZ2dW1jYnlJTTBQS08xd3JIVndqNkdERkVITGJlcGVKcFcwOGJESWd4WDZvUmMtZkQzU1NkVHlhcy1zWHgwNGFNSURBWG1EVmZNeTdZdWw3YXcyNkpydA?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-10-25T00:19:36Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNQ3lmSkhCaHVhX2xCN2lsb0p1M0F4REJMLU9rTGw3ME9wNzZ2dW1jYnlJTTBQS08xd3JIVndqNkdERkVITGJlcGVKcFcwOGJESWd4WDZvUmMtZkQzU1NkVHlhcy1zWHgwNGFNSURBWG1EVmZNeTdZdWw3YXcyNkpydA?oc=5\" target=\"_blank\">프랑스 국채금리 24년 만에 최고…시위때문에 증시·성장률 '휘청'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">이데일리</font>"
+        },
+        {
+          "title": "안전자산 찾아서…美 10년물 국채 금리, 한달만에 5% 밑으로 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JaXE4R1lyNzhScUpQU3JBZVJKdlVmTk5fdTJQeTlJc09RUGZqY0VCRkdSWDdmRlBlaWJNRXVSVjNTb0JxcXZUTlpRXzdyTFlWQWxsQ2lEajJWbWhlRWpqeNIBYEFVX3lxTE1JaXE4R1lyNzhScUpQU3JBZVJKdlVmTk5fdTJQeTlJc09RUGZqY0VCRkdSWDdmRlBlaWJNRXVSVjNTb0JxcXZUTlpRXzdyTFlWQWxsQ2lEajJWbWhlRWpqeA?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-10-22T21:14:56Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JaXE4R1lyNzhScUpQU3JBZVJKdlVmTk5fdTJQeTlJc09RUGZqY0VCRkdSWDdmRlBlaWJNRXVSVjNTb0JxcXZUTlpRXzdyTFlWQWxsQ2lEajJWbWhlRWpqeNIBYEFVX3lxTE1JaXE4R1lyNzhScUpQU3JBZVJKdlVmTk5fdTJQeTlJc09RUGZqY0VCRkdSWDdmRlBlaWJNRXVSVjNTb0JxcXZUTlpRXzdyTFlWQWxsQ2lEajJWbWhlRWpqeA?oc=5\" target=\"_blank\">안전자산 찾아서…美 10년물 국채 금리, 한달만에 5% 밑으로</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">연합뉴스</font>"
+        },
+        {
+          "title": "[김학균의 이코노믹스] 40년 저금리 시대의 종언, 금리 대폭 하락 기대 접어야 - 중앙일보",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1nMFJxZTBlenMzMTh4dUpKZ3IweXZWVTRQLU5tWlo3Rmc4Smx2a2IxUXFyT3FuVkp2d010MFB2ME1NWGtuc3MxdEhwV2xOMktHVS15OFN3?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-10-22T15:12:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1nMFJxZTBlenMzMTh4dUpKZ3IweXZWVTRQLU5tWlo3Rmc4Smx2a2IxUXFyT3FuVkp2d010MFB2ME1NWGtuc3MxdEhwV2xOMktHVS15OFN3?oc=5\" target=\"_blank\">[김학균의 이코노믹스] 40년 저금리 시대의 종언, 금리 대폭 하락 기대 접어야</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">중앙일보</font>"
+        },
+        {
+          "title": "프랑스 재정 적자 경고등…국채 금리 5% 돌파에 유로존 '전염 공포' - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb19HVkxwenVJelFBMjFyempWZkVGUjFqSVVCUldzTG1YYk5EYmRIYWxIVC1qU1JHeV9PVHE4SnBzT0ptcExGb3Vhaml1ZjFpbDVOTU5HbG03eURES2UydzBCOThlbUFYd3hGOTgzT19JU05HV195WHlFQWk3dkdfYUNDdTJVT0ps?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-10-25T01:21:01Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb19HVkxwenVJelFBMjFyempWZkVGUjFqSVVCUldzTG1YYk5EYmRIYWxIVC1qU1JHeV9PVHE4SnBzT0ptcExGb3Vhaml1ZjFpbDVOTU5HbG03eURES2UydzBCOThlbUFYd3hGOTgzT19JU05HV195WHlFQWk3dkdfYUNDdTJVT0ps?oc=5\" target=\"_blank\">프랑스 재정 적자 경고등…국채 금리 5% 돌파에 유로존 '전염 공포'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">글로벌이코노믹</font>"
+        },
+        {
+          "title": "ECB, 프랑스 국채시장 개입할까…추가 금리 인상에도 제동 - 글로벌이코노믹",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQazMybGViQVVvMFo1bnlidXJ1YnJHaGJValhXVFc0dVM5eUZXdG5lQ2g3UFRmaWhDOHpKdkdnUG9tNnlISV9YbjZJSW9JV3VPeEQwMXI2THlYVzlnOV9SYUpieF9nZnhEQ0R5aVhzMzJYY1Bwby1IUUNkclpodlN2U0p4YUFUNFNC?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-10-25T18:00:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQazMybGViQVVvMFo1bnlidXJ1YnJHaGJValhXVFc0dVM5eUZXdG5lQ2g3UFRmaWhDOHpKdkdnUG9tNnlISV9YbjZJSW9JV3VPeEQwMXI2THlYVzlnOV9SYUpieF9nZnhEQ0R5aVhzMzJYY1Bwby1IUUNkclpodlN2U0p4YUFUNFNC?oc=5\" target=\"_blank\">ECB, 프랑스 국채시장 개입할까…추가 금리 인상에도 제동</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">글로벌이코노믹</font>"
+        },
+        {
+          "title": "프랑스 국채금리 5% 돌파 향방은…ECB 개입 시점 놓고 엇갈리는 전망 - 연합인포맥스",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aczE2MzdzX09hUjg5WFV6RlZuT3RYV0phZy1zUktwZ21EUlJYeWZFang1ci1mQUVuc2hIZDhxa1F0NDR5M3hQVllXTFpRdS1VR0QtZGpSQlo5QnBwRXNmMlBSUldxWkNuSlg4VWhlQ0I?oc=5",
+          "outlet": "국채금리 키워드 예시",
+          "category": "매크로·공시",
+          "published": "2026-10-22T02:21:00Z",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9aczE2MzdzX09hUjg5WFV6RlZuT3RYV0phZy1zUktwZ21EUlJYeWZFang1ci1mQUVuc2hIZDhxa1F0NDR5M3hQVllXTFpRdS1VR0QtZGpSQlo5QnBwRXNmMlBSUldxWkNuSlg4VWhlQ0I?oc=5\" target=\"_blank\">프랑스 국채금리 5% 돌파 향방은…ECB 개입 시점 놓고 엇갈리는 전망</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">연합인포맥스</font>"
+        }
+      ],
+      "미국 증시": [
+        {
+          "title": "Chinese equities face prolonged downturn as earnings forecasts tumble",
+          "link": "https://www.investing.com/news/stock-market-news/chinese-equities-face-prolonged-downturn-as-earnings-forecasts-tumble-4971016",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-10-25T01:37:10Z",
+          "description": ""
+        },
+        {
+          "title": "Sydney’s new international airport opens to passengers",
+          "link": "https://www.investing.com/news/stock-market-news/sydneys-new-international-airport-opens-to-passengers-4971003",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-10-25T00:30:24Z",
+          "description": ""
+        },
+        {
+          "title": "5 big analyst AI moves: ’Uniquely catalyst-rich’ months ahead for SpaceX",
+          "link": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-uniquely-catalystrich-months-ahead-for-spacex-4970923",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-10-25T07:40:11Z",
+          "description": ""
+        },
+        {
+          "title": "HSBC sees cautious optimism in VC and PE activity",
+          "link": "https://www.investing.com/news/stock-market-news/hsbc-sees-cautious-optimism-in-vc-and-pe-activity-4971023",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-10-25T02:48:10Z",
+          "description": ""
+        },
+        {
+          "title": "Saudi Arabia says it intercepted missiles and drones from Iran-backed Houthis",
+          "link": "https://www.cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html",
+          "outlet": "CNBC · Energy",
+          "category": "미국 증시",
+          "published": "2026-10-25T13:41:37Z",
+          "description": "Saudi Arabia says it intercepted Houthi missiles and drones, while the Houthis claimed attacks on airports and energy sites amid rising regional supply risks."
+        },
+        {
+          "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 2.65%",
+          "link": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-265-4971175",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-10-25T12:45:03Z",
+          "description": ""
+        },
+        {
+          "title": "UBS may cut 12,000 Swiss jobs if capital rules tighten - report",
+          "link": "https://www.investing.com/news/stock-market-news/ubs-may-cut-12000-swiss-jobs-if-capital-rules-tighten--report-4971117",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-10-25T10:45:31Z",
+          "description": ""
+        },
+        {
+          "title": "Street Calls of the Week",
+          "link": "https://www.investing.com/news/stock-market-news/street-calls-of-the-week-93CH-4970904",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-10-25T10:05:01Z",
+          "description": ""
+        },
+        {
+          "title": "Recent labor market data show some signs of AI-related hiring headwinds",
+          "link": "https://www.investing.com/news/stock-market-news/recent-labor-market-data-show-some-signs-of-airelated-hiring-headwinds-4971102",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-10-25T10:02:43Z",
+          "description": ""
+        },
+        {
+          "title": "Goldman Sachs cuts Kospi target by 25% amid AI stock selloff",
+          "link": "https://www.investing.com/news/stock-market-news/goldman-sachs-cuts-kospi-target-by-25-amid-ai-stock-selloff-4971079",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-10-25T08:50:52Z",
+          "description": ""
+        },
+        {
+          "title": "Oppenheimer sees web, commerce software Q3 backdrop improving, AI worries linger",
+          "link": "https://www.investing.com/news/stock-market-news/oppenheimer-sees-web-commerce-software-q3-backdrop-improving-ai-worries-linger-4971234",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-10-25T17:48:15Z",
+          "description": ""
+        },
+        {
+          "title": "Does enough capital exist to finance everyone’s ambitious AI spending plans?",
+          "link": "https://www.investing.com/news/stock-market-news/does-enough-capital-exist-to-finance-everyones-ambitious-ai-spending-plans-4971221",
+          "outlet": "Investing.com · US Stock Market",
+          "category": "미국 증시",
+          "published": "2026-10-25T15:27:32Z",
+          "description": ""
+        }
+      ],
+      "전쟁·지정학": [
+        {
+          "title": "日 태평양 오가사와라 해역서 규모 7.0 지진…\"쓰나미 우려없어\"",
+          "link": "https://www.yna.co.kr/view/AKR20261025022700073",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-10-25T02:40:43Z",
+          "description": "(도쿄=연합뉴스) 이도연 특파원 = 일본 태평양 오가사와라 제도 서쪽 해역에서 규모 7.0의 지진이 발생했다고 일본 기상청이 밝혔다."
+        },
+        {
+          "title": "오바마 \"유례없는 무능\"·트럼프 \"유세장 텅 비어\"…맞불 유세(종합)",
+          "link": "https://www.yna.co.kr/view/AKR20261025002851071",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-10-25T02:31:52Z",
+          "description": "(워싱턴=연합뉴스) 이유미 특파원 = 미국 11·3 중간선거가 열흘 앞으로 다가온 24일(현지시간) 도널드 트럼프 대통령과 버락 오바마 전 대통..."
+        },
+        {
+          "title": "트럼프, 조지아 유세서 아우디 '5.6조원 투자' 계획 발표",
+          "link": "https://www.yna.co.kr/view/AKR20261025019400071",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-10-25T02:00:31Z",
+          "description": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령은 24일(현지시간) 조지아주 중간선거 지원 유세에서 독일 자동차업체 아우디가 이..."
+        },
+        {
+          "title": "中, 美 첨단기술 해외투자 규제확대에 반발…\"정상간 합의 위배\"",
+          "link": "https://www.yna.co.kr/view/AKR20261025017700083",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-10-25T01:56:46Z",
+          "description": "(베이징=연합뉴스) 김현정 특파원 = 미국이 중국에 대한 투자 규제를 생명공학 등 민감기술 분야로 확대하는 방안을 추진하자 중국 정부가 강하게 ..."
+        },
+        {
+          "title": "'안갯속' 치러지는 브라질 대선…룰라·보우소나루 막판 초접전",
+          "link": "https://www.yna.co.kr/view/AKR20261025019200009",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-10-25T01:49:11Z",
+          "description": "(서울=연합뉴스) 이지헌 기자 = 오는 25일(현지시간) 치러지는 브라질 대선 결선 투표를 하루 앞두고 통산 4선을 노리는 루이스 이나시우 룰라..."
+        },
+        {
+          "title": "日, 방위산업전략 연내 수립…\"유사시 전쟁지속 능력 확보\"",
+          "link": "https://www.yna.co.kr/view/AKR20261025017500073",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-10-25T01:34:41Z",
+          "description": "(도쿄=연합뉴스) 이도연 특파원 = 일본 정부가 연내 이뤄질 3대 안보 문서 개정에 맞춰 방위 산업 강화 방안을 담은 &apos;방위산업 기반 전략&apos;을 ..."
+        },
+        {
+          "title": "[르포] 마치 카니발처럼…81세 룰라의 마지막 대선 유세",
+          "link": "https://www.yna.co.kr/view/AKR20261025012500087",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-10-25T00:42:58Z",
+          "description": "(상파울루=연합뉴스) 송광호 특파원 = 휴대전화는 이미 먹통 상태였다. 왓츠앱도, 인스타그램 메시지도 친구들에게 전할 수 없었다. 일행들은 이 ..."
+        },
+        {
+          "title": "\"신냉전 외교행보·북미대화 전 조율 가능성도\"…외신도 김정은 방중 주목",
+          "link": "https://www.yna.co.kr/view/AKR20261025012900009",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-10-25T00:30:32Z",
+          "description": "(서울=연합뉴스) 오수진 기자 = 김정은 북한 국무위원장이 지난 24일 중국을 전격적으로 방문하면서 이번 방중 목적을 두고 외신들도 큰 관심을 ..."
+        },
+        {
+          "title": "세계의 날씨(10월25일)",
+          "link": "https://www.yna.co.kr/view/AKR20261025011600009",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-10-25T00:00:18Z",
+          "description": "(09:00)"
+        },
+        {
+          "title": "롯데, 베트남 하노이 5개 명문대 찾아 인재 채용설명회",
+          "link": "https://www.yna.co.kr/view/AKR20261025001900084",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-10-25T00:00:08Z",
+          "description": "(하노이=연합뉴스) 박진형 특파원 = 베트남 사업을 활발히 펼치는 롯데그룹이 하노이에서 현지 명문대들을 찾아 우수 인재 확보에 나섰다."
+        },
+        {
+          "title": "팀코리아, 라오스에 '홍수 예측·태풍 감시' 종합상황실 개소",
+          "link": "https://www.yna.co.kr/view/AKR20261023164000371",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-10-25T00:00:06Z",
+          "description": "(서울=연합뉴스) 성도현 기자 = 대한민국 국제개발협력·물관리·기상 전문기관들이 &apos;팀 코리아&apos;로 힘을 모아 라오스에 홍수 예측부터 태풍 감시까지..."
+        },
+        {
+          "title": "백악관·美의회, AI기업 CEO에 \"입다물고 제품이나 잘 만들어야\"",
+          "link": "https://www.yna.co.kr/view/AKR20261025010800009",
+          "outlet": "연합뉴스 · 국제",
+          "category": "전쟁·지정학",
+          "published": "2026-10-24T23:50:18Z",
+          "description": "(서울=연합뉴스) 이지헌 기자 = 미국 워싱턴 정가와 백악관 참모들은 인공지능(AI) 분야 선도 기업 경영진들이 AI의 잠재적 역기능에 대해 정..."
+        }
+      ]
+    }
   }
 ]
